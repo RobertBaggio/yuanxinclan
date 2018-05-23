@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlAccentColor="@color/login_grey_bottomtwo"
+        app:srlPrimaryColor="@color/login_grey_bottom">
+    <com.scwang.smartrefresh.header.TaurusHeader
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <com.yuanxin.clan.mvp.view.X5WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            android:fadeScrollbars="true"
+            android:scrollbarStyle="insideOverlay"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:defaultProgress="false" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>

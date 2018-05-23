@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:weightSum="7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/rlLeft"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp">
+
+            <ImageView
+                android:id="@+id/activity_yuan_xin_crowd_left_image"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="30dp"
+            android:background="@drawable/round_gry"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seass"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:id="@+id/imageView4"/>
+            <EditText
+                android:id="@+id/activi_middle_editextt"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginRight="14dp"
+                android:hint="精准供需"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="8dp"
+                android:background="@color/search_bg"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:textSize="16dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/search_black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_grymy"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/selecthyli"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部行业"
+            android:textColor="@color/login_black"
+            android:layout_marginLeft="12dp"/>
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/em_ic_right_arrow"/>
+
+        <TextView
+            android:id="@+id/hyte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="行业"
+            android:textColor="@color/login_black"
+            android:layout_marginLeft="12dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/white_grymy"></LinearLayout>
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/fragmnet_my_collect_article_springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fragment_my_all_crowd_funding_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </com.liaoinstan.springview.widget.SpringView>
+
+
+</LinearLayout>

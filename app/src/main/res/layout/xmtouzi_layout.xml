@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/businesstop"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/left_layout"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="项目投资"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_business_district_library_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical|right"
+            android:visibility="gone"
+            android:paddingRight="12dp"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/enterprise_list_nav_icon_search"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/business_name"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_centerVertical="true"
+            android:drawablePadding="4dp"
+            android:drawableRight="@drawable/arrow_down"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="行业"
+            android:textColor="@color/common_register_black"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical|end">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="状态："
+                android:textColor="@color/login_black"
+                android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/business_status"
+                android:layout_width="wrap_content"
+                android:layout_height="49dp"
+                android:layout_centerVertical="true"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/arrow_down"
+                android:gravity="center_vertical"
+                android:paddingLeft="2dp"
+                android:text="全部"
+                android:textColor="@color/common_register_black"
+                android:layout_marginRight="10dp"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/kongbai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/kong_bai"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/nothing"
+            android:textColor="#ffb3b2b2"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <com.yuanxin.clan.mvp.view.PullToRefreshView
+        android:id="@+id/p2rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.yuanxin.clan.core.util.ScrollListenerView
+            android:id="@+id/slv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_fa">
+
+    </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+        </com.yuanxin.clan.core.util.ScrollListenerView>
+    </com.yuanxin.clan.mvp.view.PullToRefreshView>
+
+
+</LinearLayout>

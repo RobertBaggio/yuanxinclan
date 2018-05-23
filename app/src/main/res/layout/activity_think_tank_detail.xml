@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:melove="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/activity_think_tank_detail_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_think_tank_detail_left_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/enterprise_search_icon_nav_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="专家介绍"
+            android:textColor="@color/login_grey"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_think_tank_detail_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:paddingRight="12dp">
+
+            <ImageView
+                android:id="@+id/activity_think_tank_detail_right_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/news_collecte_nomal"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_think_tank_detail_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/activity_think_tank_detail_title_layout"
+        android:background="@drawable/line"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_think_tank_detail_line_one">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:id="@+id/activity_think_tank_detail_head_layout"
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <com.yuanxin.clan.core.util.MLImageView
+                    android:id="@+id/activity_think_tank_detail_head_image"
+                    android:layout_width="74dp"
+                    android:layout_height="74dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/by"
+                    melove:shape_type="round"
+                    />
+                <!--<ImageView-->
+                <!--android:id="@+id/activity_think_tank_detail_head_image"-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="60dp"-->
+                <!--android:src="@drawable/by"-->
+                <!--android:scaleType="centerCrop"/>-->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/activity_think_tank_detail_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="12dp"
+                        android:text="林子祥"
+                        android:textColor="@color/black_0a"
+                        android:textSize="14sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/activity_think_tank_detail_company"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:maxEms="12"
+                            android:singleLine="true"
+                            android:text="长林网络信息有限公司"
+                            android:textColor="@color/login_grey"
+                            android:textSize="14sp"/>
+
+                        <TextView
+                            android:id="@+id/activity_think_tank_detail_position"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:ellipsize="end"
+                            android:maxEms="5"
+                            android:singleLine="true"
+                            android:text="高级顾问"
+                            android:textColor="@color/login_grey"
+                            android:textSize="14sp"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/activity_think_tank_detail_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:ellipsize="end"
+                        android:maxEms="12"
+                        android:singleLine="true"
+                        android:text="高级经济学家"
+                        android:textColor="@color/activity_company_info_grey"
+                        android:textSize="13sp"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/activity_think_tank_detail_line_two"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/activity_think_tank_detail_title_layout"
+                android:background="@drawable/line"/>
+
+            <TextView
+                android:id="@+id/activity_think_tank_detail_specialist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:text="专家简介"
+                android:textColor="@color/fair_goods_name"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/activity_think_tank_detail_introduce"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/think_tank_detail_bg"
+                android:lineSpacingExtra="12dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:paddingTop="15dp"
+                android:text="专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍专家介绍"
+                android:textColor="@color/fair_goods_introduce_text"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:id="@+id/activity_think_tank_detail_honor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:text="获得荣誉"
+                android:textColor="@color/fair_goods_name"
+                android:textSize="16sp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/activity_think_tank_detail_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="9dp"
+                >
+
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/activity_think_tank_detail_online_consult"
+        android:layout_width="102dp"
+        android:layout_height="49dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/talk"
+        android:gravity="center"
+        android:text="在线沟通"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

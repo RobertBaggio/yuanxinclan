@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/my_info_head_bg"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_company_info_left_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="企业名片"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_company_info_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:background="@color/line_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="名片信息"
+        android:textColor="@color/activity_five_black"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_my_info_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="13dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="二维码"
+            android:textColor="@color/activity_five_black"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/activity_my_info_head_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/by"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+
+        android:background="@color/gray_white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@color/white"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+
+        >
+
+        <TextView
+            android:id="@+id/activity_my_info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="SLOGAN"
+            android:textColor="@color/activity_five_black"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:id="@+id/activity_my_info_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/activity_my_info_text"
+            android:background="@null"
+            android:gravity="end|center_vertical"
+            android:hint="请输入标语"
+            android:inputType="text"
+            android:maxLength="15"
+            android:textColor="@color/activity_company_info_grey"
+            android:textSize="16sp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="12dp"
+
+        android:background="@color/gray_white"/>
+
+    <TextView
+        android:id="@+id/activity_company_business_card_get_button"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/my_info_head_bg"
+        android:gravity="center"
+        android:text="开始生成"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:background="@color/line_gray"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:text="效果预览"
+        android:textColor="@color/activity_five_black"
+        android:textSize="16sp"/>
+
+    <RelativeLayout
+        android:id="@+id/item_gank_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:paddingBottom="20dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="20dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/item_gank_image"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/by"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="115dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/item_gank_image"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_gank_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="广东圆心信息科技有限公司"
+                android:textColor="#323738"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:id="@+id/item_gank_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:drawableLeft="@drawable/personal_center_enterprise_card_icon_call"
+                android:drawablePadding="5dp"
+                android:text="0769-22888000"
+                android:textColor="#323738"
+                android:textSize="14sp"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+
+                    android:id="@+id/item_gank_who"
+                    android:layout_width="wrap_content"
+                    android:layout_height="16dp"
+                    android:drawableLeft="@drawable/personal_center_enterprise_card_icon_adress"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:text="广东省-东莞市-东城区"
+                    android:textColor="#323738"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+
+
+                    android:id="@+id/item_gank_createdAt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="15dp"
+                    android:text="东城中路大地大厦"
+                    android:textColor="#323738"
+                    android:textSize="12sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_company_business_card_talk"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#9C1E37"
+        android:gravity="center"
+        android:text="服务创造价值、专业赢得信任"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

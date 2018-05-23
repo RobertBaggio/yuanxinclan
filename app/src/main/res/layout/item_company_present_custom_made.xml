@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:melove="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/item_present_custom_made_layout"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal"
+        >
+
+        <com.yuanxin.clan.core.util.MLImageView
+            android:layout_marginLeft="12dp"
+            android:scaleType="centerCrop"
+            melove:radius="5dp"
+            melove:shape_type="rectangle"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/item_present_custom_made_image"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:src="@drawable/by"
+            />
+        <!--<ImageView-->
+        <!--android:id="@+id/item_present_custom_made_image"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/by"/>-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:paddingRight="12dp"
+            android:gravity="center_vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+
+                    android:id="@+id/item_present_custom_made_commodity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A商品"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_color_black"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/item_company_present_custom_made_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="广东智能家电有限公司"
+                    android:textSize="13sp"
+                    android:textColor="@color/login_grey"/>
+
+                <TextView
+                    android:layout_marginLeft="25dp"
+                    android:id="@+id/item_present_custom_made_money"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="南城"
+                    android:textSize="13sp"
+                    android:textColor="@color/login_grey"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:textSize="13sp"
+                    android:id="@+id/item_present_custom_made_company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="@color/text_color_red"/>
+
+                <TextView
+
+                    android:textColor="@color/text_color_red"
+                    android:id="@+id/item_present_custom_made_start_time"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="253"
+                    android:textSize="13sp"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/item_present_custom_made_layout"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/divider_color"/>
+
+
+</RelativeLayout>

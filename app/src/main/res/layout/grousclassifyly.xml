@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:id="@+id/window_head_layout"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="@color/transparent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:weightSum="7">
+
+    <LinearLayout
+        android:id="@+id/activity_business_district_library_left_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/back_black"
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/sosli"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/sosoli_bg"
+        android:layout_weight="5"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:id="@+id/homesosli"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/sosoli_bg">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/seass"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:text="搜索你想参与的活动"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/window_head_right_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_weight="0.6"
+        android:gravity="center"
+        android:orientation="vertical">
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b7"></LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:background="@color/bg_grey"
+    android:orientation="horizontal">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/fragment_a_tablayout"
+        android:layout_width="0dp"
+        android:layout_height="41dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        app:tabIndicatorColor="@color/businesstop"
+        app:tabSelectedTextColor="@color/businesstop"
+        app:tabTextColor="@color/register_grey"></android.support.design.widget.TabLayout>
+
+
+    <LinearLayout
+        android:id="@+id/activity_two_image"
+        android:layout_width="45dp"
+        android:visibility="gone"
+        android:layout_height="44dp">
+
+        <ImageView
+
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dp"
+            android:src="@drawable/news_edit_type" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b7"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:weightSum="4"
+        android:tag="sticky"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/gstatuste"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/arrow_down"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="进行中"
+                android:drawablePadding="4dp"
+                android:textColor="@color/common_register_black"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/gadresste"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/arrow_down"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="区域"
+                android:drawablePadding="4dp"
+                android:textColor="@color/common_register_black"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/gtimeste"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/arrow_down"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="时段"
+                android:drawablePadding="4dp"
+                android:textColor="@color/common_register_black"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/gallte"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:drawableRight="@drawable/arrow_down"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:text="综合"
+                android:drawablePadding="4dp"
+                android:textColor="@color/gray78"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/fragment_a_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray_b7">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b7"></LinearLayout>
+
+
+</LinearLayout>
+

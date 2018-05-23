@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:background="@color/ml_call_gry"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+    <include
+        layout="@layout/window_head"
+        android:id="@+id/window_head_layout"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号安全"
+            android:layout_marginLeft="13dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/activity_my_setting_account_safe"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_below="@+id/window_head_layout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="修改密码"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="权限设置"
+            android:layout_marginLeft="13dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/voiceli"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="商圈成员可见"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right">
+
+            <Switch
+                android:id="@+id/ycsw"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:thumb="@drawable/switch_thumb"
+                android:track="@drawable/switch_track"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关于圆心"
+            android:layout_marginLeft="13dp"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/activity_my_setting_about_us"
+        android:layout_below="@+id/activity_my_setting_account_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="关于我们"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_below="@+id/rl_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/line_gray"/>
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/activity_my_setting_networking_protocol"
+        android:layout_below="@+id/activity_my_setting_account_line_two"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="网络协议"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_below="@+id/rl_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/line_gray"/>
+    <RelativeLayout
+        android:background="@color/white"
+
+        android:id="@+id/activity_my_setting_complaint_advice"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_below="@+id/activity_my_setting_account_line_three"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="投诉建议"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_below="@+id/rl_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/line_gray"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/activity_my_setting_clear_cache"
+        android:layout_below="@+id/activity_my_setting_account_line_four"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:id="@+id/activity_my_setting_clear_cache_text"
+            android:text="清理缓存"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/activity_my_setting_clear_cache_how_much"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0M"
+            android:layout_centerVertical="true"
+            android:textColor="@color/activity_publish_compangy_info_grey"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_check_update"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:background="@color/white"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/rl_check_updatete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="检测更新"
+            android:textColor="@color/login_black"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"
+            android:id="@+id/imageView2"/>
+
+        <TextView
+            android:id="@+id/versionte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ssssssss"
+            android:layout_toLeftOf="@+id/imageView2"
+            android:layout_toStartOf="@+id/imageView2"
+            android:layout_marginRight="97dp"
+            android:textColor="@color/text_black"
+            android:textSize="16dp"
+            android:layout_marginEnd="17dp"
+            android:layout_alignTop="@+id/rl_check_updatete"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_my_setting_quit"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        android:text="退出登录"
+        android:gravity="center"
+        android:textColor="@color/activity_publish_compangy_info_grey"
+        android:layout_marginTop="32dp"
+        android:textSize="16sp"/>
+
+</LinearLayout>

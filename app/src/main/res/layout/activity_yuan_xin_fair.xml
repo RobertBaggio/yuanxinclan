@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/activity_company_info_line"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/delete_button"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_fair_new_left_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="圆心集市"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_fair_new_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!--<com.liaoinstan.springview.widget.SpringView-->
+        <!--android:id="@+id/address_search_springview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--&gt;-->
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/white"-->
+            <!--android:fillViewport="false">-->
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/activity_yuan_xin_fair_new_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <!--</ScrollView>-->
+    <!--</com.liaoinstan.springview.widget.SpringView>-->
+
+</LinearLayout>

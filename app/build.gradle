@@ -1,0 +1,306 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+//应用 Bugtags 插件
+apply plugin: 'com.bugtags.library.plugin'
+android {
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    compileSdkVersion 25
+    buildToolsVersion '25.0.3'
+    useLibrary 'org.apache.http.legacy'
+//    useOldManifestMerger true
+
+    signingConfigs {
+        config {
+            keyAlias 'yxtribe'
+            keyPassword '68230419yx'
+            storeFile file('../keystore/yuanxinbuluo.jks')
+            storePassword '68230419yx'
+            v2SigningEnabled false //as新的签名方案，不采用
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.yuanxin.clan"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 58
+        versionName "1.4.8"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+//        javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+        signingConfig signingConfigs.config
+//        ndk {
+//            // 设置支持的 SO 库构架，一般而言，取你所有的库支持的构架的`交集`。
+//            abiFilters 'armeabi'// 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64', 'mips', 'mips64'
+//        }
+        ndk {
+            //选择要添加的对应cpu类型的.so库。
+            abiFilters 'armeabi', 'armeabi-v7a', 'armeabi-v8a'
+            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+        }
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME : applicationId,
+                JPUSH_APPKEY : "a16b7d510012ab1c87575a4f", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL : "developer-default", //暂时填写默认值即可.
+        ]
+    }
+
+    lintOptions {
+        disable "ResourceType"
+        checkReleaseBuilds false
+        abortOnError false
+    }
+//    dexOptions {
+//        javaMaxHeapSize "4g"   //扩大构建时运行内存，可以再gradle.properties设置org.gradle.jvmargs=-Xmx4608M，同样的效果
+//        incremental true
+//    }
+    buildTypes {
+        release {
+            //混淆
+            minifyEnabled false
+            // 移除无用的resource文件
+            shrinkResources false//去掉不用资源 //android studio 2.2 设置为false
+            //Zipalign优化
+            zipAlignEnabled true //字节优化
+            // 如果没有提供混淆规则文件，则设置默认的混淆规则文件（SDK/tools/proguard/proguard-android.txt）
+            pseudoLocalesEnabled true
+            //加载默认混淆配置文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //签名
+            signingConfig signingConfigs.config
+            // 自定义输出配置
+            applicationVariants.all { variant ->
+                variant.outputs.each { output ->
+                    if (output.outputFile != null && output.outputFile.name.endsWith(".apk") && variant.buildType.name.equals("release")) {
+                        def date = new Date();
+                        def apkFile = new File(output.outputFile.getParent(), "YXBL_${variant.versionCode}_V${variant.versionName}_${date.format("yyyy_MM_dd")}_${variant.productFlavors[0].name}.apk");
+                        output.outputFile = apkFile
+                    }
+                }
+            }
+            // 不显示Log
+//            buildConfigField "boolean", "LOG_DEBUG", "false"
+        }
+        debug {
+            //混淆
+            minifyEnabled false
+            // 移除无用的resource文件
+            shrinkResources false//去掉不用资源 //android studio 2.2 设置为false
+            //Zipalign优化
+            zipAlignEnabled true //字节优化
+            // 如果没有提供混淆规则文件，则设置默认的混淆规则文件（SDK/tools/proguard/proguard-android.txt）
+            pseudoLocalesEnabled true
+            //加载默认混淆配置文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //签名
+            signingConfig signingConfigs.config
+            // 不显示Log
+//            buildConfigField "boolean", "LOG_DEBUG", "true"
+            debuggable true
+        }
+    }
+    sourceSets {
+        main() {
+//            jni.srcDirs = []//disable automatic ndk-build call
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    greendao {
+        schemaVersion 1
+        daoPackage 'com.yuanxin.clan.mvp.dao'
+        targetGenDir 'src/main/java'
+    }
+
+    productFlavors {
+        xiaomi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "xiaomi"]
+        }
+        anzhi {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "anzhi"]
+        }
+        wandoujia {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+        }
+        c360 {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "c360"]
+        }
+        yingyongbao {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "yingyongbao"]
+        }
+        baidu {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "baidu"]
+        }
+        origin {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "origin"]
+        }
+        vivo {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "vivo"]
+        }
+        oppo {
+            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "oppo"]
+        }
+    }
+}
+//Bugtags 插件配置
+bugtags {
+    //自动上传符号表功能配置，如果需要根据 build varint 配置，请参考帮助中心->符号表->Android 符号表->配置自动上传符号表
+    appKey "4d357f8f465f830d1c5fcd8101284378"  //这里是你的 appKey
+    appSecret "e782d06a783301d98dc3b640b7251f5c"    //这里是你的 appSecret，管理员在设置页可以查看
+    mappingUploadEnabled true
+
+    //网络跟踪功能配置(企业版)
+    trackingNetworkEnabled false
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //    compile 'com.android.support:support-v7:25.1.1'
+    compile('com.android.support:design:25.1.1') {
+        force = true
+    }
+    compile('com.android.support:appcompat-v7:25.1.1') {
+        force = true
+    }
+    compile 'com.android.support:cardview-v7:25.1.1'
+    compile('com.android.support:recyclerview-v7:25.1.1') {
+        force = true
+    }
+    testCompile 'junit:junit:4.12'
+    compile('com.android.support.constraint:constraint-layout:1.0.2') {
+        force = true
+    }
+    compile('com.android.support:multidex:1.0.1') {
+        force = true
+    }
+    //
+    compile 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    //
+    compile 'com.liaoinstan.springview:library:1.2.6'
+    compile 'com.alibaba:fastjson:1.1.54.android'
+    compile 'org.ligboy.retrofit2:converter-fastjson-android:2.1.0'
+    compile 'io.reactivex:rxandroid:1.2.0'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'cn.qqtheme.framework:WheelPicker:1.4.3'
+    compile 'me.majiajie:pager-bottom-tab-strip:1.0.0'
+    compile 'com.github.lypeer:FcPermissions:v0.0.1'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.github.lovetuzitong:MultiImageSelector:1.2'
+    compile 'id.zelory:compressor:1.0.2'
+    compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:1.0.2'
+    compile 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+    compile 'com.journeyapps:zxing-android-embedded:3.4.0'
+    compile 'com.weiwangcn.betterspinner:library:1.1.0'
+    compile 'org.greenrobot:greendao:3.1.0'
+    compile 'org.greenrobot:greendao-generator:3.1.0'
+    compile 'com.lzy.widget:imagepicker:0.5.5'
+    //指定版本
+    compile 'com.lzy.net:okgo:2.1.4'
+    //可以单独使用，不需要依赖下方的扩展包
+    compile 'com.lzy.net:okrx:0.1.2'
+    //RxJava扩展支持，根据需要添加
+    compile 'com.lzy.net:okserver:1.1.3'
+    //下载管理和上传管理扩展，根据需要添加
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.2@aar') {
+        transitive = true
+    }
+    compile project(':SwipeItemLayout')
+    //    compile project(':EaseUI')
+    compile project(':redpacketlibrary')
+    compile project(':easeui')
+    compile project(':aFileChooser')
+    compile 'com.bugtags.library:bugtags-lib:latest.integration'
+    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
+    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1'
+    //logger
+
+    //    compile 'com.orhanobut:logger:2.1.1'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.18'
+    compile 'com.github.iwgang:familiarrecyclerview:1.3.2'
+    compile 'com.zhy:flowlayout-lib:1.0.3'
+    compile 'com.youth.banner:banner:1.4.9'
+    //最新版本
+
+    //https://github.com/GrenderG/Toasty
+    compile 'com.github.GrenderG:Toasty:1.2.5'
+    //    compile 'com.just.agentweb:agentweb:1.2.2'
+    compile 'me.leolin:ShortcutBadger:1.1.16@aar'
+    compile files('libs/wxpayskd.jar')
+    compile files('libs/tbs_sdk_thirdapp_v3.5.0.1004_43500_sharewithdownload_withoutGame_obfs_20170801_113025.jar')
+    compile files('libs/zxing.jar')
+    //    compile project(':convenientbanner')
+
+    //圆角ImageView
+
+    //    compile 'jp.wasabeef:glide-transformations:2.0.2'
+
+    //    compile('com.facebook.fresco:fresco:0.8.0+') {
+
+    //        exclude group: 'com.nineoldandroids', module: 'library'
+
+    //        exclude module: 'support-v4'
+
+    //    }
+    compile files('libs/photoview-library-1.2.2.jar')
+    compile 'com.bigkoo:convenientbanner:2.0.5'
+    compile 'cn.jiguang.sdk:jpush:3.0.7'
+    // 此处以JPush 3.0.3 版本为例。
+    compile 'cn.jiguang.sdk:jcore:1.1.3'
+    // 此处以JCore 1.1.1 版本为例。
+    compile files('libs/umeng-analytics-v6.1.1.jar')
+    compile 'com.qiniu:qiniu-android-sdk:7.3.+'
+    compile 'com.bm.photoview:library:1.4.1'
+    compile 'xiaofei.library:android-data-storage:1.3.0'
+    //    compile 'com.github.SilenceDut:jpinyin:v1.0'
+
+    //    compile 'com.zxy.android:recovery:0.1.4'
+
+    //    compile project(':recovery')
+
+    //    compile project(':recovery-no-op')
+    compile project(':citypicker')
+    compile project(':floatwindow')
+    compile 'com.github.florent37:glidepalette:1.0.6'
+//    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+
+    compile 'com.tencent.sonic:sdk:3.0.0-alpha'
+
+    compile 'com.jaredrummler:animated-svg-view:1.0.5'
+    compile 'com.github.jorgecastilloprz:fillableloaders:1.03@aar'
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5.1'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.0.5.1'//没有使用特殊Header，可以不加这行
+
+    compile 'skin.support:skin-support:2.2.3'                   // skin-support 基础控件支持
+    compile 'skin.support:skin-support-design:2.2.3'            // skin-support-design material design 控件支持[可选]
+    compile 'skin.support:skin-support-cardview:2.2.3'          // skin-support-cardview CardView 控件支持[可选]
+    compile 'skin.support:skin-support-constraint-layout:2.2.3' // skin-support-constraint-layout ConstraintLayout 控件支持[可选]
+
+    compile 'com.elvishew:xlog:1.3.0'
+
+    compile 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    compile 'com.github.ceryle:RadioRealButton:v2.1.1'
+    compile 'com.yqritc:recyclerview-flexibledivider:1.4.0'
+    compile 'com.makeramen:roundedimageview:2.3.0'
+
+}
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '25.1.1'
+            }
+        }
+    }
+}

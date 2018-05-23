@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/activity_think_tank_go_to_approve_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:background="@color/company_info_blue">
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/activity_exchange_phone_left_layout">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专家认证"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <LinearLayout
+            android:id="@+id/activity_exchange_phone_right_layout"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingRight="12dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+
+                android:gravity="center_vertical|end"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_think_tank_go_to_approve_no_specialist_text"
+        android:layout_below="@+id/activity_think_tank_go_to_approve_head_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您还未开通专家认证"
+        android:textSize="18sp"
+        android:textColor="@color/common_register_black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"/>
+
+    <TextView
+        android:id="@+id/activity_think_tank_go_to_approve_no_specialist_all"
+        android:layout_below="@+id/activity_think_tank_go_to_approve_no_specialist_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/register_grey"
+        android:textSize="14sp"
+        android:layout_marginTop="33dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginRight="34dp"
+        android:lineSpacingExtra="11dp"
+        android:text="专家认证是用户在所属行业领域内具备专业能力的标识，确认来源为所属行业领域的在职证明或专业资格证明。所有认证服务均免费。"/>
+
+    <Button
+        android:id="@+id/activity_think_tank_go_to_approve_button"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="前去认证"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="75dp"
+        android:layout_marginBottom="106dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/company_info_blue"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

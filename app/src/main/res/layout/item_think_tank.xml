@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:background="@color/white"
+        android:gravity="center_vertical">
+        <!--imagecontrol:border_inside_color="#fff7f2e9"-->
+        <!--imagecontrol:border_outside_color="#ffd5d1c8"-->
+        <!--imagecontrol:border_thickness="2dp"-->
+        <com.yuanxin.clan.core.widget.activity.RoundImageView
+            android:id="@+id/item_think_tank_image"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/by"
+            android:layout_gravity="center_vertical"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/item_think_tank_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            >
+
+            <TextView
+                android:id="@+id/item_think_tank_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="张峰"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp"
+                >
+
+                <TextView
+                    android:id="@+id/item_think_tank_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="广东税务局"
+                    android:textSize="14sp"
+                    android:textColor="@color/login_grey"
+                    android:maxEms="12"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+
+                <TextView
+                    android:id="@+id/item_think_tank_position_position"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="高级顾问"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/login_grey"
+                    android:maxEms="5"
+                    android:singleLine="true"
+                    android:ellipsize="end"/>
+            </LinearLayout>
+
+            <TextView
+                android:background="@color/white"
+
+                android:id="@+id/item_think_tank_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="个人理财师"
+                android:textColor="@color/activity_company_info_grey"
+                android:textSize="13sp"
+                android:maxEms="12"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white_fa"/>
+
+
+</LinearLayout>

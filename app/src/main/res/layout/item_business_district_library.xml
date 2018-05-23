@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white_fa">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/border_on_line">
+
+        <ImageView
+            android:id="@+id/item_business_district_library_image"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:src="@drawable/by"
+            android:scaleType="centerCrop"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            >
+
+            <TextView
+                android:id="@+id/item_business_district_library_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="东莞互联网产业商圈"
+                android:textSize="13sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/common_register_black"/>
+
+            <TextView
+                android:id="@+id/item_business_district_library_area"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="东城"
+                android:layout_centerVertical="true"
+
+                android:textSize="12sp"
+                android:textColor="@color/common_register_black"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/white_fa"/>
+
+
+</LinearLayout>

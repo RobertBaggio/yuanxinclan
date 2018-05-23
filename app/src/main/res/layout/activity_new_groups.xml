@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:melove="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:background="@color/businesstop">
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/activity_exchange_phone_left_layout">
+
+            <ImageView
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新建群聊"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <LinearLayout
+            android:id="@+id/activity_exchange_phone_right_layout"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingRight="12dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="创建"
+                android:gravity="center_vertical|end"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/gray_b7"
+        android:text="群资料"
+        android:paddingLeft="12dp"
+        android:textSize="14sp"
+        android:textColor="@color/add_group_grey"
+        android:gravity="center_vertical"/>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/activity_my_info_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:paddingRight="13dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:layout_centerVertical="true"
+            android:textColor="@color/activity_five_black"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/activity_my_info_head_image"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/by"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_white"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_company_info_company_name_layout"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <TextView
+            android:id="@+id/activity_company_info_company_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="名称"
+            android:textSize="16sp"
+            android:textColor="@color/activity_five_black"/>
+
+        <EditText
+            android:id="@+id/activity_company_info_company_name_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="13sp"
+            android:hint="请输入群名称"
+            android:textColor="@color/activity_company_info_grey"
+            android:layout_toRightOf="@+id/activity_company_info_company_name_text"
+            android:gravity="end|center_vertical"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_white"/>
+
+    <RelativeLayout
+        android:id="@+id/activity_company_info_company_introduce_layout"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <TextView
+            android:id="@+id/activity_company_info_company_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="描述"
+            android:textSize="16sp"
+            android:textColor="@color/activity_five_black"/>
+
+        <TextView
+            android:id="@+id/activity_company_info_company_introduce_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:textSize="13sp"
+            android:textColor="@color/activity_company_info_grey"
+            android:gravity="end|center_vertical"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_alignBaseline="@+id/activity_company_info_company_introduce"
+            android:layout_alignBottom="@+id/activity_company_info_company_introduce"
+            android:layout_toLeftOf="@+id/activity_company_info_company_introduce_image"
+            android:layout_toStartOf="@+id/activity_company_info_company_introduce_image"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/activity_company_info_company_introduce_image"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+
+        <!--<EditText-->
+        <!--android:id="@+id/activity_company_info_company_introduce_edit"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--android:background="@null"-->
+        <!--android:textSize="14sp"-->
+        <!--android:textColor="@color/text_color_grey"-->
+        <!--android:layout_toRightOf="@+id/activity_company_info_company_introduce"/>-->
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/gray_b7"
+        android:text="群成员管理"
+        android:paddingLeft="12dp"
+        android:textSize="14sp"
+        android:textColor="@color/add_group_grey"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/activity_company_member_add_layout"
+            android:layout_width="70dp"
+            android:layout_height="101dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <com.yuanxin.clan.core.util.MLImageView
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                melove:shape_type="round"
+                android:src="@drawable/chat_icon_personal"
+                android:id="@+id/activity_member_head_image"
+                />
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加成员"
+                android:textSize="12sp"
+                android:textColor="@color/login_black"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:background="@color/white"
+            android:id="@+id/activity_company_member_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</LinearLayout>

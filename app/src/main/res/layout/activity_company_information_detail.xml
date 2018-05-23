@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/company_info_blue">
+
+        <LinearLayout
+            android:id="@+id/activity_company_information_detail_left_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"
+            android:paddingRight="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/activity_company_information_detail_left_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_company_information_detail_middle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="企业库"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/activity_company_information_detail_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            />
+    </RelativeLayout>
+    <!--android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/border_line_blue_radio"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:paddingBottom="1dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="1dp"
+                    android:paddingTop="1dp">
+
+                    <LinearLayout
+                        android:id="@+id/activity_company_information_detail_choice_area_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_company_grey"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/activity_company_information_detail_choice_area_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:text="东城"
+                            android:textColor="@color/login_grey"
+                            android:textSize="13sp"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@drawable/triangle"/>
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/activity_company_information_detail_choice_edit"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="企业名称/服务类型"
+                        android:paddingLeft="14dp"
+                        android:textColor="@color/login_grey"
+                        android:textSize="12sp"/>
+
+                    <ImageView
+                        android:id="@+id/activity_company_information_detail_choice_area_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_company_blue"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:src="@drawable/enterprise_list_nav_icon_search"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="13dp"
+                    android:paddingTop="10dp"
+                    android:text="热门服务"
+                    android:textColor="@color/common_register_black"
+                    android:textSize="14sp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:visibility="gone"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+                        <LinearLayout
+                            android:id="@+id/zhiscqli"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="知识产权"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/zhuceli"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="注册代帐"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/falvli"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="法律咨询"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/pingpaili"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="品牌设计"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+                        <LinearLayout
+                            android:id="@+id/jishuli"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="技术研发"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/dianshangli"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="电商服务"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/yingxiaoli"
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="38dp"
+                                android:gravity="center"
+                                android:text="营销推广"
+                                android:background="@drawable/border_radio_white"
+                                android:textSize="16dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="45dp"
+                            android:gravity="center"
+                            android:layout_weight="1">
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/line"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/activity_company_information_detail_hot_service_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="10dp">
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/line"/>
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/address_search_springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/white"-->
+            <!--android:fillViewport="false">-->
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/activity_company_information_detail_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginTop="16dp">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+        <!--</ScrollView>-->
+    </com.liaoinstan.springview.widget.SpringView>
+
+
+</LinearLayout>

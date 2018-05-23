@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_gank_layout"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:id="@+id/myli"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:weightSum="6"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+<TextView
+    android:layout_width="5dp"
+    android:layout_height="match_parent"
+    android:background="@color/businesstop"
+    android:layout_marginTop="6dp"
+    android:layout_marginBottom="6dp"
+    android:layout_marginLeft="10dp"
+    />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/topnamte"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="topname"
+                    android:textColor="@color/login_black"
+                    android:textSize="15dp"/>
+                <TextView
+                    android:id="@+id/unamete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="topname"
+                    android:textColor="@color/gray"
+                     android:layout_marginTop="5dp"
+                    android:textSize="14dp"/>
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="活动时间："
+                        android:textColor="@color/gray"
+                        android:layout_marginTop="5dp"
+                        android:textSize="13dp"/>
+                    <TextView
+                        android:id="@+id/onetimete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="6666："
+                        android:textColor="@color/gray"
+                        android:layout_marginTop="5dp"
+                        android:textSize="13dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" 至 "
+                        android:textColor="@color/gray"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="3dp"
+                        android:textSize="13dp"/>
+                    <TextView
+                        android:id="@+id/twotimete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="666"
+                        android:textColor="@color/gray"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="3dp"
+                        android:textSize="13dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+</LinearLayout>
+        <TextView
+            android:layout_below="@+id/myli"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/gray_b7"></TextView>
+</RelativeLayout>
+</RelativeLayout>
+

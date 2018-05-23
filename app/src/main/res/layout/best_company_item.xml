@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="150dp"
+    android:gravity="center"
+    android:layout_height="110dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoImg"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/bg_imgge"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="龙心协会"
+            android:layout_below="@+id/logoImg"
+            android:layout_toRightOf="@+id/logoMini"
+            android:textColor="@color/login_black"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textSize="14dp"/>
+        <ImageView
+            android:id="@+id/logoMini"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/border_grey"
+            android:src="@drawable/bg_imgge"
+            android:layout_alignBottom="@+id/title"/>
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/title"
+            android:layout_alignLeft="@+id/title"
+            android:textColor="#BABABC"
+            android:text="服务  专业"
+            android:textSize="10sp"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

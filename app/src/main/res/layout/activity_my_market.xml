@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:background="@color/businesstop">
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/activity_exchange_phone_left_layout">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="在售商品"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+        <!--<LinearLayout-->
+        <!--android:id="@+id/activity_exchange_phone_right_layout"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:paddingRight="12dp"-->
+        <!--&gt;-->
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:textColor="@color/white"-->
+        <!--android:textSize="16sp"-->
+        <!--android:text="发布"-->
+        <!--android:gravity="center_vertical|end"-->
+        <!--/>-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/activity_my_market_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/default_white_color"
+        app:tabIndicatorColor="@color/businesstop"
+        app:tabSelectedTextColor="@color/businesstop"
+        app:tabTextColor="@color/text_color_black">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_my_market_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

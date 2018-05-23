@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            >
+
+            <RelativeLayout
+                android:id="@+id/activity_crowd_funding_detail_head"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/fair_activity_head"
+                >
+
+                <LinearLayout
+                    android:id="@+id/activity_yuan_xin_crowd_left_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="13dp"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_yuan_xin_crowd_left_image"
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:src="@drawable/ease_mm_title_back"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/activity_yuan_xin_crowd_middle_text"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="项目详情"
+                    android:layout_centerInParent="true"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"/>
+
+                <LinearLayout
+                    android:id="@+id/activity_t_yuan_xin_crowd_right_image_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:id="@+id/activity_t_yuan_xin_crowd_right_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/news_collecte_nomal"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_crowd_funding_detail_progress_layout_layout"
+                android:layout_below="@+id/activity_crowd_funding_detail_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/activity_crowd_funding_detail_name"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="防蓝光护目镜"
+                    android:gravity="center"
+                    android:textColor="@color/fair_goods_name"
+                    android:textSize="18sp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="项目进度"
+                        android:textColor="@color/fair_goods_name"
+                        android:textSize="14sp"
+                        />
+
+                    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/activity_crowd_funding_detail_round_corner_progress_bar"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="10dp"
+                        app:rcBackgroundColor="@color/gray"
+                        app:rcBackgroundPadding="2dp"
+                        app:rcMax="100"
+                        app:rcProgress="50"
+                        app:rcProgressColor="@color/red"
+                        app:rcRadius="5dp"/>
+
+                    <TextView
+                        android:id="@+id/activity_crowd_funding_detail_percent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="50%"
+                        android:textColor="@color/fair_activity_head"
+                        android:textSize="14sp"/>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="78dp"
+                    android:layout_marginRight="53dp">
+
+                    <TextView
+                        android:id="@+id/activity_crowd_funding_detail_people_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="已筹款3万"
+                        android:textColor="@color/fair_activity_head"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/activity_crowd_funding_have_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参与人数1100"
+                        android:layout_centerInParent="true"
+                        android:textColor="@color/fair_goods_name"
+                        android:textSize="12sp"/>
+
+                    <TextView
+                        android:id="@+id/activity_crowd_funding_detail_time"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="剩余31天"
+                        android:textColor="@color/fair_goods_name"
+                        android:textSize="12sp"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_below="@+id/activity_crowd_funding_detail_progress_layout_layout"
+                android:id="@+id/activity_crowd_funding_detail_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_white"
+                android:layout_marginTop="12dp"/>
+
+            <LinearLayout
+                android:layout_below="@+id/activity_crowd_funding_detail_line"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/activity_crowd_funding_detail_introduce_layout">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:text="众筹说明"
+                    android:gravity="left"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="@color/fair_goods_name"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/activity_crowd_funding_introduce"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/fair_goods_name"
+                    android:textSize="12sp"
+                    android:lineSpacingExtra="10dp"
+                    android:text="    众筹不是商品交易，支持者根据自己的判断选择，支持众筹项目，与发起人共同实现梦想并获得发起人承诺的回报，众筹存在一定风险。"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/activity_crowd_funding_introduce_all_button"
+                android:layout_below="@+id/activity_crowd_funding_detail_introduce_layout"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center"
+                android:text="查看全部"
+                android:background="@color/white"/>
+
+            <LinearLayout
+                android:id="@+id/activity_crowd_funding_detail_project_look_all_button_layout"
+                android:layout_below="@+id/activity_crowd_funding_introduce_all_button"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_marginTop="13dp"
+                    android:layout_marginBottom="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="项目介绍"
+                        android:gravity="left"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginBottom="13dp"/>
+
+                    <TextView
+                        android:id="@+id/activity_crowd_funding_detail_project_introduce"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="12dp"
+                        android:text="2014年1月24日，中共中央政治局会议研究确定了中央国家安全委员会设置，明确中央国家安全委员会作为中共中央关于国家安全工作的决策和议事协调机构，向中央政治局、中央政治局常务委员会负责，统筹协调涉及国家安全的重大事项和重要工作。 "/>
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/activity_crowd_funding_detail_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                </android.support.v7.widget.RecyclerView>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/activity_crowd_funding_detail_participation_project"
+            android:layout_toLeftOf="@+id/activity_crowd_funding_detail_contact"
+            android:layout_width="115dp"
+            android:gravity="center"
+            android:layout_height="49dp"
+            android:background="@color/fair_activity_head"
+            android:text="[50元]参与项目"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/activity_crowd_funding_detail_contact"
+            android:layout_alignParentRight="true"
+            android:layout_width="115dp"
+            android:gravity="center"
+            android:layout_height="49dp"
+            android:background="@color/activity_company_info_grey"
+            android:text="与发起人沟通"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/myre"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/businesstop">
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_fair_new_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/activity_company_information_detail_left_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_company_information_detail_middle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="展会详情"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/activity_company_information_detail_right_image"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/news_icon_share"
+            android:layout_marginRight="12dp"
+            />
+    </RelativeLayout>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnableLoadMore="false"
+        app:srlEnableScrollContentWhenRefreshed="true"
+        app:srlAccentColor="@color/login_grey_bottomtwo"
+        app:srlPrimaryColor="@color/login_grey_bottom">
+        <com.scwang.smartrefresh.header.TaurusHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.yuanxin.clan.mvp.view.X5WebView
+            android:layout_alignParentLeft="true"
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:layout_below="@+id/activity_news_chat_base_web_head_layout"
+            android:scrollbarStyle="insideOverlay"
+            app:defaultProgress="false"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

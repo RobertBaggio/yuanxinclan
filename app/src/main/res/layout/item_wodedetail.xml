@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="18dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/yuandiante"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:background="@drawable/red_shixin_yuan"
+                />
+
+            <TextView
+                android:id="@+id/changlineli"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="@color/bcbbbbb"></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/wufudetailtimete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:textColor="@color/sanjiuqibcg"
+                android:textSize="13dp"
+                android:text="1899-12"/>
+
+            <TextView
+                android:id="@+id/wufudetailcontentte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内容。。。"
+                android:textColor="@color/login_grey"
+                android:textSize="14dp"
+                android:layout_marginTop="8dp"
+                android:maxLines="3"
+                android:ellipsize="end"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

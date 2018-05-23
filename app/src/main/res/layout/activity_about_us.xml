@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/businesstop"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/activity_exchange_phone_left_layout"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="关于我们"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_exchange_phone_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:paddingRight="12dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|end"
+                android:textColor="@color/white"
+
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/activity_complaint_advice_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="30dp"
+        android:gravity="left"
+        android:lineSpacingExtra="10dp"
+        android:text="        圆心部落为一个集企业社交、商业服务、电子商务、运营管理的企业级一站式服务平台。其包括手机移动端、pc端、微信端等个版本。
+
+圆心部落通过“技术+专业”的完美结合，结合企业发展经营中的痛点，信息化建设缓慢，商务社交效率低，运营成本高等问题，打造一套解决企业强需求的解决方案。通过互联网+的思维，整合行业资源，搭建行业桥梁，拓宽行业交互场景，让各行各业在互联网的大环境中聚合成一个紧密的、和谐的商业交流圈，不仅推动各企业自身的发展，更增加行业黏性，促使行业的合纵连横发展。
+
+在虚假信息泛滥的商业时代，圆心部落以信息真实性为唯一标准，致力于打造最真实的企业连接平台。在未来，我们会加快产品的迭代升级，为用户提供更多的满足企业的多元化需求的服务产品，形成更完整的服务线，促使企业向更高效的运转。"
+        android:textColor="@color/login_black"
+        android:textSize="15sp"/>
+
+</LinearLayout>

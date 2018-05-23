@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+              android:layout_height="33dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="1dp"
+            android:background="#343434"
+            android:text="---"
+            android:layout_marginRight="10.5dp"
+            />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="#343434"
+            android:text="与圆心相关的商圈"/>
+        <TextView
+            android:layout_width="14dp"
+            android:layout_height="1dp"
+            android:background="#343434"
+            android:text="---"
+            android:layout_marginLeft="10.5dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/gray_b7"
+        android:layout_below="@id/centerli"></LinearLayout>
+</LinearLayout>

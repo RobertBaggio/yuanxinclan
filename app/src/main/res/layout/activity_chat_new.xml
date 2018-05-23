@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_navigation"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/activity_chat_new_persion"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="个人会话"
+            android:gravity="center"
+            android:background="@drawable/em_main_bottom_item_bg"
+            android:drawableTop="@drawable/em_tab_chat_bg"
+            android:textColor="@drawable/em_main_botton_text_color"/>
+
+        <TextView
+            android:id="@+id/activity_chat_new_collective"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="集体会话"
+            android:background="@drawable/em_main_bottom_item_bg"
+            android:drawableTop="@drawable/em_tab_contact_list_bg"
+            android:textColor="@drawable/em_main_botton_text_color"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

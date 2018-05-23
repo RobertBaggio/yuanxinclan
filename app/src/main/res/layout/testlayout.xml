@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+    <RelativeLayout
+        android:id="@+id/myre"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/activity_company_information_detail_left_image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/activity_company_information_detail_left_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_company_information_detail_middle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="企业社区"
+            android:textColor="@color/black_2_0"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/activity_company_information_detail_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/search_edit_text"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_below="@id/myre"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/testtopli"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gry_corners">
+
+            <LinearLayout
+                android:id="@+id/activity_company_information_detail_choice_area_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/round_corner"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/activity_company_information_detail_choice_area_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="全国"
+                    android:textColor="#6D6D6E"
+                    android:textSize="14sp"/>
+
+                <ImageView
+                    android:id="@+id/address_arrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/arrow_down"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/activity_company_information_detail_choice_edit"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="企业名称/服务类型"
+                android:paddingLeft="14dp"
+                android:textColor="#939395"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textSize="14sp"/>
+
+            <ImageView
+                android:id="@+id/activity_company_information_detail_choice_area_image"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/selector_bt_corner_blue"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/noticeLayout"
+        android:layout_below="@id/search_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="48dp"
+            android:layout_marginLeft="12dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/business_list_voice"/>
+        </LinearLayout>
+        <com.yuanxin.clan.core.adapter.verticalHorizontalRollingview.MarqueeView
+            android:id="@+id/noticeBoard"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="12dp"
+            app:mvAnimDuration="1000"
+            app:mvDirection="bottom_to_top"
+            app:mvInterval="3000"
+            app:mvTextColor="@color/login_black"
+            app:mvTextSize="12sp"
+            app:mvSingleLine="false" />
+
+    </LinearLayout>
+    <com.yuanxin.clan.mvp.view.PullToRefreshView
+        android:layout_below="@+id/noticeLayout"
+        android:id="@+id/p2rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.yuanxin.clan.core.util.ScrollListenerView
+            android:id="@+id/slv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/gray_b7"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/adsImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/banner"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/login_black"
+                            android:textSize="15dp"
+                            android:layout_marginLeft="12dp"
+                            android:text="今日推荐优质企业"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray_b7"></LinearLayout>
+                    <com.yuanxin.clan.core.recyclerview.HorizontalListView
+                        android:id="@+id/best_company"
+                        android:layout_width="match_parent"
+                        android:layout_height="110dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:divider="@color/white"
+                        app:dividerWidth="5dp">
+                    </com.yuanxin.clan.core.recyclerview.HorizontalListView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/login_black"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="12dp"
+                        android:text="为你推荐"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_b7"></LinearLayout>
+                <co.ceryle.radiorealbutton.RadioRealButtonGroup
+                    android:id="@+id/recommendGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:rrbg_animateDrawables_enter="overshoot"
+                    app:rrbg_animateTexts_enter="overshoot"
+                    app:rrbg_animateTexts_textColorFrom="@color/login_black"
+                    app:rrbg_animateTexts_textColorTo="@color/login_red"
+                    app:rrbg_animateTexts_textColor_duration="500"
+                    app:rrbg_dividerSize="1dp"
+                    app:rrbg_selectorColor="@color/login_red"
+                    app:rrbg_selectorSize="2dp">
+
+                    <co.ceryle.radiorealbutton.RadioRealButton
+                        android:id="@+id/recommendButton1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:rrb_drawableHeight="36dp"
+                        app:rrb_drawablePadding="8dp"
+                        app:rrb_drawableWidth="36dp"
+                        app:rrb_ripple="true"
+                        app:rrb_rippleColor="@color/black"
+                        app:rrb_checked = "true"
+                        app:rrb_text="相关"
+                        app:rrb_textColor="@color/login_black"/>
+
+                    <co.ceryle.radiorealbutton.RadioRealButton
+                        android:id="@+id/recommendButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:rrb_drawableGravity="right"
+                        app:rrb_drawableHeight="36dp"
+                        app:rrb_drawablePadding="8dp"
+                        app:rrb_drawableWidth="36dp"
+                        app:rrb_ripple="true"
+                        app:rrb_rippleColor="@color/black"
+                        app:rrb_text="收藏"
+                        app:rrb_textColor="@color/login_black"/>
+                    <co.ceryle.radiorealbutton.RadioRealButton
+                        android:id="@+id/recommendButton3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:rrb_drawableGravity="right"
+                        app:rrb_drawableHeight="36dp"
+                        app:rrb_drawablePadding="8dp"
+                        app:rrb_drawableWidth="36dp"
+                        app:rrb_ripple="true"
+                        app:rrb_rippleColor="@color/black"
+                        app:rrb_text="热搜"
+                        app:rrb_textColor="@color/login_black"/>
+                </co.ceryle.radiorealbutton.RadioRealButtonGroup>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recommendCompanyList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white">
+                </android.support.v7.widget.RecyclerView>
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/activity_company_information_detail_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/white">
+
+                </android.support.v7.widget.RecyclerView>
+
+            </LinearLayout>
+        </com.yuanxin.clan.core.util.ScrollListenerView>
+    </com.yuanxin.clan.mvp.view.PullToRefreshView>
+
+
+</RelativeLayout>

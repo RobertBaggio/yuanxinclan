@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/myre"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/businesstop">
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_fair_new_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/activity_company_information_detail_left_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_company_information_detail_middle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="群成员"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <ImageView
+            android:id="@+id/activity_company_information_detail_right_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_b7"></LinearLayout>
+    <com.yuanxin.clan.mvp.view.PullToRefreshView
+        android:id="@+id/p2rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.yuanxin.clan.core.util.ScrollListenerView
+            android:id="@+id/slv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/transparent"
+            android:fillViewport="false">
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/activity_business_district_library_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="19dp"
+                    android:background="@color/white_fa">
+                </android.support.v7.widget.RecyclerView>
+
+                <LinearLayout
+                    android:id="@+id/shanchutianjiali"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="15dp"
+                    android:visibility="gone"
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/addMemberLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="101dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp">
+
+                        <ImageView
+                            android:id="@+id/group_chat_detail_add_button"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:src="@drawable/enterprise_staff_add"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="添加成员"
+                            android:textColor="@color/login_black"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/shanchutianjialitrue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="101dp"
+                        android:background="@color/white"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical"
+                        android:paddingLeft="40dp">
+
+                        <ImageView
+                            android:id="@+id/group_chat_detail_add_button_one"
+                            android:layout_width="44dp"
+                            android:layout_height="44dp"
+                            android:src="@drawable/enterprise_staff_add"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:text="删除成员"
+                            android:textColor="@color/login_black"
+                            android:textSize="12sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </com.yuanxin.clan.core.util.ScrollListenerView>
+    </com.yuanxin.clan.mvp.view.PullToRefreshView>
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:melove="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/item_crowd_funding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <com.yuanxin.clan.core.util.MLImageView
+
+            android:scaleType="centerCrop"
+            melove:radius="5dp"
+            melove:shape_type="rectangle"
+            android:layout_centerVertical="true"
+            android:id="@+id/item_crow_funding_image"
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:src="@drawable/by"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_crow_funding_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="防蓝光护目镜"
+                android:textSize="14sp"
+                android:textColor="@color/company_information_detail_black"
+                />
+
+            <TextView
+                android:id="@+id/item_crow_funding_have_money"
+                android:layout_marginTop="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¥ 800"
+                android:textSize="13sp"
+                android:textColor="@color/fair_bg_red"/>
+
+            <LinearLayout
+                android:layout_marginTop="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/item_crow_funding_round_corner_progress_bar"
+                    android:padding="1dp"
+                    android:layout_width="200dp"
+                    android:layout_height="10dp"
+                    app:rcBackgroundColor="@color/white"
+                    app:rcBackgroundPadding="0dp"
+                    app:rcMax="100"
+                    app:rcProgress="50"
+                    app:rcProgressColor="@color/orange_bg"
+                    app:rcRadius="5dp"
+                    android:background="@drawable/border_radio_white"/>
+
+                <TextView
+                    android:id="@+id/item_crow_funding_percent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20%"
+                    android:textSize="12sp"
+                    android:textColor="@color/orange_bg"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/item_crow_funding_people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="43人"
+                    android:textSize="12sp"
+                    android:textColor="@color/crowd_funding_grey"
+                    android:drawableLeft="@drawable/zc_list_person_icon"
+                    android:drawablePadding="2dp"
+                    />
+
+                <TextView
+                    android:id="@+id/item_crow_funding_number_people"
+                    android:layout_marginLeft="43dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8600万元"
+                    android:textSize="12sp"
+                    android:textColor="@color/orange_bg"
+                    android:drawableLeft="@drawable/zc_list_money_icon"
+                    android:drawablePadding="2dp"/>
+
+                <TextView
+                    android:id="@+id/item_crow_funding_time"
+                    android:layout_marginLeft="27dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩1天"
+                    android:textSize="12sp"
+                    android:textColor="@color/crowd_funding_grey"
+                    android:drawableLeft="@drawable/zc_list_time_icon"
+                    android:drawablePadding="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/item_crowd_funding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/divider_color"/>
+
+
+</RelativeLayout>

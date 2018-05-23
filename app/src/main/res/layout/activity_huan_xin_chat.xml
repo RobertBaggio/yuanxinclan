@@ -1,0 +1,122 @@
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+         android:id="@android:id/tabhost"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+    <!--tools:context=".OneKeyShareActivity" >-->
+    <!--<include layout="@layout/fragment_two_one_head" />-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--标题-->
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone"/>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/activity_huan_xin_chat_buttom_layout"/>
+
+        <LinearLayout
+            android:id="@+id/activity_huan_xin_chat_buttom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e7e6eb"/>
+
+            <RadioGroup
+                android:id="@+id/main_buttom_tabbar_group"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/order_tab"
+                    style="@style/main_bottom_tab"
+                    android:layout_marginTop="7dp"
+                    android:drawableTop="@drawable/tabhost_news_shape"
+                    android:paddingTop="1dp"
+                    android:tag="user_item1"
+                    android:text="个人会话"
+                    android:textColor="#575973"
+                    android:textSize="10sp"
+                    />
+
+                <RadioButton
+                    android:id="@+id/verify_tab"
+                    style="@style/main_bottom_tab"
+                    android:layout_marginTop="7dp"
+                    android:drawableTop="@drawable/tabhost_home_shape"
+                    android:paddingTop="1dp"
+                    android:tag="home_item1"
+                    android:text="集体会话"
+                    android:textColor="#575973"
+                    android:textSize="10sp"
+                    />
+
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/sale_tab"-->
+                <!--style="@style/main_bottom_tab"-->
+                <!--android:layout_marginTop="7dp"-->
+                <!--android:drawableTop="@drawable/tabhost_sale_shape"-->
+                <!--android:paddingTop="1dp"-->
+                <!--android:tag="contacter_item1"-->
+                <!--android:text="企聊"-->
+                <!--android:textColor="#575973"-->
+                <!--android:textSize="10sp"-->
+                <!--/>-->
+
+                <!--<RadioButton-->
+                <!--android:id="@+id/center_tab"-->
+                <!--style="@style/main_bottom_tab"-->
+                <!--android:layout_marginTop="7dp"-->
+                <!--android:drawableTop="@drawable/tabhost_center_shape"-->
+                <!--android:paddingTop="1dp"-->
+                <!--android:tag="eventbatter_item1"-->
+                <!--android:text="我的"-->
+                <!--android:textColor="#575973"-->
+                <!--android:textSize="10sp" />-->
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/repair_layout"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:orientation="vertical">-->
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/biaoqian_weixiu"/>-->
+
+        <!--<TextView-->
+        <!--android:id="@+id/repair_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:text="报修"-->
+        <!--android:textColor="@drawable/tabhost_text_color"/>-->
+
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+
+</TabHost>

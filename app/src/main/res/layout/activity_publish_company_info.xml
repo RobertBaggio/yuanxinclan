@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/activity_company_info_line">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:background="@color/activity_company_info_bg">
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:id="@+id/activity_publish_company_info_head_image_layout">
+
+            <ImageView
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:src="@drawable/ease_mm_title_back"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="发布"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_centerInParent="true"/>
+
+        <LinearLayout
+            android:id="@+id/activity_publish_company_info_right_layout"
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="确认"
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_company_info_company_name_layout"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        >
+
+        <TextView
+            android:id="@+id/activity_publish_company_info_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="标题"
+            android:textSize="14sp"
+            android:textColor="@color/activity_five_black"/>
+
+        <EditText
+            android:id="@+id/activity_publish_company_info_title_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textSize="13sp"
+            android:hint="在此输入标题"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/activity_publish_compangy_info_grey"
+            android:layout_toRightOf="@+id/activity_publish_company_info_title_text"
+            android:gravity="center_vertical"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="内容"
+        android:paddingLeft="12dp"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:textColor="@color/activity_five_black"/>
+
+    <EditText
+        android:id="@+id/activity_publish_company_info_detail_edit"
+        android:gravity="left"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/activity_publish_compangy_info_grey"
+        android:background="@color/white"
+        android:textSize="13sp"
+        android:hint="在此输入内容"
+        />
+
+
+</LinearLayout>

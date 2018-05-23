@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_gank_layout"
+        android:background="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:id="@+id/qzallli"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:gravity="center_vertical">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.3"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/qzimage"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/em_chat_video_normal"
+            />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.4"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/qznamete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textSize="15dp"
+                android:layout_marginLeft="1dp"
+                android:textColor="@color/login_black"/>
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="1dp"
+                android:background="@color/businesstop"/>
+            <TextView
+                android:id="@+id/qzepnamete"
+                android:layout_marginTop="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="epname"
+                android:textSize="14dp"
+                android:layout_marginLeft="1dp"
+                android:textColor="@color/login_black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:gravity="center_vertical">
+            <TextView
+                android:id="@+id/qzyuyuete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="预约拜访"
+                android:textColor="@color/businesstop"
+                android:background="@drawable/lan_kong_yuan"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/qzallli"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/gray_b7"></TextView>
+    </RelativeLayout>
+</LinearLayout>

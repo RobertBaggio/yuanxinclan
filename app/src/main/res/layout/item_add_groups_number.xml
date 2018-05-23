@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:melove="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/item_company_member_layout"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:paddingTop="20dp"
+        >
+
+        <ImageView
+            android:id="@+id/item_information_choose_image"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/enterprise_search_nav_icon_btn_cancle"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/item_company_member_head_image"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/item_information_choose_image"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/by"
+            android:scaleType="centerCrop"
+            />
+
+            <TextView
+                android:id="@+id/item_company_member_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/item_company_member_head_image"
+                android:layout_centerHorizontal="true"
+                android:text="林晓"
+                android:textColor="@color/login_black"
+                android:textSize="12sp"/>
+            <!--<TextView-->
+            <!--android:id="@+id/item_company_member_position"-->
+            <!--android:layout_marginLeft="9dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text=""-->
+            <!--android:textSize="12sp"-->
+            <!--android:textColor="@color/login_black"/>-->
+    </RelativeLayout>
+
+</LinearLayout>

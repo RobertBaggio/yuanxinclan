@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/activity_news_chat_base_web_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activity_news_chat_base_web_buttom_input_layout"
+        android:background="@color/businesstop">
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_crowd_left_layou"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="9dp"
+            android:paddingRight="13dp">
+
+            <ImageView
+                android:id="@+id/activity_yuan_xin_crowd_left_imag"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/compneyimage"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignBottom="@+id/activity_yuan_xin_crowd_middle_tex"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:layout_toLeftOf="@+id/myheadimage2"
+            android:layout_toStartOf="@+id/myheadimage2"
+            android:src="@drawable/chat_icon_ep"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/myheadimage2"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/compneyimage"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/chat_persion_informationp"/>
+
+        <TextView
+            android:id="@+id/activity_yuan_xin_crowd_middle_tex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="企业详情"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/businesstop"
+        android:weightSum="5">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:id="@+id/activity_yuan_xin_crowd_left_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="9dp"
+                android:paddingRight="13dp">
+
+                <ImageView
+                    android:id="@+id/activity_yuan_xin_crowd_left_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/ease_mm_title_back"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/activity_yuan_xin_crowd_middle_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:text="name"
+                android:textColor="@color/white"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/overeasete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="结束会话"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right">
+                <TextView
+                    android:id="@+id/myheadimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:text="查看资料"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:layout_marginRight="10dp"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/noisfridentli"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:visibility="gone"
+    android:gravity="center_vertical">
+    <TextView
+        android:id="@+id/longtextte"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="是否向当前企业联系人索要名片并添加好友？"
+        android:textColor="@color/login_black"
+        android:textSize="14dp"
+        android:layout_marginLeft="12dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="8dp"
+            android:gravity="center">
+        <TextView
+            android:id="@+id/lockcompanyte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/businesstop"
+            android:background="@drawable/lan_kong"
+            android:textSize="13dp"
+            android:text="确定"
+            />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyChatViewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/new_service_layout_one_image_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/chat_icon_enterprise_contract"/>
+
+            <TextView
+                android:id="@+id/new_service_layout_one_text_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="企业合同"
+                android:textColor="@color/login_black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line_gray"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/new_service_layout_one_image_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/chat_icon_enterprise_data"/>
+
+            <TextView
+                android:id="@+id/new_service_layout_one_text_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="企业详情"
+                android:textColor="@color/login_black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyChatViewMenuhui"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/new_service_layout_one_image_onehui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/chat_icon_enterprise_contract"/>
+
+            <TextView
+                android:id="@+id/new_service_layout_one_text_onehui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商圈详情"
+                android:textColor="@color/login_black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/line_gray"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/new_service_layout_one_image_twohui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/chat_icon_enterprise_data"/>
+
+            <TextView
+                android:id="@+id/new_service_layout_one_text_twohui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商圈成员"
+                android:textColor="@color/login_black"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

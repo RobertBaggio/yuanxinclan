@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_choose_style_image"
+            android:layout_alignParentLeft="true"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:src="@drawable/by"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:id="@+id/item_shopping_cart_test_check_box_layout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="end|center_vertical"
+            android:paddingRight="12dp"
+            >
+
+            <ImageView
+                android:id="@+id/item_shopping_cart_check_image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/btn_unselected"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_choose_style_text"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@color/white"/>
+
+
+</LinearLayout>

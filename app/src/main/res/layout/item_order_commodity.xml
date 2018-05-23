@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    * Describe: 订单商品
+    * Author: xjc
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imgGoodimage"
+        android:layout_width="53dp"
+        android:layout_height="53dp"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvGoodPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="0.00"
+        android:textColor="#D64444"
+        android:textSize="14sp"/>
+    <TextView
+        android:id="@+id/typetobuyte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TYPE"
+        android:layout_toRightOf="@+id/imgGoodimage"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="3dp"
+        android:layout_below="@+id/tvGoodName"/>
+    <TextView
+        android:id="@+id/colortobuyte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="color"
+        android:layout_below="@+id/typetobuyte"
+        android:layout_toRightOf="@+id/imgGoodimage"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:visibility="gone"
+        />
+
+
+    <TextView
+        android:id="@+id/tvGoodName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toLeftOf="@id/tvGoodPrice"
+        android:layout_toRightOf="@id/imgGoodimage"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:text="fjfsdagfsdgf"
+        android:textColor="#333333"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tvGoodNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvGoodPrice"
+        android:layout_marginTop="5dp"
+        android:text="x1"
+        android:textColor="#333333"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/tvGoodSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tvGoodNumber"
+        android:layout_marginTop="5dp"
+        android:text="0.00"
+        android:textColor="#ACACAC"
+        android:textSize="12sp"/>
+</RelativeLayout>

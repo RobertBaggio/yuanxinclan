@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/myaccount"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/backacli"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="9dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/back_white"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="我的账户"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:id="@+id/activity_company_info_right_layout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="16sp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@drawable/balance_back">
+
+        <RelativeLayout
+            android:background="@color/myaccount"
+            android:layout_below="@+id/activity_my_setting_account_line_one"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="可用金额"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/balance_value"
+                android:layout_toRightOf="@+id/balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_centerVertical="true"
+                android:textSize="24sp"
+                android:textColor="@color/account_value"/>
+            <TextView
+                android:layout_toRightOf="@+id/balance_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="元"
+                android:textColor="@color/white"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@color/myaccount"
+            android:layout_below="@+id/activity_my_setting_account_line_one"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp">
+            <TextView
+                android:id="@+id/delay_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="待到账金额"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/delay_balance_value"
+                android:layout_toRightOf="@+id/delay_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:layout_centerVertical="true"
+                android:textSize="24sp"
+                android:textColor="@color/account_value"/>
+            <TextView
+                android:layout_toRightOf="@+id/delay_balance_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:text="元"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="温馨提示：客户确认收货后,待转资金自动转入余额"
+            android:textColor="#72B8E4"
+            android:textSize="9sp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/bandingac"
+        android:layout_below="@+id/activity_my_setting_account_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="绑定提现账号"
+            android:textColor="@color/activity_publish_compangy_info_grey"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/szmmac"
+        android:layout_below="@+id/activity_my_setting_account_line_one"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="设置支付密码 "
+            android:textColor="@color/activity_publish_compangy_info_grey"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/zdmxac"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_below="@+id/activity_my_setting_account_line_one"
+        android:background="@color/white"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="账单明细"
+            android:textColor="@color/activity_publish_compangy_info_grey"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/tixre"
+        android:layout_below="@+id/tixianac"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp">
+
+        <TextView
+            android:id="@+id/exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提现"
+            android:textColor="@color/activity_publish_compangy_info_grey"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+        <TextView
+            android:layout_toRightOf="@+id/exchange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:text="（仅账户余额）"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/personal_center_icon_enter_black"/>
+    </RelativeLayout>
+</LinearLayout>

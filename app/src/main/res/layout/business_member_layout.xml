@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:weightSum="7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/rlLeft"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp">
+
+            <ImageView
+                android:id="@+id/activity_yuan_xin_crowd_left_image"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/back"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="查找结果"
+            android:textColor="#343434"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_grymy"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/selecthyli"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/hyte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部行业"
+            android:textColor="@color/login_black"
+            android:layout_marginLeft="12dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/arrow_down"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="14.5dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/round_gry_small_corner"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/seass"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/imageView4"/>
+        <EditText
+            android:id="@+id/activi_middle_editextt"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="14dp"
+            android:hint="输入用户名/企业名/职位以搜索"
+            android:textColorHint="#C0C0C0"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:background="@color/search_bg_business"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/white_grymy"></LinearLayout>
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/fragmnet_my_collect_article_springview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/businessMemberList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:background="@color/white"
+            >
+
+        </android.support.v7.widget.RecyclerView>
+    </com.liaoinstan.springview.widget.SpringView>
+
+
+</LinearLayout>

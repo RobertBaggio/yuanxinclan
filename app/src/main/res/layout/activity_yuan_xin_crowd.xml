@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/fair_activity_head"
+        >
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_crowd_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/activity_yuan_xin_crowd_left_image"
+
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/activity_yuan_xin_crowd_middle_text"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="圆心众筹"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/activity_t_yuan_xin_crowd_right_image"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="13dp"
+            android:paddingRight="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/enterprise_list_nav_icon_search"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/address_search_springview"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="49dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="25dp"
+                    android:paddingRight="25dp">
+
+                    <TextView
+                        android:id="@+id/activity_yuan_xin_crowd_type"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="15dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="类型"
+                        android:textSize="14sp"
+                        android:textColor="@color/common_register_black"
+                        android:gravity="center"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/zc_list_triangle_icon"
+
+                        />
+
+                    <TextView
+                        android:id="@+id/activity_yuan_xin_crowd_sort"
+                        android:textSize="14sp"
+                        android:textColor="@color/common_register_black"
+                        android:layout_centerVertical="true"
+                        android:layout_centerInParent="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="排序"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/zc_list_triangle_icon"
+                        />
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:textColor="@color/common_register_black"
+                        android:id="@+id/activity_yuan_xin_crowd_state"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="状态"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/zc_list_triangle_icon"
+                        />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/fair_activity_head"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/activity_yuan_xin_crowd_recycler_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_fa">
+
+                </android.support.v7.widget.RecyclerView>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </com.liaoinstan.springview.widget.SpringView>
+</LinearLayout>

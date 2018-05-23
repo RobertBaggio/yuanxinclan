@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/activity_company_info_line">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/activity_company_info_line">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:background="@color/message_bg">
+
+                <LinearLayout
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:id="@+id/activity_think_tank_detail_edit_left_layout">
+
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:src="@drawable/ease_mm_title_back"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="资讯发布"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_centerInParent="true"/>
+
+                <LinearLayout
+                    android:id="@+id/activity_think_tank_detail_edit_right_layout"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/activity_think_tank_detail_edit_name_layout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                >
+
+                <TextView
+                    android:id="@+id/activity_think_tank_detail_edit_company_name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="标题"
+                    android:textSize="16sp"
+                    android:textColor="@color/activity_five_black"/>
+
+                <EditText
+                    android:id="@+id/activity_think_tank_detail_edit_company_name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textSize="13sp"
+                    android:hint="请输入标题"
+                    android:textColor="@color/activity_company_info_grey"
+                    android:layout_toRightOf="@+id/activity_think_tank_detail_edit_company_name_text"
+                    android:gravity="end|center_vertical"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_white"/>
+
+            <RelativeLayout
+                android:id="@+id/activity_think_tank_detail_edit_introduce_layout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                >
+
+                <TextView
+                    android:id="@+id/activity_think_tank_detail_edit_introduce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="发布类型"
+                    android:textSize="16sp"
+                    android:textColor="@color/activity_five_black"/>
+
+                <TextView
+                    android:id="@+id/activity_think_tank_detail_edit_introduce_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/activity_think_tank_detail_edit_introduce"
+                    android:layout_toLeftOf="@+id/activity_think_tank_detail_edit_introduce_image"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="12dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/activity_company_info_grey"
+                    android:gravity="end|center_vertical"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:text="选择类型"
+                    />
+
+                <ImageView
+                    android:id="@+id/activity_think_tank_detail_edit_introduce_image"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/slidown_btn"/>
+
+                <!--<EditText-->
+                <!--android:id="@+id/activity_company_info_company_introduce_edit"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:background="@null"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textColor="@color/text_color_grey"-->
+                <!--android:layout_toRightOf="@+id/activity_company_info_company_introduce"/>-->
+
+            </RelativeLayout>
+
+            <TextView
+
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_white"/>
+
+            <RelativeLayout
+                android:id="@+id/activity_think_tank_detail_edit_detail_layout"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                >
+
+                <TextView
+                    android:id="@+id/activity_think_tank_detail_edit_detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="详情内容"
+                    android:textSize="16sp"
+                    android:textColor="@color/activity_five_black"/>
+
+                <TextView
+                    android:id="@+id/activity_think_tank_detail_edit_detail_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@+id/activity_think_tank_detail_edit_detail"
+                    android:layout_toLeftOf="@+id/activity_think_tank_detail_edit_detail_image"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="12dp"
+                    android:textSize="13sp"
+                    android:textColor="@color/activity_company_info_grey"
+                    android:gravity="end|center_vertical"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    />
+
+                <ImageView
+                    android:id="@+id/activity_think_tank_detail_edit_detail_image"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/personal_center_icon_enter_black"/>
+
+                <!--<EditText-->
+                <!--android:id="@+id/activity_company_info_company_introduce_edit"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:background="@null"-->
+                <!--android:textSize="14sp"-->
+                <!--android:textColor="@color/text_color_grey"-->
+                <!--android:layout_toRightOf="@+id/activity_company_info_company_introduce"/>-->
+
+            </RelativeLayout>
+
+            <TextView
+
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray_white"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="图片上传"
+                android:textSize="16sp"
+                android:textColor="@color/activity_five_black"
+                android:gravity="center_vertical"
+                android:background="@color/activity_company_info_line"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:paddingBottom="4dp"
+                android:background="@drawable/border_white_line">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="9dp"
+                    >
+
+                    <ImageView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="+提示：图片用于资讯详情，限传1张，尺寸w：230*h:160单位px "/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/gray_white"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginRight="6dp"
+                    android:layout_marginBottom="4dp"
+                    android:background="@drawable/border_white_line">
+
+                    <ImageView
+                        android:id="@+id/activity_think_tank_detail_edit_image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:src="@drawable/by"
+                        android:layout_marginRight="2dp"
+                        android:scaleType="centerCrop"/>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/activity_think_tank_detail_edit_button"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:text="确认发布"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:background="@color/message_bg"
+                android:gravity="center"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

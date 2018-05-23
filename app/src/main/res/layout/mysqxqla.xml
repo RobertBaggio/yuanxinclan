@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_fa">
+    <RelativeLayout
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/activity_news_chat_base_web_head_layout"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/businesstop"
+        >
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_crowd_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="9dp"
+            android:paddingRight="15dp"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/activity_yuan_xin_crowd_left_image"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ease_mm_title_back"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_yuan_xin_crowd_close"
+            android:visibility="gone"
+            android:layout_toRightOf="@id/activity_yuan_xin_crowd_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/enterprise_market_icon_closepage_white"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/activity_yuan_xin_crowd_middle_text"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="16dp"
+            android:text="商圈"
+            android:textColor="@color/white"/>
+
+        <!--<LinearLayout-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/activity_t_yuan_xin_crowd_right_image_layout"-->
+            <!--android:layout_marginRight="13dp"-->
+            <!--android:gravity="center">-->
+            <!--<TextView-->
+                <!--android:id="@+id/activity_yuan_xin_croccwd_middle_text"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:textSize="14dp"-->
+                <!--android:text="进入群聊"-->
+                <!--android:textColor="@color/white"/>-->
+            <!--<ImageView-->
+                <!--android:id="@+id/activity_t_yuan_xin_crowd_right_image"-->
+                <!--android:paddingLeft="13dp"-->
+                <!--android:paddingRight="13dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:src="@drawable/news_collecte_nomal"-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--/>-->
+        <!--</LinearLayout>-->
+        <ImageView
+            android:id="@+id/zixunshouchangimage"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/news_icon_collect"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"/>
+    </RelativeLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srlEnableLoadMore="false"
+        app:srlEnableScrollContentWhenRefreshed="true"
+        android:layout_below="@+id/activity_news_chat_base_web_head_layout"
+        app:srlAccentColor="@color/login_grey_bottomtwo"
+        app:srlPrimaryColor="@color/login_grey_bottom">
+        <com.scwang.smartrefresh.header.TaurusHeader
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <com.yuanxin.clan.mvp.view.X5WebView
+            android:id="@+id/tbsContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="true"
+            android:scrollbarStyle="insideOverlay"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            app:defaultProgress="false" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

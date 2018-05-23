@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_black">#000000</color>
+    <color name="line_gray">#E0E0E0</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#282828</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="ml_gray">#ff9e9e9e</color>
+    <color name="ml_red">#ffff0000</color>
+    <color name="ml_call_e">#0b7cd4</color>
+    <color name="ml_call_gry">#f5f5f5</color>
+    <color name="ml_call_gry_bg">#f5f5f8</color>
+    <color name="jiujiu">#f3f3f3</color>
+    <color name="fyifyi">#F1F1F1</color>
+    <color name="fsanfsan">#F3F3F3</color>
+    <color name="delete_button">#c22f2f</color>
+    <color name="delete_buttonxmred">#EE4242</color>
+    <color name="businesstop">#1462BF</color>
+    <color name="myaccount">#135FB8</color>
+    <color name="account_value">#FFE720</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <!--<color name="text_gggg">#505050</color>-->
+    <color name="lvse_mask">#61c06a</color>
+    <color name="ejiuejiu">#E94F4F</color>
+    <color name="defo">#c95c5f</color>
+    <color name="deepskyblue">#00bfff</color>
+    <color name="line_gray_talent">#dddddd</color>
+    <color name="busnissred">#ff6065</color>
+    <color name="busnissredgry">#acacac</color>
+
+    <!-- 刷新 -->
+    <color name="bg_top_fresh">#606166</color>
+    <color name="bg_simple">#f8f8f8</color>
+    <color name="babbb">#8B8B8B</color>
+    <color name="bg_simpleg">#E1E1E1</color>
+
+    <!-- 浅灰色 -->
+    <!-- 蓝色 -->
+    <!-- 蓝色 -->
+    <!-- 纯白色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="white_grymy">#F3F3F3</color>
+    <!-- 深灰色 -->
+    <color name="line_cc">#cccccc</color>
+    <!-- 灰色c8 -->
+    <!-- ******************基础颜色模块**************** -->
+    <!-- 透明色 -->
+    <color name="transparent">#00000000</color>
+    <!-- 透明色 -->
+    <color name="transparent_dark">#88000000</color>
+    <!-- 蓝色 -->
+    <color name="blue">#2d81ff</color>
+    <!-- 灰色 透明 -->
+    <!-- 灰色 透明 -->
+    <color name="bg_gray_66">#AA868686</color>
+    <!-- 80透明度的文字颜色 -->
+    <!-- 纯白色 -->
+    <color name="white_fa">#fafafa</color>
+    <!-- 白色透明 -->
+    <!-- 纯黑色 -->
+    <color name="black">#ff000000</color>
+    <!-- 纯黑色 -->
+    <!-- 纯黑色 -->
+    <!-- 灰黑色 -->
+    <!-- 浅灰黑色 -->
+    <!-- 黄色 -->
+    <!-- 金色 -->
+    <!-- 灰色 -->
+    <color name="gray_b7">#F5F5F5</color>
+    <color name="gray_b7text">#aeaeae</color>
+    <color name="bababa">#BABABA</color>
+    <color name="wucwucwuc">#5C5C5C</color>
+    <color name="silingsiling">#404040</color>
+    <color name="gray_b7gree">#61C06A</color>
+    <color name="mineblue">#0082DB</color>
+    <color name="minered">#D83B37</color>
+    <color name="minez">#FFA417</color>
+    <!-- 灰白色 -->
+    <color name="gray_white">#e1e1e1</color>
+    <!-- 灰色 -->
+    <color name="gray">#ff868686</color>
+    <color name="aliu">#A6A6A6</color>
+    <color name="aliuqied">#7ED321</color>
+    <color name="main_grey">#666666</color>
+    <!-- 灰色 -->
+    <!-- 灰色 -->
+    <!-- 灰色 -->
+    <color name="gray78">#787878</color>
+    <!-- 灰色 -->
+    <!-- 灰色 -->
+    <!-- 灰色 -->
+    <!-- 红色 -->
+    <color name="red">#ffff0000</color>
+    <color name="angred">#D1311B</color>
+    <color name="red3">#eb0606</color>
+    <!-- 灰色f5 -->
+    <!-- 灰色f7 -->
+    <!-- 灰色98 -->
+    <!-- 灰色9D -->
+    <!-- 灰色a8 -->
+    <!-- 灰色b4 -->
+    <!-- 灰色d2 -->
+    <!-- 黑色0a -->
+    <color name="black_0a">#0A0A0A</color>
+    <!-- 黑色66 -->
+    <!-- 黑色 -->
+    <!-- 黑色 50%透明 -->
+
+    <!-- ******************按钮颜色模块**************** -->
+    <!-- 蓝色按钮 -->
+    <color name="btn_blue_pressed">#FF3D73BC</color>
+    <color name="style1">#CE2321</color>
+    <color name="style2">#ED5967</color>
+    <color name="style3">#F8EC6A</color>
+    <color name="style4">#EEEEEE</color>
+    <color name="style5">#4478C4</color>
+    <color name="style6">#635EAA</color>
+    <color name="style7">#EFE1C2</color>
+    <color name="style8">#C7DDE4</color>
+    <color name="style9">#BAC2C4</color>
+    <color name="style10">#FFB036</color>
+    <!-- 橘色按钮 -->
+    <color name="btn_orange_nomal">#FFFFA040</color>
+    <!-- 红色按钮 -->
+    <!-- 条目点击颜色 -->
+    <!-- 按钮不可点击 -->
+
+
+    <!-- 蓝色 -->
+    <!-- 蓝色 -->
+    <!-- 黑色 -->
+    <!-- 登录页面背景颜色 -->
+    <!-- 登录页面底部字体6b -->
+    <!-- 登录页面输入框字体c8 -->
+    <!-- 订单详情线条颜色 -->
+    <!-- 订单详情字体颜色 -->
+    <!-- 字体颜色 -->
+    <color name="default_main_color">#f26b00</color>
+    <color name="default_white_color">#FFFFFF</color>
+    <color name="text_color_red">#ff482d</color>
+    <color name="text_color_black">#212121</color>
+    <color name="divider_color">#f6f6f6</color>
+    <color name="orange">#f26b00</color>
+    <color name="bg_grey">#f0f0f0</color>
+    <color name="grey">#cfcdce</color>
+    <color name="transparent_half">#30000000</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="btn_green">#29c6ba</color>
+    <color name="register_green">#27c3b7</color>
+    <color name="login_whiter">#ffffffff</color>
+    <color name="login_black">#343434</color>
+    <color name="qierqier">#727272</color>
+    <color name="fcsisansib">#FC434B</color>
+    <color name="fcsisansibf435">#F43530</color>
+    <color name="gongying">#D72638</color>
+    <color name="xuqiu">#F49D37</color>
+    <color name="erberbi">#2B2B2B</color>
+    <color name="login_blacksq">#E9973E</color>
+    <color name="jiujiujiujiu">#999999</color>
+    <color name="login_grey">#6f6f6f</color>
+    <color name="login_grey_w">#E1E1E1</color>
+    <color name="sanersnaer">#323232</color>
+    <color name="login_grey_bottom">#575973</color>
+    <color name="login_grey_bottomtwo">#D3D5EB</color>
+    <color name="commom_register_grey">#fafafa</color>
+    <color name="common_register_black">#343434</color>
+    <color name="common_register_grey">#6f6f6f</color>
+    <color name="register_grey">#6f6f6f</color>
+    <color name="qierqiling">#727071</color>
+    <color name="member_register_grey">#efefef</color>
+    <color name="item_gank_grey">#b9bcd6</color>
+    <color name="bcbbbbb">#BCBBBB</color>
+    <color name="item_gank_white">#d2d4e4</color>
+    <color name="item_gank_item_grey">#fafafa</color>
+    <color name="epblue">#0d8ff4</color>
+    <color name="grayme">#D8D8D8</color>
+    <color name="appepblue">#2BBEB3</color>
+    <color name="sanjiuqibcg">#397BCB</color>
+    <color name="apput">#F2C46B</color>
+    <color name="appfall">#C22F2F</color>
+    <color name="appout">#8A8A8A</color>
+    <color name="appoutcdcd">#CDCDCD</color>
+    <color name="epblueyl">#daba89</color>
+    <color name="company_info_blue">#01aeef</color>
+    <color name="company_info_blue2">#43ACFE</color>
+    <color name="company_information_detail_black">#000000</color>
+    <color name="fair_activity_head">#F05E4B</color>
+    <color name="search_black">#747474</color>
+    <color name="search_bg">#f0f4f9</color>
+    <color name="search_bg_business">#F8F8F8</color>
+    <color name="search_grey">#838383</color>
+    <color name="my_info_green">#24bfb3</color>
+    <color name="activity_five_black">#343434</color>
+    <color name="activity_company_info_line">#f9f9f9</color>
+    <color name="ccsansan">#CC3366</color>
+    <color name="ffjiusi">#FF9422</color>
+    <color name="activity_company_info_grey">#8a8a8a</color>
+    <color name="activity_company_info_bg">#43adff</color>
+    <color name="jiudjiub">#9D9B9C</color>
+    <color name="jiudjiubdjiu">#D9D9D9</color>
+    <color name="activity_publish_compangy_info_grey">#6f6f6f</color>
+    <color name="my_info_head_bg">#2BBEB3</color>
+    <color name="fair_bg_red">#f05e4b</color>
+    <color name="line_detail">#e9e9e9</color>
+    <color name="juline_detailju">#E1A86B</color>
+    <color name="fair_goods_name">#3f3f3f</color>
+    <color name="fair_goods_introduce_text">#646464</color>
+    <color name="fair_orange">#f0a23c</color>
+    <color name="business_district_title">#77c52a</color>
+    <color name="business_district_detail_button">#659e2d</color>
+    <color name="think_tank_detail_bg">#fbfcff</color>
+    <color name="mydangc">#FBFBFB</color>
+    <color name="fflqiliusaner">#FF7632</color>
+    <color name="liucliuc">#6C6C6C</color>
+    <color name="my_center_info_num">#FF7380</color>
+    <color name="orange_bg">#ff9501</color>
+    <color name="crowd_funding_grey">#ababab</color>
+    <color name="divider">#ffd2d2d2</color>
+    <color name="message_bg">#575973</color>
+    <color name="buy_black">#505050</color>
+    <color name="present_grey">#c1c1c1</color>
+    <color name="huan_xin_title">#0BD4B1</color>
+    <color name="shadow_bg">#66000000</color>
+    <color name="edit_bg">#EFEFF4</color>
+    <color name="darker_gray">#9b9b9b</color>
+    <color name="side_bar_text">#4A4A4A</color>
+    <color name="huan_xin_grey">#eaeef1</color>
+    <color name="shouyehui">#575973</color>
+    <color name="add_group_grey">#8e8e8e</color>
+    <color name="huan_xin_red">#FF9C82</color>
+    <color name="fjiufjiu">#F9F9F9</color>
+    <color name="goups_red">#F75C5C</color>
+    <color name="mine_page_color">#2BBEB3</color>
+    <color name="company_green">#35ba17</color>
+
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="huizidi">#F8F8F8</color>
+    <color name="wxcolor">#20a83c</color>
+    <color name="emojicon_tab_nomals">#00a0e9</color>
+    <color name="epstylecolorselect">#4DBC4A</color>
+    <color name="tran">#00000000</color>
+
+    <color name="strokeColor">#ffffff</color>
+    <color name="fillColor">#2196F3</color>
+
+    <!--2.0主图色-->
+    <color name="main_2_0_0">#FF5C1E</color>
+     <!--热门服务颜色-->
+    <color name="hot_service">#EA5858</color>
+    <!--首页蓝色-->
+<color name="main_blue">#5AA3FF</color>
+    
+    <color name="my_center">#FE652F</color>
+
+    <!--首页活动圈标签字体颜色-->
+    <color name="tag">#939395</color>
+    <color name="black_2_0">#333333</color>
+    <color name="login_red">#FF5619</color>
+</resources>

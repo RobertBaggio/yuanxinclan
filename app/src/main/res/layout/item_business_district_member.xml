@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+
+    <com.yuanxin.clan.core.widget.activity.RoundImageView
+        android:id="@+id/activity_item_district_member_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/by"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/activity_item_district_member_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="张明"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/activity_item_district_member_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="总经理"
+        android:textSize="18sp"/>
+
+</LinearLayout>

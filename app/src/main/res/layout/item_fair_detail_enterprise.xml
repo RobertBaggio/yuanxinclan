@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    * Describe: 
+    * Author: xjc
+    -->
+<ImageView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imgLogo"
+    android:layout_width="80dp"
+    android:layout_height="60dp"
+    android:background="@drawable/border_on_line"
+    android:padding="0.5dp"
+    android:scaleType="centerCrop"
+    android:src="@drawable/by"/>

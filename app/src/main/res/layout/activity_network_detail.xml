@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:orientation="horizontal"
+                android:background="@color/my_info_head_bg">
+
+                <LinearLayout
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:id="@+id/activity_exchange_phone_left_layout">
+
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:src="@drawable/ease_mm_title_back"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务条款"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:layout_centerInParent="true"/>
+
+                <LinearLayout
+                    android:id="@+id/activity_exchange_phone_right_layout"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:paddingRight="12dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+
+                        android:gravity="center_vertical|end"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/activity_complaint_advice_edit"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:text="        欢迎您使用圆心部落服务平台。圆心部落是企业级资源整合交流服务平台。用户在访问圆心部落平台的同时，也请您仔细阅读我们的协议条款。您需要完全接受本协议才能注册成为我们的用户。一经注册，您需要遵守该协议的所有条款。圆心部落平台有权随时单方面修改本协议，修改后的协议经用户阅览同意后生效。如果您是我们的老用户，您需要经常查看本协议以便知晓相关修订。如果您不同意其中的任何条款或者任何修订，您唯一的解决办法是立刻停止使用服务，否则继续使用圆心部落平台所存在的风险将完全由其自己承担。
+1、协议生效条件
+圆心部落的各项服务的所有权和运作权归广东圆心信息科技有限公司所有。圆心部落提供的服务将完全按照其发布的章程、服务条款和操作规则严格执行。用户完成注册程序自主提交成功后，此协议即时生效，您随之成为圆心部落的注册用户。
+2、用户的权利和义务 　　
+(1)用户有权根据本协议及圆心部落平台发布的相关规则，利用平台免费发布任务、查询订单信息，参加平台的有关活动及有权享受平台提供的其他有关资讯及信息服务。
+(2)用户须自行负责自己的用户账号和密码，且须对在用户账号密码下发生的所有活动（包括但不限于发布任务信息、处理服务订单等）承担责任。用户有权根据需要更改登录和用户钱包密码。
+(3)用户注册应当向圆心部落平台提供真实准确的注册信息，包括但不限于真实姓名、企业资料、联系电话、地址等。保证平台可以通过上述联系方式与自己进行联系。同时，用户也应当在相关资料实际变更时及时更新有关注册资料。
+(4)用户有义务确保在平台上发布的任务信息真实、准确，无误导性。
+(5)用户在平台发布任务，不得发布国家法律、法规、行政规章规定禁止的信息、侵犯他人知识产权或其他合法权益的信息、违背社会公共利益或公共道德的信息。
+(6)用户在使用平台交易中应当遵守诚实信用原则，不得以干预或操纵发布任务等不正当竞争方式扰乱网上交易秩序，不得从事与网上交易无关的不当行为，不得在圆心部落交易平台上发布任何违法信息。
+(7)用户承诺自己在使用圆心部落平台实施的所有行为遵守法律、法规、行政规章和圆心部落平台的相关规定以及各种社会公共利益或公共道德。如有违反导致任何法律后果的发生，用户将以自己的名义独立承担相应的法律责任。
+(8)用户应当自行承担因交易产生或取得的相关费用，并依法纳税。
+3、隐私制度
+尊重用户个人隐私是圆心部落的一项基本政策。所以，作为对用户注册资料信息分析的补充，圆心部落不会在未经合法用户授权时公开、编辑或透露其注册资料及保存在圆心部落中的非公开内容。除非有法律许可要求或圆心部落在诚信的基础上认为透露这些信息在以下情况是必要的：
+(1) 遵守有关法律规定，遵从圆心部落合法服务程序；
+(2) 保持维护圆心部落的商标所有权；
+(3) 在紧急情况下竭力维护用户个人和社会大众的隐私安全；
+(4) 符合其他相关的要求。
+4、用户信息的存储与限制
+圆心部落不对用户所发布信息的删除或储存失败负责。圆心部落有判定用户的行为是否符合圆心部落服务条款的要求和精神的保留权利，如果用户违背了服务条款的规定，圆心部落有中断对其提供网络服务的权利。
+5、服务条款的修改
+圆心部落有权在必要时修改服务条款。圆心部落服务条款一旦发生变动，将会在重要页面上提示所修改的内容。如果不同意所改动的内容，用户可以主动取消获得的网络服务。如果用户继续享用网络服务，则视为接受服务条款的变动。圆心部落保留随时修改或中断服务而不需告知用户的权利。圆心部落行使修改或中断服务的权利，不对用户或第三方负责。
+6、有限责任
+圆心部落对任何直接、间接、偶然、特殊及继起的损害不负责任，这些损害可能来自：不正当使用网络服务，在网上购买商品或进行同类型服务，在网上进行交易，非法使用网络服务或用户传送的信息有所变动。
+7、服务的结束
+用户或圆心部落可随时根据实际情况中断一项或多项网络服务。圆心部落不需对任何个人或第三方负责而随时中断服务。用户对后来的条款修改有异议，或对圆心部落的服务不满，可以行使如下权利：
+(1)停止使用圆心部落的网络服务；
+(2)通告圆心部落停止对该用户的服务结束用户服务后，用户使用网络服务的权利马上中止。从那时起，用户没有权利，圆心部落也没有义务传送任何未处理的信息或未完成的服务给用户或第三方。
+8、用户管理
+用户单独承担发布内容的责任。用户对服务的使用是根据所有适用于圆心部落的国家法律、地方法律和国际法律标准的。
+用户必须遵循：
+(1)从中国境内向外传输技术性资料时必须符合中国有关法规；
+(2)使用网络服务不作非法用途；
+(3)不干扰或混乱网络服务；
+(4)遵守所有使用网络服务的网络协议、规定、程序和惯例。
+(5)用户须承诺不传输任何非法的、骚扰性的、中伤他人的、 辱骂性的、恐吓性的、伤害性的、庸俗的，淫秽等信息资料。另外，用户也不能传输任何教唆他人构成犯罪行为的资料；不能传输助长国内不利条件和涉及国家安全 的资料。"
+                android:gravity="left"
+                android:textSize="15sp"
+                android:textColor="@color/login_black"
+                android:lineSpacingExtra="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

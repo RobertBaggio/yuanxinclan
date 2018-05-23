@@ -1,0 +1,1 @@
+include ':app', ':SwipeItemLayout', ':aFileChooser', ':easeui', ':redpacketlibrary', ':BQMM_Lib', ':citypicker', ':floatwindow'

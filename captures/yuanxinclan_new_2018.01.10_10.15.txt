@@ -1,0 +1,2417 @@
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * PendingIntentRecord{ee00d9e com.eg.android.AlipayGphone startService (whitelist: +30s0ms)}
+  * PendingIntentRecord{14bf469 com.tencent.mm startService}
+  * PendingIntentRecord{816993b com.alibaba.android.rimet startService}
+  * PendingIntentRecord{9b3b1ae com.UCMobile broadcastIntent}
+  * PendingIntentRecord{6621e63 com.yuanxin.clan broadcastIntent}
+  * PendingIntentRecord{541ef8a com.huawei.geofence broadcastIntent}
+  * PendingIntentRecord{431a9df com.huawei.systemmanager startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{2cb39fb com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{f545a18 com.android.phone broadcastIntent}
+  * PendingIntentRecord{eddc71 com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{ed77a56 com.huawei.hwid broadcastIntent}
+  * PendingIntentRecord{4210479 com.huawei.intelligent broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{dd0e91b com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{2e49f67 com.huawei.intelligent broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{93b2b34 com.huawei.systemmanager broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{d116e52 com.alibaba.android.rimet broadcastIntent}
+  * PendingIntentRecord{40f488c com.eg.android.AlipayGphone broadcastIntent}
+  * PendingIntentRecord{aade2fd android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{9b58155 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{86c30fd com.huawei.imonitor startService}
+  * PendingIntentRecord{d897ad7 android startActivity}
+  * PendingIntentRecord{40ffc4 com.android.contacts startService}
+  * PendingIntentRecord{f32cead com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{8f89a47 com.android.server.telecom broadcastIntent}
+  * PendingIntentRecord{efdd0d8 com.huawei.imonitor startService}
+  * PendingIntentRecord{a46f463 com.huawei.systemmanager broadcastIntent}
+  * PendingIntentRecord{e0838a8 com.huawei.intelligent broadcastIntent}
+  * PendingIntentRecord{ba91635 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{4d2a1ad android broadcastIntent}
+  * PendingIntentRecord{b5c336e android broadcastIntent}
+  * PendingIntentRecord{f34a9a1 com.huawei.systemmanager broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{efb098a com.tencent.mobileqq broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{788d9a7 com.tencent.mobileqq startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{63a2954 com.tencent.mm startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{dab74b5 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{dbaaf09 com.android.mms broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{a68e5e2 com.android.browser startActivity}
+  * PendingIntentRecord{380ed73 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{a20427d com.mobike.mobikeapp startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{305430 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{b5aa8a9 com.tencent.mm startService}
+  * PendingIntentRecord{b37e2e com.tencent.mm startService}
+  * PendingIntentRecord{3e0ebf2 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{272edcf com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{3c7750e com.android.mms broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{c7e835c android broadcastIntent}
+  * PendingIntentRecord{30c2665 android startActivity}
+  * PendingIntentRecord{5bf4a06 com.eg.android.AlipayGphone broadcastIntent}
+  * PendingIntentRecord{f8bbdb2 android broadcastIntent}
+  * PendingIntentRecord{cd1656 com.android.deskclock broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{6fd4f3a com.UCMobile startActivity}
+  * PendingIntentRecord{6d2d26b com.android.phone broadcastIntent}
+  * PendingIntentRecord{8da97eb com.android.settings broadcastIntent}
+  * PendingIntentRecord{a1e7948 android broadcastIntent}
+  * PendingIntentRecord{d9dc3e1 com.alibaba.android.rimet broadcastIntent}
+  * PendingIntentRecord{7edd6bb android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{ee12506 com.tencent.mm startService}
+  * PendingIntentRecord{7c8c7c7 com.huawei.android.totemweather startActivity}
+  * PendingIntentRecord{5329b38 android broadcastIntent}
+  * PendingIntentRecord{3430a8b com.tencent.mobileqq startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{619497 com.tencent.mm startService}
+  * PendingIntentRecord{248af16 com.huawei.imonitor startService}
+  * PendingIntentRecord{ad73622 android broadcastIntent}
+  * PendingIntentRecord{288b1f2 com.android.incallui startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{946f536 com.snda.wifilocating broadcastIntent}
+  * PendingIntentRecord{b7ab186 com.android.server.telecom broadcastIntent}
+  * PendingIntentRecord{988dfcb com.huawei.android.chr broadcastIntent}
+  * PendingIntentRecord{c1b672f com.alibaba.android.rimet startService}
+  * PendingIntentRecord{b9e8c9f com.huawei.imonitor startService}
+  * PendingIntentRecord{5b16066 com.huawei.imonitor startService}
+  * PendingIntentRecord{e4e6b09 com.alibaba.android.rimet broadcastIntent}
+  * PendingIntentRecord{14cf810 com.android.mms startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{ddcf5a5 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{c631cf2 com.huawei.imonitor startService}
+  * PendingIntentRecord{acd0390 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{be3040a com.huawei.systemmanager startService}
+  * PendingIntentRecord{20c6e07 com.huawei.systemmanager broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{845e1f4 com.android.calendar startActivity}
+  * PendingIntentRecord{2be67db com.UCMobile broadcastIntent}
+  * PendingIntentRecord{4d00637 com.huawei.bd broadcastIntent}
+  * PendingIntentRecord{751bd1d com.alibaba.android.rimet startService}
+  * PendingIntentRecord{3936d5d com.huawei.systemmanager broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{434d2c0 com.UCMobile startService}
+  * PendingIntentRecord{1113e87 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{3af3499 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{1c900cd com.huawei.android.launcher broadcastIntent}
+  * PendingIntentRecord{20e4524 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{76ca990 android broadcastIntent}
+  * PendingIntentRecord{42fb261 com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{320e333 com.tencent.mm startService}
+  * PendingIntentRecord{6da8b92 com.tencent.qqmusic broadcastIntent}
+  * PendingIntentRecord{218b421 com.autonavi.minimap broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{6801963 com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{1d92960 com.android.settings broadcastIntent}
+  * PendingIntentRecord{e4d14c6 com.huawei.indexsearch.observer broadcastIntent}
+  * PendingIntentRecord{4520e19 android broadcastIntent}
+  * PendingIntentRecord{e7c4c3a android broadcastIntent}
+  * PendingIntentRecord{c700428 com.android.keyguard broadcastIntent}
+  * PendingIntentRecord{b9ec67f com.huawei.imonitor broadcastIntent}
+  * PendingIntentRecord{4753a44 android broadcastIntent}
+  * PendingIntentRecord{11ae584 android broadcastIntent}
+  * PendingIntentRecord{b6994bb com.huawei.android.hwouc broadcastIntent}
+  * PendingIntentRecord{71ccc89 com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{4d0f692 com.huawei.android.totemweather broadcastIntent}
+  * PendingIntentRecord{75397d8 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{750520f com.android.deskclock broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{e25ff14 android broadcastIntent}
+  * PendingIntentRecord{ccdb29c com.android.deskclock startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{791cede android broadcastIntent}
+  * PendingIntentRecord{1b17a17 com.huawei.phoneservice broadcastIntent}
+  * PendingIntentRecord{eadcaaf com.huawei.systemmanager broadcastIntent}
+  * PendingIntentRecord{f3756fd com.huawei.intelligent broadcastIntent}
+  * PendingIntentRecord{2d7b409 com.huawei.systemmanager broadcastIntent}
+  * PendingIntentRecord{cbdaabe com.tencent.mm startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{f7d839a android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{3d0e8bf android startActivity}
+  * PendingIntentRecord{bee214e com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{484d12e com.android.settings startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{b7a426b com.android.server.telecom startActivity}
+  * PendingIntentRecord{9977b8c com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{b376b5a android broadcastIntent}
+  * PendingIntentRecord{981e940 com.huawei.regservice broadcastIntent}
+  * PendingIntentRecord{c3083dc com.huawei.android.hwouc startService}
+  * PendingIntentRecord{d7042a7 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{f365415 com.tencent.mm startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{232c4f5 android startActivity}
+  * PendingIntentRecord{b29a812 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{76c72d5 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{cce10b2 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{9e7faea com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{1bd5977 android broadcastIntent}
+  * PendingIntentRecord{2317b9d android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{d7e1f8 com.snda.wifilocating broadcastIntent}
+  * PendingIntentRecord{9086871 com.android.deskclock broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{13551db com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{da29d28 com.huawei.regservice broadcastIntent}
+  * PendingIntentRecord{9b54a88 com.android.systemui broadcastIntent}
+  * PendingIntentRecord{d06c478 com.tencent.mm startService}
+  * PendingIntentRecord{7573ab4 com.huawei.android.chr broadcastIntent}
+  * PendingIntentRecord{88e6751 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{76a0288 com.autonavi.minimap broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{1c2dbb6 com.huawei.ca broadcastIntent}
+  * PendingIntentRecord{d24cfed com.android.deskclock startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{3a03f66 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{e187031 com.tencent.mm startService}
+  * PendingIntentRecord{928ced9 com.huawei.android.chr startService}
+  * PendingIntentRecord{7fe17f5 com.tencent.mobileqq startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{3ad30b7 com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{b036595 com.huawei.intelligent startService}
+  * PendingIntentRecord{2da66e7 com.huawei.android.hwouc broadcastIntent}
+  * PendingIntentRecord{4d53ad4 com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{832e4e5 com.eg.android.AlipayGphone broadcastIntent}
+  * PendingIntentRecord{a1fb024 com.android.contacts startService}
+  * PendingIntentRecord{701278d com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{4d2de6d com.tencent.mm startService}
+  * PendingIntentRecord{afabb45 com.android.mms broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{a020a0c com.huawei.systemmanager broadcastIntent}
+  * PendingIntentRecord{664cff6 android broadcastIntent}
+  * PendingIntentRecord{998fd42 com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{8ead223 com.huawei.intelligent startService}
+  * PendingIntentRecord{d70fbab com.huawei.appmarket startService}
+  * PendingIntentRecord{143d5aa com.yuanxin.clan broadcastIntent}
+  * PendingIntentRecord{65a2153 com.tencent.mm startActivity}
+  * PendingIntentRecord{5a6629b com.huawei.intelligent startService}
+  * PendingIntentRecord{74e5e08 com.huawei.systemmanager broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{d97b043 com.android.incallui broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{1c09489 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{4937114 com.huawei.intelligent startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{dd46243 android startActivity}
+  * PendingIntentRecord{3b9aa90 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{110b38d com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{b85474f android broadcastIntent}
+  * PendingIntentRecord{2abb261 com.android.server.telecom broadcastIntent}
+  * PendingIntentRecord{568a15f com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{ba100fd com.android.incallui broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{40616d2 com.huawei.systemmanager startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{365af89 android broadcastIntent}
+  * PendingIntentRecord{628dfbc com.android.mms broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{abdab8e com.tencent.mm startService}
+  * PendingIntentRecord{e63439d com.huawei.systemmanager broadcastIntent}
+  * PendingIntentRecord{adb7faf com.huawei.android.totemweather startActivity}
+  * PendingIntentRecord{f213e04 com.android.deskclock broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{a25fc54 com.huawei.imonitor startService}
+  * PendingIntentRecord{65c745 com.tencent.mm broadcastIntent}
+  * PendingIntentRecord{1f5be com.huawei.intelligent broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{ebb54d9 com.huawei.intelligent startService}
+  * PendingIntentRecord{b6dfbc com.tencent.mm startService}
+  * PendingIntentRecord{ccb41ea com.huawei.imonitor broadcastIntent}
+  * PendingIntentRecord{20bd8ec android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{d70bb45 com.huawei.ca broadcastIntent}
+  * PendingIntentRecord{ef543ea com.huawei.android.chr broadcastIntent}
+  * PendingIntentRecord{e6cf29a com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{e2028bd com.tencent.mobileqq broadcastIntent}
+  * PendingIntentRecord{c6e276a android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{e599657 com.snda.wifilocating broadcastIntent}
+  * PendingIntentRecord{a97b625 com.UCMobile startService}
+  * PendingIntentRecord{ef730ee com.huawei.systemmanager startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{36a67cb android broadcastIntent}
+  * PendingIntentRecord{caaf883 android broadcastIntent}
+  * PendingIntentRecord{1f03ba8 android broadcastIntent}
+  * PendingIntentRecord{166c6c1 com.android.contacts startService}
+  * PendingIntentRecord{3979e66 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{f2ae28 android broadcastIntent}
+  * PendingIntentRecord{9a9fe2e android broadcastIntent}
+  * PendingIntentRecord{fafada8 com.huawei.imonitor startService}
+  * PendingIntentRecord{632a9bd com.android.deskclock broadcastIntent}
+  * PendingIntentRecord{ef94c5b android broadcastIntent}
+  * PendingIntentRecord{c519618 com.android.deskclock startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{6d7076 android broadcastIntent}
+  * PendingIntentRecord{29f599f com.huawei.android.totemweather broadcastIntent}
+  * PendingIntentRecord{2b5b5a7 com.huawei.android.launcher broadcastIntent}
+  * PendingIntentRecord{4a1fdf2 com.UCMobile startService}
+  * PendingIntentRecord{ae16a54 com.android.calendar startActivity}
+  * PendingIntentRecord{981b17 com.android.providers.calendar broadcastIntent}
+  * PendingIntentRecord{e54ee22 com.android.deskclock broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{1580dfd com.tencent.mm startService}
+  * PendingIntentRecord{4eb2284 com.huawei.imonitor startService}
+  * PendingIntentRecord{56f3af2 com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{274dabb com.alibaba.android.rimet startService}
+  * PendingIntentRecord{d7e0543 com.tencent.mm startService}
+  * PendingIntentRecord{6fef25c com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{914d7c0 com.huawei.hwid broadcastIntent}
+  * PendingIntentRecord{758e0d1 com.huawei.bd broadcastIntent}
+  * PendingIntentRecord{61c8cf9 com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{8c75248 com.yuanxin.clan startActivity (whitelist: +30s0ms)}
+  * PendingIntentRecord{5821213 com.huawei.intelligent broadcastIntent}
+  * PendingIntentRecord{d0e21f9 android broadcastIntent}
+  * PendingIntentRecord{670d9e0 android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{d5eec com.sohu.inputmethod.sogou broadcastIntent}
+  * PendingIntentRecord{1599111 com.iflytek.speechsuite broadcastIntent}
+  * PendingIntentRecord{eb2143e com.huawei.appmarket broadcastIntent}
+  * PendingIntentRecord{9f1b29f com.android.packageinstaller broadcastIntent}
+  * PendingIntentRecord{9a624cb android.zhibo8 broadcastIntent (whitelist: +30s0ms)}
+  * PendingIntentRecord{d41be09 com.huawei.systemmanager startService}
+  * PendingIntentRecord{30e6d7f com.huawei.intelligent startService}
+  * PendingIntentRecord{64fafec android broadcastIntent}
+
+ACTIVITY MANAGER BROADCAST STATE (dumpsys activity broadcasts)
+  Historical broadcasts [foreground]:
+  #0: BroadcastRecord{7248367 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #1: BroadcastRecord{e751b0c u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #2: BroadcastRecord{e508ee4 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #3: BroadcastRecord{fdb62a5 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x30000010 (has extras)
+    extras: Bundle[{host_connected=false, ncm_requested=false, connected=true, unlocked=false, adb=true, mtp=true, mass_storage=true, configured=true, hisuite=true, only_charging=false}]
+  #4: BroadcastRecord{40fffb5 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x30000010 (has extras)
+    extras: Bundle[{host_connected=false, ncm_requested=false, connected=true, unlocked=false, adb=true, mtp=true, mass_storage=true, configured=true, hisuite=true, only_charging=false}]
+  #5: BroadcastRecord{72e400f u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x30000010 (has extras)
+    extras: Bundle[{host_connected=false, ncm_requested=false, connected=true, unlocked=false, adb=true, mtp=true, mass_storage=true, configured=false, hisuite=true, only_charging=false}]
+  #6: BroadcastRecord{5b7364a u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x30000010 (has extras)
+    extras: Bundle[{host_connected=false, ncm_requested=false, connected=true, unlocked=false, adb=true, mtp=true, mass_storage=true, configured=false, hisuite=true, only_charging=false}]
+  #7: BroadcastRecord{5980570 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #8: BroadcastRecord{997bb84 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #9: BroadcastRecord{d5c9058 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #10: BroadcastRecord{a5e1a9a u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #11: BroadcastRecord{6ed1224 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #12: BroadcastRecord{49a852d u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #13: BroadcastRecord{b2ea0b2 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #14: BroadcastRecord{6a79ee0 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #15: BroadcastRecord{b50f4e3 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #16: BroadcastRecord{974ebe0 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #17: BroadcastRecord{8addf u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #18: BroadcastRecord{fa6f47e u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #19: BroadcastRecord{42d0f39 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #20: BroadcastRecord{2846558 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #21: BroadcastRecord{60e7f56 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #22: BroadcastRecord{900a29d u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #23: BroadcastRecord{96c0de5 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #24: BroadcastRecord{e447e52 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #25: BroadcastRecord{1885757 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #26: BroadcastRecord{4ccbee3 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #27: BroadcastRecord{845712 u0 ScheduleConditionProvider.EVALUATE}
+    act=ScheduleConditionProvider.EVALUATE flg=0x10000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, time=1515549600000, android.intent.extra.ALARM_COUNT=1}]
+  #28: BroadcastRecord{6a4e174 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #29: BroadcastRecord{c5e9427 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #30: BroadcastRecord{aaddcc0 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #31: BroadcastRecord{6301a7c u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #32: BroadcastRecord{6e129c6 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #33: BroadcastRecord{95b56d7 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #34: BroadcastRecord{1b2a67d u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #35: BroadcastRecord{f2d1842 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #36: BroadcastRecord{b08d505 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #37: BroadcastRecord{bd60750 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #38: BroadcastRecord{cd14ae3 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #39: BroadcastRecord{35f89c7 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #40: BroadcastRecord{3232026 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #41: BroadcastRecord{3bc0e92 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #42: BroadcastRecord{b465da7 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #43: BroadcastRecord{51c6ee8 u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #44: BroadcastRecord{cd9057f u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #45: BroadcastRecord{a98765e u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #46: BroadcastRecord{3ff018d u0 android.intent.action.stk.command}
+    act=android.intent.action.stk.command flg=0x14000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=468]
+  #47: BroadcastRecord{4a7bd50 u-1 android.intent.action.TIME_TICK}
+    act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #48: BroadcastRecord{80fd245 u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x30000010 (has extras)
+    extras: Bundle[{host_connected=false, ncm_requested=false, connected=true, unlocked=false, adb=true, mtp=true, mass_storage=true, configured=true, hisuite=true, only_charging=false}]
+  #49: BroadcastRecord{8c8d9bb u-1 android.hardware.usb.action.USB_STATE}
+    act=android.hardware.usb.action.USB_STATE flg=0x30000010 (has extras)
+    extras: Bundle[{host_connected=false, ncm_requested=false, connected=true, unlocked=false, adb=true, mtp=true, mass_storage=true, configured=true, hisuite=true, only_charging=false}]
+  #50: act=android.intent.action.TIME_TICK flg=0x50000014 (has extras)
+    0 dispatch +157ms finish
+    enq=2018-01-10 10:15:00 disp=2018-01-10 10:15:00 fin=2018-01-10 10:15:00
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  ...
+
+  Proxy broadcast [foreground] pkg:[]
+    Default proxy actions :[android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4]
+    APP proxy actions :
+    Same kind actions :
+        android.intent.action.SCREEN_ON <-> android.intent.action.SCREEN_OFF
+    APP drop actions :
+        com.sinovatech.unicom.ui []
+        com.jingdong.app.mall []
+        com.baidu.input_huawei []
+        com.example.android.notepad []
+        com.UCMobile []
+        com.eg.android.AlipayGphone [android.intent.action.CLOSE_SYSTEM_DIALOGS]
+        com.android.gallery3d []
+        com.kingpoint.gmcchh []
+        com.android.browser []
+        com.autonavi.minimap []
+        com.android.mediacenter []
+    Process drop actions :
+    Proxy pkgs broadcast count:
+    Action exclude pkg:
+    MAX_PROXY_BROADCAST:20
+  Proxy Parallel Broadcast:0
+  Proxy Ordered Broadcast:0
+
+  Historical broadcasts [background]:
+  #0: BroadcastRecord{17dded8 u-1 android.net.wifi.RSSI_CHANGED}
+    act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[{newRssi=-65}]
+  #1: BroadcastRecord{f8de231 u-1 android.net.wifi.RSSI_CHANGED}
+    act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[{newRssi=-69}]
+  #2: BroadcastRecord{d3a6d16 u0 android.intent.action.PACKAGE_CHANGED}
+    act=android.intent.action.PACKAGE_CHANGED dat=package:com.alibaba.android.rimet flg=0x44000010 (has extras)
+    extras: Bundle[{android.intent.extra.changed_component_name=com.taobao.accs.ChannelService, android.intent.extra.DONT_KILL_APP=true, android.intent.extra.UID=10399, android.intent.extra.changed_component_name_list=[Ljava.lang.String;@4215697, android.intent.extra.user_handle=0}]
+  #3: BroadcastRecord{a5e1084 u0 com.huawei.appmarket.service.downloadservice.Receiver}
+    act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10
+  #4: BroadcastRecord{d2d706d u0 com.huawei.appmarket.service.downloadservice.Receiver}
+    act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10
+  #5: BroadcastRecord{5e844a2 u0 android.intent.action.PACKAGE_CHANGED}
+    act=android.intent.action.PACKAGE_CHANGED dat=package:com.alibaba.android.rimet flg=0x44000010 (has extras)
+    extras: Bundle[{android.intent.extra.changed_component_name=com.taobao.accs.ChannelService, android.intent.extra.DONT_KILL_APP=true, android.intent.extra.UID=10399, android.intent.extra.changed_component_name_list=[Ljava.lang.String;@1ac533, android.intent.extra.user_handle=0}]
+  #6: BroadcastRecord{bedb0f0 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=270, voltage=3798, invalid_charger=0}]
+  #7: BroadcastRecord{c8456c8 u0 com.huawei.android.push.intent.REGISTRATION}
+    act=com.huawei.android.push.intent.REGISTRATION flg=0x30 pkg=com.huawei.hwid (has extras)
+    extras: Bundle[mParcelledData.dataSize=228]
+  #8: BroadcastRecord{a473221 u0 android.intent.action.PACKAGE_REPLACED}
+    act=android.intent.action.PACKAGE_REPLACED dat=package:com.yuanxin.clan flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10419, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #9: BroadcastRecord{9bda669 u-1 android.location.GPS_ENABLED_CHANGE}
+    act=android.location.GPS_ENABLED_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true, enabled=false}]
+  #10: BroadcastRecord{caa08ee u-1 android.location.HIGH_POWER_REQUEST_CHANGE}
+    act=android.location.HIGH_POWER_REQUEST_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true}]
+  #11: BroadcastRecord{932818f u0 com.huawei.appmarket.service.downloadservice.Receiver}
+    act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10
+  #12: BroadcastRecord{fd57240 u0 android.intent.action.PACKAGE_ADDED}
+    act=android.intent.action.PACKAGE_ADDED dat=package:com.yuanxin.clan flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10419, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #13: BroadcastRecord{194ec1c u0 com.huawei.appmarket.service.downloadservice.Receiver}
+    act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10
+  #14: BroadcastRecord{d594e7d u0 android.intent.action.PACKAGE_REMOVED}
+    act=android.intent.action.PACKAGE_REMOVED dat=package:com.yuanxin.clan flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.REMOVED_FOR_ALL_USERS=false, android.intent.extra.DONT_KILL_APP=false, android.intent.extra.UID=10419, android.intent.extra.DATA_REMOVED=false, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #15: BroadcastRecord{6014025 u0 action_inject_location}
+    act=action_inject_location flg=0x10 (has extras)
+    extras: Bundle[{key_location=Location[local_database 23******,114****** acc=25 et=+10d18h16m18s400ms]}]
+  #16: BroadcastRecord{1b1c5fa u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=270, voltage=3628, invalid_charger=0}]
+  #17: BroadcastRecord{c5fa7ab u0 action_inject_location}
+    act=action_inject_location flg=0x10 (has extras)
+    extras: Bundle[{key_location=Location[local_database 23******,114****** acc=25 et=+10d18h16m16s923ms]}]
+  #18: BroadcastRecord{312ae08 u-1 android.location.HIGH_POWER_REQUEST_CHANGE}
+    act=android.location.HIGH_POWER_REQUEST_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true}]
+  #19: BroadcastRecord{22ab9a1 u-1 android.location.GPS_ENABLED_CHANGE}
+    act=android.location.GPS_ENABLED_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true, enabled=true}]
+  #20: BroadcastRecord{44647c6 u0 action_inject_location}
+    act=action_inject_location flg=0x10 (has extras)
+    extras: Bundle[{key_location=Location[local_database 23******,114****** acc=25 et=+10d18h16m16s582ms]}]
+  #21: BroadcastRecord{4ef1387 u0 action_inject_location}
+    act=action_inject_location flg=0x10 (has extras)
+    extras: Bundle[{key_location=Location[local_database 23******,114****** acc=25 et=+10d18h16m16s487ms]}]
+  #22: BroadcastRecord{328a2b4 u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=128]
+  #23: BroadcastRecord{5184edd u0 action_inject_location}
+    act=action_inject_location flg=0x10 (has extras)
+    extras: Bundle[{key_location=Location[local_database 23******,114****** acc=29 et=+10d18h16m15s742ms]}]
+  #24: BroadcastRecord{f4f1a52 u0 com.huawei.appmarket.service.downloadservice.Receiver}
+    act=com.huawei.appmarket.service.downloadservice.Receiver flg=0x10
+  #25: BroadcastRecord{c1f6123 u0 android.intent.action.PACKAGE_REPLACED}
+    act=android.intent.action.PACKAGE_REPLACED dat=package:com.yuanxin.clan flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10419, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #26: BroadcastRecord{d073620 u0 android.intent.action.PACKAGE_ADDED}
+    act=android.intent.action.PACKAGE_ADDED dat=package:com.yuanxin.clan flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.UID=10419, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #27: BroadcastRecord{b4ffbd9 u0 android.intent.action.PACKAGE_REMOVED}
+    act=android.intent.action.PACKAGE_REMOVED dat=package:com.yuanxin.clan flg=0x4000010 (has extras)
+    extras: Bundle[{android.intent.extra.REMOVED_FOR_ALL_USERS=false, android.intent.extra.DONT_KILL_APP=false, android.intent.extra.UID=10419, android.intent.extra.DATA_REMOVED=false, android.intent.extra.REPLACING=true, android.intent.extra.user_handle=0}]
+  #28: BroadcastRecord{2a0899e u0 com.huawei.android.action.GET_PACKAGE_INSTALLATION_INFO}
+    act=com.huawei.android.action.GET_PACKAGE_INSTALLATION_INFO flg=0x40000010 (has extras)
+    extras: Bundle[{pkgUri=/data/app/vmdl644342202.tmp, pkgMetaHash=2740d0dde014e093cf4930aa88d42e72d20900536efa23b784dc9ec5095f5848, pkgName=com.yuanxin.clan, pkgInstallResult=1, pkgVersionCode=50, pkgVersionName=1.4.0, pkgUpdate=true}]
+  #29: BroadcastRecord{3a5ef31 u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras)
+    extras: Bundle[{resultsUpdated=true}]
+  #30: BroadcastRecord{67cec7f u-1 android.net.wifi.SCAN_RESULTS}
+    act=android.net.wifi.SCAN_RESULTS flg=0x4000010 (has extras)
+    extras: Bundle[{resultsUpdated=true}]
+  #31: BroadcastRecord{c79944c u-1 android.location.GPS_ENABLED_CHANGE}
+    act=android.location.GPS_ENABLED_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true, enabled=false}]
+  #32: BroadcastRecord{9bb7c95 u-1 android.location.HIGH_POWER_REQUEST_CHANGE}
+    act=android.location.HIGH_POWER_REQUEST_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true}]
+  #33: BroadcastRecord{507a1aa u0 action_inject_location}
+    act=action_inject_location flg=0x10 (has extras)
+    extras: Bundle[{key_location=Location[local_database 23******,114****** acc=29 et=+10d18h16m5s193ms]}]
+  #34: BroadcastRecord{afdd19b u-1 android.location.HIGH_POWER_REQUEST_CHANGE}
+    act=android.location.HIGH_POWER_REQUEST_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true}]
+  #35: BroadcastRecord{cd1a938 u-1 android.location.GPS_ENABLED_CHANGE}
+    act=android.location.GPS_ENABLED_CHANGE flg=0x10 (has extras)
+    extras: Bundle[{isFrameworkBroadcast=true, enabled=true}]
+  #36: BroadcastRecord{a434e93 u0 com.huawei.android.push.intent.REGISTRATION}
+    act=com.huawei.android.push.intent.REGISTRATION flg=0x30 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=228]
+  #37: BroadcastRecord{877f36 u0 com.tencent.mobileqq:MSF_59106703}
+    act=com.tencent.mobileqq:MSF_59106703 flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #38: BroadcastRecord{244d11 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=260, voltage=3859, invalid_charger=0}]
+  #39: BroadcastRecord{b162e76 u-1 android.net.wifi.RSSI_CHANGED}
+    act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[{newRssi=-65}]
+  #40: BroadcastRecord{fddec77 u-1 android.net.wifi.RSSI_CHANGED}
+    act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[{newRssi=-70}]
+  #41: BroadcastRecord{a9420e4 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=260, voltage=3871, invalid_charger=0}]
+  #42: BroadcastRecord{76fa94d u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=260, voltage=3863, invalid_charger=0}]
+  #43: BroadcastRecord{c2e7f4d u0 hyphenate.chat.heatbeat.1189170305115989#yuanxinbuluo}
+    act=hyphenate.chat.heatbeat.1189170305115989#yuanxinbuluo flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #44: BroadcastRecord{eaebc02 u-1 android.intent.action.NETWORK_SET_TIMEZONE}
+    act=android.intent.action.NETWORK_SET_TIMEZONE flg=0x20000010 (has extras)
+    extras: Bundle[mParcelledData.dataSize=64]
+  #45: BroadcastRecord{93ad913 u-1 android.net.wifi.RSSI_CHANGED}
+    act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[{newRssi=-63}]
+  #46: BroadcastRecord{3e46750 u-1 android.net.wifi.RSSI_CHANGED}
+    act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    extras: Bundle[{newRssi=-66}]
+  #47: BroadcastRecord{685dd51 u0 com.huawei.android.push.intent.REGISTRATION}
+    act=com.huawei.android.push.intent.REGISTRATION flg=0x30 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=228]
+  #48: BroadcastRecord{79a8d49 u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=260, voltage=3868, invalid_charger=0}]
+  #49: BroadcastRecord{350964e u-1 android.intent.action.BATTERY_CHANGED}
+    act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras)
+    extras: Bundle[{technology=Li-poly, icon-small=17303234, max_charging_voltage=0, health=2, max_charging_current=0, status=2, plugged=2, present=true, charge_counter=0, level=29, scale=100, temperature=260, voltage=3857, invalid_charger=0}]
+  #50: act=android.net.wifi.RSSI_CHANGED flg=0x4000010 (has extras)
+    +2ms dispatch 0 finish
+    enq=2018-01-10 10:15:25 disp=2018-01-10 10:15:25 fin=2018-01-10 10:15:25
+    extras: Bundle[{newRssi=-65}]
+  ...
+
+  Proxy broadcast [background] pkg:[]
+    Default proxy actions :[android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4]
+    APP proxy actions :
+    Same kind actions :
+        android.intent.action.SCREEN_ON <-> android.intent.action.SCREEN_OFF
+    APP drop actions :
+        com.sinovatech.unicom.ui []
+        com.jingdong.app.mall []
+        com.baidu.input_huawei []
+        com.example.android.notepad []
+        com.UCMobile []
+        com.eg.android.AlipayGphone [android.intent.action.CLOSE_SYSTEM_DIALOGS]
+        com.android.gallery3d []
+        com.kingpoint.gmcchh []
+        com.android.browser []
+        com.autonavi.minimap []
+        com.android.mediacenter []
+    Process drop actions :
+    Proxy pkgs broadcast count:
+    Action exclude pkg:
+    MAX_PROXY_BROADCAST:20
+  Proxy Parallel Broadcast:0
+  Proxy Ordered Broadcast:0
+
+  Historical broadcasts [fgthirdapp]:
+  #0: BroadcastRecord{3ffa99e u0 null}
+    flg=0x10000010
+    targetComp: {com.netease.newsreader.activity/com.netease.nimlib.service.ResponseReceiver}
+  #1: flg=0x10000010
+    0 dispatch +552ms finish
+    enq=2018-01-01 20:08:42 disp=2018-01-01 20:08:42 fin=2018-01-01 20:08:42
+
+  Proxy broadcast [fgthirdapp] pkg:[]
+    Default proxy actions :[android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4]
+    APP proxy actions :
+    Same kind actions :
+        android.intent.action.SCREEN_ON <-> android.intent.action.SCREEN_OFF
+    APP drop actions :
+        com.sinovatech.unicom.ui []
+        com.jingdong.app.mall []
+        com.baidu.input_huawei []
+        com.example.android.notepad []
+        com.UCMobile []
+        com.eg.android.AlipayGphone [android.intent.action.CLOSE_SYSTEM_DIALOGS]
+        com.android.gallery3d []
+        com.kingpoint.gmcchh []
+        com.android.browser []
+        com.autonavi.minimap []
+        com.android.mediacenter []
+    Process drop actions :
+    Proxy pkgs broadcast count:
+    Action exclude pkg:
+    MAX_PROXY_BROADCAST:20
+  Proxy Parallel Broadcast:0
+  Proxy Ordered Broadcast:0
+
+  Historical broadcasts [bgthirdapp]:
+  #0: BroadcastRecord{56ff36f u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #1: BroadcastRecord{21942c u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #2: BroadcastRecord{3b0a87c u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #3: BroadcastRecord{5011592 u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #4: BroadcastRecord{175b505 u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #5: BroadcastRecord{d0550aa u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #6: BroadcastRecord{f58deef u0 com.uc.base.rism.ACTION_RECEIVE_MESSAGE}
+    act=com.uc.base.rism.ACTION_RECEIVE_MESSAGE flg=0x10 pkg=com.UCMobile (has extras)
+    extras: Bundle[mParcelledData.dataSize=252]
+  #7: BroadcastRecord{323c95a u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #8: BroadcastRecord{c4e05b7 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #9: BroadcastRecord{332578b u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #10: BroadcastRecord{5b968d1 u0 com.uc.base.rism.ACTION_RECEIVE_MESSAGE}
+    act=com.uc.base.rism.ACTION_RECEIVE_MESSAGE flg=0x10 pkg=com.UCMobile (has extras)
+    extras: Bundle[mParcelledData.dataSize=220]
+  #11: BroadcastRecord{bf9fd8d u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #12: BroadcastRecord{39dd068 u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #13: BroadcastRecord{8219c81 u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #14: BroadcastRecord{c52126 u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #15: BroadcastRecord{8dacd97 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #16: BroadcastRecord{d6ce167 u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #17: BroadcastRecord{b38b14 u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #18: BroadcastRecord{64a7fbd u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #19: BroadcastRecord{7e8a2f8 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #20: BroadcastRecord{9d229b2 u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #21: BroadcastRecord{8dc2d03 u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #22: BroadcastRecord{ec84480 u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #23: BroadcastRecord{2967c2c u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #24: BroadcastRecord{b245ab9 u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #25: BroadcastRecord{906da9d u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #26: BroadcastRecord{aaf3082 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #27: BroadcastRecord{6352efe u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #28: BroadcastRecord{f6a965f u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #29: BroadcastRecord{6ad28ac u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #30: BroadcastRecord{5bd2aa8 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #31: BroadcastRecord{b26e975 u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #32: BroadcastRecord{313d0a u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #33: BroadcastRecord{54c397b u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #34: BroadcastRecord{564c538 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #35: BroadcastRecord{b1a2398 u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #36: BroadcastRecord{89a7f1 u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #37: BroadcastRecord{12e1fd6 u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #38: BroadcastRecord{3daf257 u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #39: BroadcastRecord{d139bcf u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #40: BroadcastRecord{59e144 u0 CALL_STATE_IDLE}
+    act=CALL_STATE_IDLE flg=0x10
+  #41: BroadcastRecord{b560504 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #42: BroadcastRecord{1b7792e u0 com.google.firebase.INSTANCE_ID_EVENT}
+    act=com.google.firebase.INSTANCE_ID_EVENT flg=0x10 (has extras)
+    targetComp: {com.alibaba.android.rimet/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver}
+    extras: Bundle[mParcelledData.dataSize=280]
+  #43: BroadcastRecord{77fd22d u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #44: BroadcastRecord{f446362 u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #45: BroadcastRecord{6325cf3 u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #46: BroadcastRecord{95b7a86 u0 wifi.intent.action.INTERNET_ACCESS_ENABLED}
+    act=wifi.intent.action.INTERNET_ACCESS_ENABLED flg=0x10
+  #47: BroadcastRecord{2b5cdb0 u0 com.lantern.wifilocating.push.action.TRANSFER}
+    act=com.lantern.wifilocating.push.action.TRANSFER flg=0x10 pkg=com.snda.wifilocating (has extras)
+    extras: Bundle[mParcelledData.dataSize=288]
+  #48: BroadcastRecord{2346429 u0 com.lantern.wifilocating.push.action.THIRDSTART}
+    act=com.lantern.wifilocating.push.action.THIRDSTART flg=0x10 (has extras)
+    extras: Bundle[mParcelledData.dataSize=116]
+  #49: BroadcastRecord{78953ae u0 com.huawei.android.push.intent.REGISTER}
+    act=com.huawei.android.push.intent.REGISTER flg=0x30 pkg=android (has extras)
+    extras: Bundle[mParcelledData.dataSize=112]
+  #50: act=CALL_STATE_IDLE flg=0x10
+    +1ms dispatch 0 finish
+    enq=2018-01-10 10:15:06 disp=2018-01-10 10:15:06 fin=2018-01-10 10:15:06
+  ...
+
+  Proxy broadcast [bgthirdapp] pkg:[]
+    Default proxy actions :[android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4]
+    APP proxy actions :
+    Same kind actions :
+        android.intent.action.SCREEN_ON <-> android.intent.action.SCREEN_OFF
+    APP drop actions :
+        com.sinovatech.unicom.ui []
+        com.jingdong.app.mall []
+        com.baidu.input_huawei []
+        com.example.android.notepad []
+        com.UCMobile []
+        com.eg.android.AlipayGphone [android.intent.action.CLOSE_SYSTEM_DIALOGS]
+        com.android.gallery3d []
+        com.kingpoint.gmcchh []
+        com.android.browser []
+        com.autonavi.minimap []
+        com.android.mediacenter []
+    Process drop actions :
+    Proxy pkgs broadcast count:
+    Action exclude pkg:
+    MAX_PROXY_BROADCAST:20
+  Proxy Parallel Broadcast:0
+  Proxy Ordered Broadcast:0
+
+  Historical broadcasts [fgkeyapp]:
+  #0: BroadcastRecord{36c2e0 u0 com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL}
+    act=com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL flg=0x10000010 bnds=[270,258][504,366]
+    targetComp: {com.android.incallui/com.android.incallui.NotificationBroadcastReceiver}
+  #1: BroadcastRecord{89e0e8e u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=400]
+  #2: BroadcastRecord{26230f2 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #3: BroadcastRecord{8728195 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #4: BroadcastRecord{2a9f8b5 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #5: BroadcastRecord{4d845f4 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=562}]
+  #6: BroadcastRecord{c945bf7 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #7: BroadcastRecord{aa9a862 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #8: BroadcastRecord{c688afb u0 com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL}
+    act=com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL flg=0x10000010 bnds=[270,258][504,366]
+    targetComp: {com.android.incallui/com.android.incallui.NotificationBroadcastReceiver}
+  #9: BroadcastRecord{48a4d0f u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=400]
+  #10: BroadcastRecord{28532da u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #11: BroadcastRecord{c2f7a62 u0 cancel_snooze}
+    act=cancel_snooze flg=0x10000010 bnds=[24,738][174,846] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #12: BroadcastRecord{c6be04d u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #13: BroadcastRecord{ed92bfc u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #14: BroadcastRecord{36b722d u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #15: BroadcastRecord{f22009b u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #16: BroadcastRecord{df66846 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=562}]
+  #17: BroadcastRecord{ea33555 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #18: BroadcastRecord{e558472 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=4008117799}]
+  #19: BroadcastRecord{409525b u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=4008117799}]
+  #20: BroadcastRecord{d5aafc1 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=400117799}]
+  #21: BroadcastRecord{cdeac3d u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #22: BroadcastRecord{7d8a1d5 u0 com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL}
+    act=com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL flg=0x10000010 bnds=[270,258][504,366]
+    targetComp: {com.android.incallui/com.android.incallui.NotificationBroadcastReceiver}
+  #23: BroadcastRecord{d28e7f2 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #24: BroadcastRecord{ad0903c u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #25: BroadcastRecord{af6af52 u0 com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL}
+    act=com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL flg=0x10000010 bnds=[270,258][504,366]
+    targetComp: {com.android.incallui/com.android.incallui.NotificationBroadcastReceiver}
+  #26: BroadcastRecord{3e06fbc u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=560}]
+  #27: BroadcastRecord{e670169 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=13728250759}]
+  #28: BroadcastRecord{253daaa u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=13543540264}]
+  #29: BroadcastRecord{4985b7f u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=13686058977}]
+  #30: BroadcastRecord{506ce89 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=13728250759}]
+  #31: BroadcastRecord{2586ea7 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=400]
+  #32: BroadcastRecord{40297c1 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=400]
+  #33: BroadcastRecord{22accc5 u0 headup_close}
+    act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #34: BroadcastRecord{e7899f5 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=561}]
+  #35: BroadcastRecord{20edb4 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=551}]
+  #36: BroadcastRecord{daa15b0 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=563}]
+  #37: BroadcastRecord{625240e u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=15907593001}]
+  #38: BroadcastRecord{17335fb u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=561}]
+  #39: BroadcastRecord{92139a4 u0 cancel_snooze}
+    act=cancel_snooze flg=0x10000010 bnds=[24,738][174,846] (has extras)
+    targetComp: {com.android.deskclock/com.android.deskclock.AlarmReceiver}
+    extras: Bundle[mParcelledData.dataSize=328]
+  #40: BroadcastRecord{a44634d u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=561}]
+  #41: BroadcastRecord{e5b26c8 u0 android.intent.action.NEW_OUTGOING_CALL}
+    act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    extras: Bundle[{android.intent.extra.PHONE_NUMBER=562}]
+  #42: act=com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL flg=0x10000010 bnds=[270,258][504,366]
+    0 dispatch +45ms finish
+    enq=2018-01-09 19:58:35 disp=2018-01-09 19:58:35 fin=2018-01-09 19:58:35
+  #43: act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    0 dispatch +21ms finish
+    enq=2018-01-09 13:34:02 disp=2018-01-09 13:34:02 fin=2018-01-09 13:34:02
+    extras: Bundle[mParcelledData.dataSize=400]
+  #44: act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    0 dispatch +25ms finish
+    enq=2018-01-09 08:10:03 disp=2018-01-09 08:10:03 fin=2018-01-09 08:10:03
+    extras: Bundle[mParcelledData.dataSize=328]
+  #45: act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    0 dispatch +35ms finish
+    enq=2018-01-09 07:35:02 disp=2018-01-09 07:35:02 fin=2018-01-09 07:35:02
+    extras: Bundle[mParcelledData.dataSize=328]
+  #46: act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    0 dispatch +13ms finish
+    enq=2018-01-08 21:19:23 disp=2018-01-08 21:19:23 fin=2018-01-08 21:19:23
+  #47: act=android.intent.action.NEW_OUTGOING_CALL flg=0x10000010 (has extras)
+    +1ms dispatch +94ms finish
+    enq=2018-01-08 21:00:53 disp=2018-01-08 21:00:53 fin=2018-01-08 21:00:53
+  #48: act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    0 dispatch +44ms finish
+    enq=2018-01-08 08:10:03 disp=2018-01-08 08:10:03 fin=2018-01-08 08:10:03
+    extras: Bundle[mParcelledData.dataSize=328]
+  #49: act=headup_close flg=0x10000010 bnds=[24,251][174,359] (has extras)
+    0 dispatch +27ms finish
+    enq=2018-01-08 07:58:53 disp=2018-01-08 07:58:53 fin=2018-01-08 07:58:53
+    extras: Bundle[mParcelledData.dataSize=328]
+  #50: act=com.android.incallui.ACTION_ANSWER_VOICE_INCOMING_CALL flg=0x10000010 bnds=[270,258][504,366]
+    0 dispatch +33ms finish
+    enq=2018-01-07 09:12:38 disp=2018-01-07 09:12:38 fin=2018-01-07 09:12:38
+  ...
+
+  Proxy broadcast [fgkeyapp] pkg:[]
+    Default proxy actions :[android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4]
+    APP proxy actions :
+    Same kind actions :
+        android.intent.action.SCREEN_ON <-> android.intent.action.SCREEN_OFF
+    APP drop actions :
+        com.sinovatech.unicom.ui []
+        com.jingdong.app.mall []
+        com.baidu.input_huawei []
+        com.example.android.notepad []
+        com.UCMobile []
+        com.eg.android.AlipayGphone [android.intent.action.CLOSE_SYSTEM_DIALOGS]
+        com.android.gallery3d []
+        com.kingpoint.gmcchh []
+        com.android.browser []
+        com.autonavi.minimap []
+        com.android.mediacenter []
+    Process drop actions :
+    Proxy pkgs broadcast count:
+    Action exclude pkg:
+    MAX_PROXY_BROADCAST:20
+  Proxy Parallel Broadcast:0
+  Proxy Ordered Broadcast:0
+
+  Historical broadcasts [bgkeyapp]:
+  #0: BroadcastRecord{c254aff u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #1: BroadcastRecord{82c9a62 u0 ALARM_ACTION(14718)}
+    act=ALARM_ACTION(14718) flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, ID=1933, PID=14718, android.intent.extra.ALARM_COUNT=1}]
+  #2: BroadcastRecord{c782826 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=1448]
+  #3: BroadcastRecord{57d121 u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #4: BroadcastRecord{aef7388 u0 null}
+    flg=0x14 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.MMReceivers$AlarmReceiver}
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #5: BroadcastRecord{40d59e7 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=7168]
+  #6: BroadcastRecord{e8b3ae2 u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #7: BroadcastRecord{c4b0d1e u0 ALARM_ACTION(14718)}
+    act=ALARM_ACTION(14718) flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, ID=1930, PID=14718, android.intent.extra.ALARM_COUNT=1}]
+  #8: BroadcastRecord{7221235 u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #9: BroadcastRecord{bd56c48 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=1176]
+  #10: BroadcastRecord{96ef913 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=1452]
+  #11: BroadcastRecord{1b10afa u0 null}
+    flg=0x14 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.MMReceivers$AlarmReceiver}
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #12: BroadcastRecord{70e7925 u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #13: BroadcastRecord{1d767bd u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=2704]
+  #14: BroadcastRecord{e5e4a31 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #15: BroadcastRecord{7fd5c3e u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #16: BroadcastRecord{3e7f4f9 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=5004]
+  #17: BroadcastRecord{4af4201 u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #18: BroadcastRecord{c2cfec3 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=2264]
+  #19: BroadcastRecord{b06f336 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #20: BroadcastRecord{7152f0c u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=2348]
+  #21: BroadcastRecord{1af3a3f u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=7488]
+  #22: BroadcastRecord{4c7b677 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #23: BroadcastRecord{87a564c u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=668]
+  #24: BroadcastRecord{6df767f u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #25: BroadcastRecord{4005bd3 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=588]
+  #26: BroadcastRecord{23a6977 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=652]
+  #27: BroadcastRecord{1f1e267 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=588]
+  #28: BroadcastRecord{2327258 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=588]
+  #29: BroadcastRecord{aed8b3b u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=588]
+  #30: BroadcastRecord{ab12629 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=652]
+  #31: BroadcastRecord{a85f743 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=3276]
+  #32: BroadcastRecord{6e57027 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=716]
+  #33: BroadcastRecord{11fb2e6 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #34: BroadcastRecord{3685d41 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=288]
+  #35: BroadcastRecord{cab499 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=588]
+  #36: BroadcastRecord{4856f7f u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=652]
+  #37: BroadcastRecord{d454dbf u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #38: BroadcastRecord{cbae27d u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=588]
+  #39: BroadcastRecord{dd0fb76 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=5660]
+  #40: BroadcastRecord{8c28a2a u0 ALARM_ACTION(14718)}
+    act=ALARM_ACTION(14718) flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, ID=1911, PID=14718, android.intent.extra.ALARM_COUNT=1}]
+  #41: BroadcastRecord{ff407ad u0 com.tencent.mm.TrafficStatsReceiver}
+    act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #42: BroadcastRecord{ccf7cc4 u0 null}
+    flg=0x14 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.MMReceivers$AlarmReceiver}
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  #43: BroadcastRecord{d79010d u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=928]
+  #44: BroadcastRecord{33a8d1 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=636]
+  #45: BroadcastRecord{1be7738 u0 null}
+    flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.booter.NotifyReceiver}
+    extras: Bundle[mParcelledData.dataSize=2268]
+  #46: BroadcastRecord{f27e52c u0 ALARM_ACTION(14718)}
+    act=ALARM_ACTION(14718) flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, ID=1901, PID=14718, android.intent.extra.ALARM_COUNT=1}]
+  #47: BroadcastRecord{b6074df u0 ALARM_ACTION(18433)}
+    act=ALARM_ACTION(18433) flg=0x14 (has extras)
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, ID=161, PID=18433, android.intent.extra.ALARM_COUNT=1}]
+  #48: BroadcastRecord{bf5777e u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=1160]
+  #49: BroadcastRecord{ef83900 u0 com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    act=com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver flg=0x10 (has extras)
+    targetComp: {com.tencent.mm/com.tencent.mm.plugin.report.service.KVCommCrossProcessReceiver}
+    extras: Bundle[mParcelledData.dataSize=1168]
+  #50: act=com.tencent.mm.TrafficStatsReceiver flg=0x14 (has extras)
+    0 dispatch +34ms finish
+    enq=2018-01-10 10:13:28 disp=2018-01-10 10:13:28 fin=2018-01-10 10:13:28
+    extras: Bundle[{FLAG_IS_FIRST_POWER_OFF_ALARM=false, android.intent.extra.ALARM_COUNT=1}]
+  ...
+
+  Proxy broadcast [bgkeyapp] pkg:[]
+    Default proxy actions :[android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4]
+    APP proxy actions :
+    Same kind actions :
+        android.intent.action.SCREEN_ON <-> android.intent.action.SCREEN_OFF
+    APP drop actions :
+        com.sinovatech.unicom.ui []
+        com.jingdong.app.mall []
+        com.baidu.input_huawei []
+        com.example.android.notepad []
+        com.UCMobile []
+        com.eg.android.AlipayGphone [android.intent.action.CLOSE_SYSTEM_DIALOGS]
+        com.android.gallery3d []
+        com.kingpoint.gmcchh []
+        com.android.browser []
+        com.autonavi.minimap []
+        com.android.mediacenter []
+    Process drop actions :
+    Proxy pkgs broadcast count:
+    Action exclude pkg:
+    MAX_PROXY_BROADCAST:20
+  Proxy Parallel Broadcast:0
+  Proxy Ordered Broadcast:0
+
+  Sticky broadcasts for user -1:
+  * Sticky action android.intent.action.SERVICE_STATE
+  * Sticky action com.huawei.vsim.action.VSIM_SERVICE_READY
+  * Sticky action android.net.wifi.WIFI_STATE_CHANGED
+  * Sticky action android.net.wifi.p2p.CONNECTION_STATE_CHANGE
+  * Sticky action android.net.conn.TETHER_STATE_CHANGED
+  * Sticky action android.media.ACTION_SCO_AUDIO_STATE_UPDATED
+  * Sticky action android.intent.action.HEADSET_PLUG
+  * Sticky action android.intent.action.NETWORK_SET_TIME
+  * Sticky action android.net.wifi.p2p.THIS_DEVICE_CHANGED
+  * Sticky action android.intent.action.BATTERY_CHANGED
+  * Sticky action android.provider.Telephony.SPN_STRINGS_UPDATED_VSIM
+  * Sticky action android.intent.action.ACTION_SUBSCRIPTION_SET_UICC_RESULT
+  * Sticky action android.intent.action.ACTION_DSDS_SUB2_OPERATOR_CHANGED
+  * Sticky action android.intent.action.NETWORK_SET_TIMEZONE
+  * Sticky action android.net.conn.CONNECTIVITY_CHANGE
+  * Sticky action android.telephony.action.CARRIER_CONFIG_CHANGED
+  * Sticky action android.intent.action.VSIM_STATE_CHANGED
+  * Sticky action android.intent.action.ANY_DATA_STATE
+  * Sticky action android.intent.action.TWILIGHT_CHANGED
+  * Sticky action android.provider.Telephony.SPN_STRINGS_UPDATED
+  * Sticky action android.net.nsd.STATE_CHANGED
+  * Sticky action android.hardware.usb.action.USB_STATE
+  * Sticky action android.net.wifi.RSSI_CHANGED
+  * Sticky action android.net.wifi.STATE_CHANGE
+  * Sticky action android.intent.action.ACTION_SUBINFO_RECORD_UPDATED
+  * Sticky action android.intent.action.SIM_STATE_CHANGED
+  * Sticky action android.intent.action.ACTION_DSDS_SUB1_OPERATOR_CHANGED
+  * Sticky action android.intent.action.SIG_STR
+  * Sticky action android.intent.action.ACTION_DEFAULT_DATA_SUBSCRIPTION_CHANGED
+  * Sticky action android.net.wifi.LTEDATA_COMPLETED_ACTION
+  * Sticky action android.media.INTERNAL_RINGER_MODE_CHANGED_ACTION
+  * Sticky action android.net.wifi.supplicant.STATE_CHANGE
+  * Sticky action android.net.wifi.p2p.PERSISTENT_GROUPS_CHANGED
+  * Sticky action android.net.conn.INET_CONDITION_ACTION
+  * Sticky action android.media.SCO_AUDIO_STATE_CHANGED
+  * Sticky action android.os.UpdateLock.UPDATE_LOCK_CHANGED
+  * Sticky action android.media.MASTER_MUTE_CHANGED_ACTION
+  * Sticky action wifi_scan_available
+  * Sticky action imcs.action.HEADSET_PLUG
+  * Sticky action android.net.wifi.p2p.STATE_CHANGED
+  * Sticky action android.intent.action.HDMI_PLUGGED
+  * Sticky action android.media.RINGER_MODE_CHANGED
+
+  Sticky broadcasts for user 0:
+  * Sticky action com.tencent.qqmusic.ACTION_AUDIO_ROUTE_CHANGED.QQMusicPhone
+  * Sticky action android.intent.action.ACTION_SIM_RECORDS_READY
+  * Sticky action com.android.huawei.Second_Sim_Intent_Loaded
+  * Sticky action com.android.huawei.First_Sim_Intent_Loaded
+  * Sticky action com.android.huawei.Second_Sim_Handling_Started
+  * Sticky action android.intent.action.ACTION_SET_GLOBAL_AUTO_PARAM_DONE
+  * Sticky action com.android.huawei.First_Sim_Handling_Started
+
+ACTIVITY MANAGER CONTENT PROVIDERS (dumpsys activity providers)
+  Published single-user content providers (by class):
+  * ContentProviderRecord{38bd54f u0 euid:0 com.android.providers.telephony/.TelephonyProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    singleton=true
+    authority=telephony
+  * ContentProviderRecord{7a214dc u0 euid:0 com.android.providers.settings/.SettingsProvider}
+    proc=ProcessRecord{98717ec 0:system/1000}
+    singleton=true
+    authority=settings
+    37 connections, 0 external handles
+      -> 1509:com.android.systemui/u0a27 s1/1 u0/0 +10d18h16m26s278ms
+      -> 1490:com.huawei.securitymgr/1000 s1/1 u0/0 +10d18h16m26s149ms
+      -> 1592:com.huawei.systemmanager:service/1000 s1/1 u0/0 +10d18h16m25s503ms
+      -> 1860:com.huawei.android.chr/1000 s1/1 u0/0 +10d18h16m24s636ms
+      -> 1934:android.process.acore/u0a3 s1/1 u0/0 +10d18h16m24s512ms
+      -> 1873:com.huawei.powergenie/1000 s1/1 u0/0 +10d18h16m24s480ms
+      -> 1901:com.android.phone/1001 s1/1 u0/0 +10d18h16m24s345ms
+      -> 2287:com.huawei.imonitor/1000 s1/1 u0/0 +10d18h16m21s316ms
+      -> 2346:com.sohu.inputmethod.sogou/u0a81 s1/1 u0/0 +10d18h16m20s761ms
+      -> 2424:com.huawei.geofence/1000 s1/1 u0/0 +10d18h16m20s620ms
+      -> 2463:com.huawei.android.launcher/u0a49 s1/1 u0/0 +10d18h16m20s334ms
+      -> 2446:com.amap.android.ams/u0a2 s1/1 u0/0 +10d18h16m20s277ms
+      -> 2333:com.android.incallui/1001 s1/1 u0/0 +10d18h16m17s504ms
+      -> 2823:android.process.media/u0a4 s1/1 u0/0 +10d18h16m15s3ms
+      -> 3329:com.android.mms/u0a30 s1/1 u0/0 +10d18h16m13s145ms
+      -> 1888:com.huawei.ihealth/u0a106 s1/1 u0/0 +10d18h16m10s309ms
+      -> 18433:com.tencent.mm/u0a96 s1/1 u0/0 +2d15h31m42s117ms
+      -> 14718:com.tencent.mm:push/u0a96 s1/1 u0/0 +1d11h55m9s791ms
+      -> 31177:com.android.contacts/u0a3 s1/1 u0/0 +1d10h29m54s33ms
+      -> 13005:com.tencent.mm:exdevice/u0a96 s1/1 u0/0 +11h7m24s644ms
+      -> 22767:com.eg.android.AlipayGphone/u0a357 s1/1 u0/0 +10h16m42s555ms
+      -> 624:com.tencent.mm:support/u0a96 s1/1 u0/0 +8h54m41s220ms
+      -> 30186:com.tencent.mobileqq:MSF/u0a97 s1/1 u0/0 +1h1m27s375ms
+      -> 30230:com.tencent.mobileqq/u0a97 s1/1 u0/0 +1h1m25s550ms
+      -> 30838:com.eg.android.AlipayGphone:push/u0a357 s1/1 u0/0 +1h1m9s953ms
+      -> 5078:com.tencent.mm:tools/u0a96 s1/1 u0/0 +50m28s465ms
+      -> 18019:com.huawei.android.hwouc/u0a51 s1/1 u0/0 +35m58s293ms
+      -> 31161:com.android.packageinstaller/u0a23 s1/1 u0/0 +18m41s548ms
+      -> 31666:com.UCMobile:channel/u0a89 s1/1 u0/0 +17m24s683ms
+      -> 32700:com.UCMobile:push/u0a89 s1/1 u0/0 +16m10s992ms
+      -> 2105:com.UCMobile:SearchBackgroundProcess/u0a89 s1/1 u0/0 +13m9s103ms
+      -> 7516:com.yuanxin.clan/u0a419 s1/1 u0/0 +41s211ms
+      -> 7715:com.yuanxin.clan:remote/u0a419 s1/1 u0/0 +40s499ms
+      -> 8028:com.yuanxin.clan:pushcore/u0a419 s1/1 u0/0 +38s624ms
+      -> 8852:com.alibaba.android.rimet:tools/u0a399 s1/1 u0/0 +20s530ms
+      -> 8871:com.alibaba.android.rimet/u0a399 s1/1 u0/0 +20s133ms
+      -> 9053:com.alibaba.android.rimet:channel/u0a399 s1/1 u0/0 +17s786ms
+  * ContentProviderRecord{8619e5 u0 euid:0 com.android.providers.telephony/.HbpcdLookupProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    singleton=true
+    authority=hbpcd_lookup
+  * ContentProviderRecord{11afcba u0 euid:0 com.android.providers.settings/.TimingTaskContentProvider}
+    proc=ProcessRecord{98717ec 0:system/1000}
+    singleton=true
+    authority=com.android.providers.settings.timingtaskprovider
+  * ContentProviderRecord{35a776b u0 euid:0 com.huawei.powergenie/.core.policy.PolicyProvider}
+    proc=ProcessRecord{16c7450 1873:com.huawei.powergenie/1000}
+    singleton=true
+    authority=com.huawei.powergenie
+  * ContentProviderRecord{5a9a2c8 u0 euid:0 com.android.providers.telephony/.FavoritesProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    singleton=true
+    authority=fav-mms
+  * ContentProviderRecord{7836f61 u0 euid:0 com.android.providers.telephony/.SmsProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    singleton=true
+    authority=sms
+  * ContentProviderRecord{4ec2a86 u0 euid:0 android/com.android.server.am.DumpHeapProvider}
+    proc=ProcessRecord{98717ec 0:system/1000}
+    singleton=true
+    authority=com.android.server.heapdump
+  * ContentProviderRecord{7271f47 u0 euid:0 com.huawei.powergenie/.core.policy.IntelligentProvider}
+    proc=ProcessRecord{16c7450 1873:com.huawei.powergenie/1000}
+    singleton=true
+    authority=com.huawei.powergenie.stats
+  * ContentProviderRecord{f1a2374 u0 euid:0 com.android.providers.settings/.HwSettingsBackupProvider}
+    proc=ProcessRecord{98717ec 0:system/1000}
+    singleton=true
+    authority=com.huawei.android.backup.settings
+  * ContentProviderRecord{4a6a09d u0 euid:0 com.android.providers.telephony/.MmsProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    singleton=true
+    authority=mms
+  * ContentProviderRecord{6506912 u0 euid:0 com.android.providers.telephony/.MmsSmsProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    singleton=true
+    authority=mms-sms
+    1 connections, 0 external handles
+      -> 3329:com.android.mms/u0a30 s1/1 u0/14232 +10d18h16m11s489ms
+
+  Published user 0 content providers (by class):
+  * ContentProviderRecord{62c68e3 u0 euid:0 com.huawei.systemmanager/.optimize.smcs.SMCSProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=smcs
+    1 connections, 0 external handles
+      -> 1873:com.huawei.powergenie/1000 s1/1 u0/43 +10d18h16m24s477ms
+  * ContentProviderRecord{b7002e0 u0 euid:0 com.android.mms/.attachment.datamodel.MmsFileProvider}
+    proc=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    authority=com.android.mms.attachment.camera.data.MmsFileProvider
+  * ContentProviderRecord{8d1a999 u0 euid:0 com.huawei.systemmanager/.push.PushFileProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.push.provider
+  * ContentProviderRecord{848045e u0 euid:0 com.huawei.android.launcher/.settingsearch.LsSearchIndexablesProvider}
+    proc=ProcessRecord{7872656 2463:com.huawei.android.launcher/u0a49}
+    authority=com.huawei.android.launcher
+  * ContentProviderRecord{6b2b03f u0 euid:0 com.android.contacts/com.huawei.csp.CspPrefsProvider}
+    proc=ProcessRecord{143ea31 31177:com.android.contacts/u0a3}
+    authority=csp-prefs-cfg
+  * ContentProviderRecord{b826d0c u0 euid:0 com.tencent.mm/.plugin.base.stub.WXCommProvider}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.sdk.comm.provider
+  * ContentProviderRecord{70a4655 u0 euid:0 com.eg.android.AlipayGphone/com.alipay.android.phone.mobilesdk.permission.guide.provider.DataProvider}
+    proc=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    authority=com.eg.android.AlipayGphone.PermissionProvider
+  * ContentProviderRecord{b8c086a u0 euid:0 com.huawei.systemmanager/.applock.datacenter.AppLockProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.applockprovider
+  * ContentProviderRecord{12c115b u0 euid:0 com.huawei.ca/.provider.CaContentProvider}
+    proc=ProcessRecord{c54002a 2424:com.huawei.geofence/1000}
+    authority=com.huawei.ca
+  * ContentProviderRecord{46f4df8 u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderEntry}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.entry
+  * ContentProviderRecord{2f5f2d1 u0 euid:0 com.huawei.systemmanager/.backup.BackupModuleProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.BackupModuleProvider
+  * ContentProviderRecord{15a4136 u0 euid:0 com.tencent.mm/.plugin.gwallet.GWalletQueryProvider}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.gwallet.queryprovider
+  * ContentProviderRecord{9106837 u0 euid:0 com.amap.android.ams/com.amap.location.flp.historicaltrack.database.HisContentProvider}
+    proc=ProcessRecord{784c7da 2446:com.amap.android.ams/u0a2}
+    authority=com.amap.android.ams.historicaltrack.HisContentProvider
+  * ContentProviderRecord{d4751a4 u0 euid:0 com.android.providers.downloads/.DownloadProvider}
+    proc=ProcessRecord{58aaf 2823:android.process.media/u0a4}
+    authority=downloads
+  * ContentProviderRecord{b15eb0d u0 euid:0 com.tencent.mobileqq/cooperation.readinjoy.content.ReadInJoyDataProvider}
+    proc=ProcessRecord{9600771 30230:com.tencent.mobileqq/u0a97}
+    authority=qq.readinjoy
+  * ContentProviderRecord{e0f6961 u0 euid:0 com.android.providers.contacts/.CallLogProvider}
+    proc=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    launchingApp=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    authority=call_log
+  * ContentProviderRecord{f013ac2 u0 euid:0 com.huawei.systemmanager/.startupmgr.db.StartupProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.startupprovider
+  * ContentProviderRecord{77950d3 u0 euid:0 com.tencent.mobileqq/com.tencent.common.config.provider.QZoneConfigProvider}
+    proc=ProcessRecord{9600771 30230:com.tencent.mobileqq/u0a97}
+    authority=com.tencent.common.config.provider.QZoneConfigProvider
+  * ContentProviderRecord{b79e410 u0 euid:0 com.tencent.mm/.lib.riskscanner.RiskScannerReqBufferProvider}
+    proc=ProcessRecord{fe37e66 5078:com.tencent.mm:tools/u0a96}
+    authority=com.tencent.mm.lib.riskscanner.RiskScannerReqBufferProvider
+  * ContentProviderRecord{ac32b09 u0 euid:0 com.eg.android.AlipayGphone/com.alipay.mobile.nebulabiz.afw.AFWSharedProvider}
+    proc=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    authority=com.alipay.afwshared
+  * ContentProviderRecord{e2c410e u0 euid:0 com.android.mms/.provider.MmsBackupContentProvider}
+    proc=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    authority=com.android.mms.backup
+  * ContentProviderRecord{37e272f u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderNearBy}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.NearBy
+  * ContentProviderRecord{a01313c u0 euid:0 com.huawei.motionservice/com.huawei.motionsettings.search.DsSearchIndexablesProvider}
+    proc=ProcessRecord{c7e1649 1888:com.huawei.ihealth/u0a106}
+    authority=com.huawei.motionservice
+  * ContentProviderRecord{fea6ec5 u0 euid:0 com.huawei.android.hwaps/.ApsProvider}
+    proc=ProcessRecord{16c7450 1873:com.huawei.powergenie/1000}
+    authority=com.huawei.android.hwaps.ApsProvider
+  * ContentProviderRecord{5ef601a u0 euid:0 com.android.calendar/.CalendarRecentSuggestionsProvider}
+    proc=ProcessRecord{a483f9 18297:com.android.calendar/u0a9}
+    authority=com.android.calendar.CalendarRecentSuggestionsProvider
+  * ContentProviderRecord{450074b u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSNS}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.SNS
+  * ContentProviderRecord{74e2528 u0 euid:0 com.huawei.systemmanager/com.huawei.permissionmanager.db.PermissionDataProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.permissionmanager.provider.PermissionDataProvider
+  * ContentProviderRecord{e3048 u0 euid:0 com.huawei.android.totemweather/.provider.WeatherProvider}
+    proc=ProcessRecord{c6acaeb 30269:com.huawei.android.totemweather/u0a25}
+    launchingApp=ProcessRecord{c6acaeb 30269:com.huawei.android.totemweather/u0a25}
+    authority=com.huawei.android.weather
+  * ContentProviderRecord{883241 u0 euid:0 com.tencent.mm/.plugin.emoji.provider.EmotionContentProvider}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.storage.provider.emotion
+  * ContentProviderRecord{89363e6 u0 euid:0 com.android.mms/.SuggestionsProvider}
+    proc=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    authority=com.android.mms.SuggestionsProvider
+  * ContentProviderRecord{915cd27 u0 euid:0 com.UCMobile/com.uc.base.syssync.SyncProvider}
+    proc=ProcessRecord{365dc40 32700:com.UCMobile:push/u0a89}
+    authority=com.UCMobile.syssync
+  * ContentProviderRecord{5f46bd4 u0 euid:0 com.huawei.android.hwouc/.search.HwOUCSearchIndexablesProvider}
+    proc=ProcessRecord{3c7a750 18019:com.huawei.android.hwouc/u0a51}
+    authority=com.huawei.android.hwouc
+  * ContentProviderRecord{be4b17d u0 euid:0 com.huawei.systemmanager/com.huawei.notificationmanager.db.DBProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.NotificationDBProvider
+  * ContentProviderRecord{221d872 u0 euid:0 com.huawei.systemmanager/com.huawei.netassistant.db.NetAssistantProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.NetAssistantProvider
+  * ContentProviderRecord{28814c3 u0 euid:0 com.android.stk/.StkContentProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    authority=com.android.stk.stkcontentprovider
+  * ContentProviderRecord{c167140 u0 euid:0 com.android.mms/.attachment.datamodel.MediaScratchFileProvider}
+    proc=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    authority=com.android.mms.attachment.camera.data.MediaScratchFileProvider
+  * ContentProviderRecord{38fe879 u0 euid:0 com.huawei.systemmanager/.netassistant.db.traffic.TrafficDBProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.netassistant.db.traffic.TrafficDBProvider
+  * ContentProviderRecord{3b109be u0 euid:0 com.android.contacts/android.support.v4.content.FileProvider}
+    proc=ProcessRecord{143ea31 31177:com.android.contacts/u0a3}
+    authority=com.android.contacts.files
+  * ContentProviderRecord{a4d3a1f u0 euid:0 com.android.systemui/.recents.HwRecentsLockProdiver}
+    proc=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    authority=com.android.systemui.recent.HwRecentsLockProdiver
+  * ContentProviderRecord{d91616c u0 euid:0 com.huawei.iaware/.IAwareContentProvider}
+    proc=ProcessRecord{16c7450 1873:com.huawei.powergenie/1000}
+    authority=iaware.huawei.com
+    1 connections, 0 external handles
+      -> 1201:system/1000 s0/0 u1/1 +10d18h16m17s741ms
+  * ContentProviderRecord{81d9335 u0 euid:0 com.huawei.android.hwouc/com.huawei.android.cota.provider.CotaDownloadProvider}
+    proc=ProcessRecord{3c7a750 18019:com.huawei.android.hwouc/u0a51}
+    authority=hwcota_download
+  * ContentProviderRecord{77003ca u0 euid:0 com.yuanxin.clan/com.ianhanniballake.localstorage.LocalStorageProvider}
+    proc=ProcessRecord{64243af 7516:com.yuanxin.clan/u0a419}
+    authority=com.ianhanniballake.localstorage.documents
+  * ContentProviderRecord{415593b u0 euid:0 com.android.mms/.TempFileProvider}
+    proc=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    authority=mms_temp_file
+  * ContentProviderRecord{ce92858 u0 euid:0 com.huawei.android.hwouc/.provider.DownloadProvider}
+    proc=ProcessRecord{3c7a750 18019:com.huawei.android.hwouc/u0a51}
+    authority=hwouc_download
+  * ContentProviderRecord{5a12db1 u0 euid:0 com.huawei.systemmanager/.comm.valueprefer.ValueContentProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.valueprovider
+  * ContentProviderRecord{9729296 u0 euid:0 com.android.systemui/com.huawei.keyguard.database.MagazineProvider}
+    proc=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    authority=com.android.huawei.magazineunlock
+  * ContentProviderRecord{c95114a u0 euid:0 com.android.calendar/.hap.HolidayRecessContentProvider}
+    proc=ProcessRecord{a483f9 18297:com.android.calendar/u0a9}
+    launchingApp=ProcessRecord{a483f9 18297:com.android.calendar/u0a9}
+    authority=com.android.calendar.Recess
+  * ContentProviderRecord{4764e17 u0 euid:0 com.huawei.systemmanager/.power.provider.SmartProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.android.smartpowerprovider
+    1 connections, 0 external handles
+      -> 1873:com.huawei.powergenie/1000 s1/1 u0/18 +10d18h16m24s470ms
+  * ContentProviderRecord{ef47204 u0 euid:0 com.android.providers.telephony/.RcsimProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    authority=rcsim
+  * ContentProviderRecord{be9f3ed u0 euid:0 com.android.contacts/com.huawei.numberlocation.NLContentProvider}
+    proc=ProcessRecord{143ea31 31177:com.android.contacts/u0a3}
+    authority=com.huawei.numberlocation
+  * ContentProviderRecord{13d4222 u0 euid:0 com.eg.android.AlipayGphone/com.alipay.android.phone.businesscommon.healthcommon.util.StepSPProvider}
+    proc=ProcessRecord{676c7a7 30838:com.eg.android.AlipayGphone:push/u0a357}
+    authority=com.eg.android.AlipayGphone.healthcommon.StepSPProvider
+  * ContentProviderRecord{987b4b3 u0 euid:0 com.sohu.inputmethod.sogou/com.huawei.hwid.openapi.update.OtaFileProvider}
+    proc=ProcessRecord{68a4929 2346:com.sohu.inputmethod.sogou/u0a81}
+    authority=com.sohu.inputmethod.sogou.hwid.sdk.otafileprovider
+  * ContentProviderRecord{d48aa70 u0 euid:0 com.tencent.mobileqq/.openapi.OpenApiProvider}
+    proc=ProcessRecord{9600771 30230:com.tencent.mobileqq/u0a97}
+    authority=com.tencent.mobileqq.openapi.provider
+  * ContentProviderRecord{e7ee1e9 u0 euid:0 com.tencent.mm/.sdk.platformtools.MultiProcessSharedPreferences}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.sdk.platformtools.MultiProcessSharedPreferences
+  * ContentProviderRecord{8115e6e u0 euid:0 com.tencent.mm/.plugin.base.stub.MMPluginProvider}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.sdk.plugin.provider
+  * ContentProviderRecord{13ee90f u0 euid:0 com.huawei.imonitor/com.huawei.lcagent.db.EventInfoFlowContentProvider}
+    proc=ProcessRecord{cf98e61 2287:com.huawei.imonitor/1000}
+    authority=com.huawei.lcagent.db.EventInfoFlowContentProvider
+  * ContentProviderRecord{365fd9c u0 euid:0 com.huawei.imonitor/com.huawei.lcagent.db.LogServiceContentProvider}
+    proc=ProcessRecord{cf98e61 2287:com.huawei.imonitor/1000}
+    authority=com.huawei.lcagent.db.LogServiceContentProvider
+  * ContentProviderRecord{85ab3a5 u0 euid:0 com.android.phone/.IccProvider}
+    proc=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    authority=icc
+  * ContentProviderRecord{7f8f37a u0 euid:0 com.alibaba.android.rimet/.syncadapter.provider.StubProvider}
+    proc=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    authority=com.alibaba.android.rimet.syncadapter.provider
+  * ContentProviderRecord{98b072b u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderAccountSync}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.AccountSync
+  * ContentProviderRecord{2a35788 u0 euid:0 com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwordsbase.provider.BrowserProvider}
+    proc=ProcessRecord{68a4929 2346:com.sohu.inputmethod.sogou/u0a81}
+    authority=sogou.mobile.explorer.hotwords
+  * ContentProviderRecord{4f78ebc u0 euid:0 com.android.providers.media/.MediaProvider}
+    proc=ProcessRecord{58aaf 2823:android.process.media/u0a4}
+    launchingApp=ProcessRecord{58aaf 2823:android.process.media/u0a4}
+    authority=media
+    1 connections, 0 external handles
+      -> 2398:com.huawei.indexsearch.observer/1000 s1/1 u0/0 +10d18h16m15s453ms
+  * ContentProviderRecord{f67e521 u0 euid:0 com.yuanxin.clan/com.lzy.imagepicker.ImagePickerProvider}
+    proc=ProcessRecord{64243af 7516:com.yuanxin.clan/u0a419}
+    authority=com.yuanxin.clan.provider
+  * ContentProviderRecord{f92cd46 u0 euid:0 com.sohu.inputmethod.sogou/com.sogou.androidtool.provider.MobileToolContentProvider}
+    proc=ProcessRecord{68a4929 2346:com.sohu.inputmethod.sogou/u0a81}
+    authority=com.sogou.mobiletool.provider
+  * ContentProviderRecord{630eb07 u0 euid:0 com.UCMobile/com.uc.base.push.recentfile.RecentFileContentProvider}
+    proc=ProcessRecord{365dc40 32700:com.UCMobile:push/u0a89}
+    authority=com.UCMobile.base.push.provider
+  * ContentProviderRecord{8da6434 u0 euid:0 com.eg.android.AlipayGphone/com.alipay.mobile.base.config.impl.ConfigContentProviderNew}
+    proc=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    authority=com.eg.android.AlipayGphone.configprovider
+  * ContentProviderRecord{2b5f047 u0 euid:0 com.android.providers.blockednumber/.BlockedNumberProvider}
+    proc=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    launchingApp=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    authority=com.android.blockednumber
+  * ContentProviderRecord{3bcb25d u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderSearchContact}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.SearchContact
+  * ContentProviderRecord{69e77d2 u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtControlProviderMsg}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.message
+  * ContentProviderRecord{86730a3 u0 euid:0 com.android.systemui/.usb.HwSDCardLockProvider}
+    proc=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    authority=com.android.systemui.usb.HwSDCardLockProvider
+  * ContentProviderRecord{28dc956 u0 euid:0 com.tencent.mobileqq/com.tencent.mqq.shared_file_accessor.ContentProviderImpl}
+    proc=ProcessRecord{9600771 30230:com.tencent.mobileqq/u0a97}
+    launchingApp=ProcessRecord{9600771 30230:com.tencent.mobileqq/u0a97}
+    authority=com.tencent.mqq.shared_file_accessor.ContentProviderImpl
+  * ContentProviderRecord{5d38fa0 u0 euid:0 com.huawei.systemmanager/com.huawei.harassmentinterception.db.DBProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.HarassmentInterceptionDBProvider
+  * ContentProviderRecord{6971759 u0 euid:0 com.huawei.systemmanager/com.huawei.harassmentinterception.db.BlockCheckProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.BlockCheckProvider
+  * ContentProviderRecord{f483f1e u0 euid:0 com.sohu.inputmethod.sogou/com.sogou.datashare.MultiProcessContentProvider}
+    proc=ProcessRecord{68a4929 2346:com.sohu.inputmethod.sogou/u0a81}
+    authority=com.sogou.data.MultiProcessContentProvider
+  * ContentProviderRecord{43233ff u0 euid:0 com.android.mms/android.support.v4.content.FileProvider}
+    proc=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    authority=com.android.mms.fileprovider
+  * ContentProviderRecord{b7205cc u0 euid:0 com.android.calendar/android.support.v4.content.FileProvider}
+    proc=ProcessRecord{a483f9 18297:com.android.calendar/u0a9}
+    authority=com.android.calendar.files
+  * ContentProviderRecord{518d015 u0 euid:0 com.eg.android.AlipayGphone/com.alipay.mobile.healthcommon.accountsync.SyncProvider}
+    proc=ProcessRecord{676c7a7 30838:com.eg.android.AlipayGphone:push/u0a357}
+    authority=com.eg.android.AlipayGphone.account.syncprovider
+  * ContentProviderRecord{352f2a u0 euid:0 com.huawei.systemmanager/.secpatch.db.DBProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.SecPatchDBProvider
+  * ContentProviderRecord{f80111b u0 euid:0 com.android.calendar/com.huawei.hwid.update.OtaFileProvider}
+    proc=ProcessRecord{a483f9 18297:com.android.calendar/u0a9}
+    authority=com.android.calendar.hwid.sdk.otafileprovider
+  * ContentProviderRecord{49fb2b8 u0 euid:0 com.android.providers.contacts/.ShadowCallLogProvider}
+    proc=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    authority=call_log_shadow
+  * ContentProviderRecord{2c35891 u0 euid:0 com.tencent.mm/.plugin.ext.provider.ExtContentProviderBase}
+    proc=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    authority=com.tencent.mm.plugin.ext.ExtContentProviderBase
+  * ContentProviderRecord{3d01211 u0 euid:0 com.android.providers.contacts/.ContactsProvider2}
+    proc=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    launchingApp=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    authority=contacts;com.android.contacts
+  * ContentProviderRecord{34f13f6 u0 euid:0 com.android.providers.downloads/.DownloadStorageProvider}
+    proc=ProcessRecord{58aaf 2823:android.process.media/u0a4}
+    authority=com.android.providers.downloads.documents
+  * ContentProviderRecord{675ce7e u0 euid:0 com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.bizframework.content.SharedPreferencesProvider}
+    proc=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    launchingApp=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    authority=com.alibaba.android.rimet.preference
+  * ContentProviderRecord{704a3f7 u0 euid:0 com.eg.android.AlipayGphone/com.alipay.mobile.authlogin.common.provider.AliAuthLoginContentProvider}
+    proc=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    authority=com.alipay.ali.authlogin
+  * ContentProviderRecord{ef94264 u0 euid:0 com.tencent.mobileqq/.content.FriendListProvider}
+    proc=ProcessRecord{9600771 30230:com.tencent.mobileqq/u0a97}
+    authority=qq.friendlist
+  * ContentProviderRecord{fb3eccd u0 euid:0 com.huawei.systemmanager/.rainbow.db.RainbowDBProvider}
+    proc=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    authority=com.huawei.systemmanager.rainbow.rainbowprovider
+  * ContentProviderRecord{136966c u0 euid:0 com.android.providers.contacts/.VoicemailContentProvider}
+    proc=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    launchingApp=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    authority=com.android.voicemail
+  * ContentProviderRecord{5507982 u0 euid:0 com.huawei.motionservice/.common.HwMotionProviderEx}
+    proc=ProcessRecord{c7e1649 1888:com.huawei.ihealth/u0a106}
+    authority=com.huawei.providers.motions.ex
+  * ContentProviderRecord{4d58893 u0 euid:0 com.android.providers.media/.MediaDocumentsProvider}
+    proc=ProcessRecord{58aaf 2823:android.process.media/u0a4}
+    authority=com.android.providers.media.documents
+  * ContentProviderRecord{33a20d0 u0 euid:0 com.android.contacts/.hap.provider.ContactsAppProvider}
+    proc=ProcessRecord{143ea31 31177:com.android.contacts/u0a3}
+    authority=com.android.contacts.app
+  * ContentProviderRecord{69f88c9 u0 euid:0 com.huawei.imonitor/com.huawei.lcagent.db.NFFContentProvider}
+    proc=ProcessRecord{cf98e61 2287:com.huawei.imonitor/1000}
+    authority=com.huawei.lcagent.db.NFFContentProvider
+  * ContentProviderRecord{210abce u0 euid:0 com.huawei.motionservice/.common.HwMotionProvider}
+    proc=ProcessRecord{c7e1649 1888:com.huawei.ihealth/u0a106}
+    authority=com.huawei.providers.motions
+  * ContentProviderRecord{4c61aef u0 euid:0 com.huawei.android.launcher/.LauncherProvider}
+    proc=ProcessRecord{7872656 2463:com.huawei.android.launcher/u0a49}
+    authority=com.huawei.android.launcher.settings;com.android.badge
+  * ContentProviderRecord{86879fc u0 euid:0 com.eg.android.AlipayGphone/com.alipay.mobile.socialwidget.provider.ShareSdkProvider}
+    proc=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    authority=com.alipay.sharesdk
+  * ContentProviderRecord{e8ee885 u0 euid:0 com.android.systemui/.database.BackupProvider}
+    proc=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    authority=com.android.systemui.backup.BackupRestore
+  * ContentProviderRecord{98fb6da u0 euid:0 com.alibaba.android.rimet/com.google.firebase.provider.FirebaseInitProvider}
+    proc=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    authority=com.alibaba.android.rimet.firebaseinitprovider
+
+ACTIVITY MANAGER URI PERMISSIONS (dumpsys activity permissions)
+  (nothing)
+
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  Last ANR service:
+ServiceRecord{1a342d0 u0 euid: 0 com.yuanxin.clan/com.hyphenate.chat.EMChatService}
+    intent={cmp=com.yuanxin.clan/com.hyphenate.chat.EMChatService}
+    packageName=com.yuanxin.clan
+    processName=com.yuanxin.clan
+    baseDir=/data/app/com.yuanxin.clan-2/base.apk
+    dataDir=/data/user/0/com.yuanxin.clan
+    app=ProcessRecord{298c563 24303:com.yuanxin.clan/u0a419}
+    createTime=-20s15ms startingBgTimeout=--
+    lastActivity=-20s14ms restartTime=-20s14ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=false lastStartId=1
+    executeNesting=2 executeFg=true executingStart=-20s2ms
+    Delivered Starts:
+    #0 id=1 dur=-20s2ms dc=1
+      intent=Intent { cmp=com.yuanxin.clan/com.hyphenate.chat.EMChatService }
+
+  User 0 active services:
+  * ServiceRecord{283770b u0 euid: 0 com.android.bluetooth/.hid.HidService}
+    app=null
+    created=-22h4m14s354ms started=false connections=0
+  * ServiceRecord{11bc6fd u0 euid: 0 com.alibaba.android.rimet/mtopsdk.xstate.XStateService}
+    app=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    created=-18s969ms started=false connections=1
+    Connections:
+      act=hfr cat=[android.intent.category.DEFAULT] pkg=com.alibaba.android.rimet -> 8871:com.alibaba.android.rimet/u0a399
+  * ServiceRecord{97dfa56 u0 euid: 0 com.huawei.imonitor/com.huawei.lcagent.service.LogCollectService}
+    app=ProcessRecord{cf98e61 2287:com.huawei.imonitor/1000}
+    created=-10d18h16m24s716ms started=true connections=3
+    Connections:
+      act=com.huawei.lcagent.service.ILogCollect -> 1860:com.huawei.android.chr/1000
+      act=com.huawei.lcagent.service.ILogCollect -> 1860:com.huawei.android.chr/1000
+      act=com.huawei.lcagent.service.ILogCollect -> 1860:com.huawei.android.chr/1000
+  * ServiceRecord{2b8ddc8 u0 euid: 0 com.huawei.imonitor/com.huawei.chrfile.service.NcLogCollectService}
+    app=ProcessRecord{cf98e61 2287:com.huawei.imonitor/1000}
+    created=-10d18h16m29s86ms started=true connections=2
+    Connections:
+      act=com.huawei.chrfile.service.INcLogCollect -> 1201:system/1000
+      act=com.huawei.chrfile.service.INcLogCollect -> 1201:system/1000
+      act=com.huawei.chrfile.service.INcLogCollect -> 1201:system/1000
+      act=com.huawei.chrfile.service.INcLogCollect -> 1201:system/1000
+  * ServiceRecord{36a501f u0 euid: 0 com.eg.android.AlipayGphone/com.amap.api.location.APSService}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-1h2m11s355ms started=false connections=1
+    Connections:
+       -> 22767:com.eg.android.AlipayGphone/u0a357
+  * ServiceRecord{71d229 u0 euid: 0 com.huawei.systemmanager/.sdk.tmsdk.TMSdkSecureService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m23s845ms started=true connections=0
+  * ServiceRecord{9efb928 u0 euid: 0 com.android.mms/com.huawei.mms.service.HwFloatMmsService}
+    app=ProcessRecord{52763a4 3329:com.android.mms/u0a30}
+    created=-10d16h30m1s819ms started=false connections=1
+    Connections:
+      act=android.intent.actions.HwFloatMmsService -> 1509:com.android.systemui/u0a27
+  * ServiceRecord{e9db0f9 u0 euid: 0 com.yuanxin.clan/com.bugtags.library.BugtagsService}
+    app=ProcessRecord{64243af 7516:com.yuanxin.clan/u0a419}
+    created=-41s209ms started=true connections=0
+  * ServiceRecord{430efc1 u0 euid: 0 com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.service.DDEudemonService}
+    app=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    created=-18s993ms started=true connections=0
+  * ServiceRecord{2c11632 u0 euid: 0 com.huawei.systemmanager/.spacecleanner.service.StorageMonitorService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s425ms started=true connections=0
+  * ServiceRecord{886f038 u0 euid: 0 com.huawei.securitymgr/.AuthenticationService}
+    app=ProcessRecord{1f58811 1490:com.huawei.securitymgr/1000}
+    created=-10d18h16m26s834ms started=true connections=0
+  * ServiceRecord{c6adb53 u0 euid: 0 com.huawei.android.hwaps/.ApsService}
+    app=ProcessRecord{16c7450 1873:com.huawei.powergenie/1000}
+    created=-10d18h16m15s654ms started=true connections=0
+  * ServiceRecord{2291366 u0 euid: 0 com.alibaba.android.rimet/com.alibaba.lightapp.runtime.service.LightAppService}
+    app=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    created=-18s986ms started=true connections=0
+  * ServiceRecord{ed026b0 u0 euid: 0 com.sohu.inputmethod.sogou/.SogouIME}
+    app=ProcessRecord{68a4929 2346:com.sohu.inputmethod.sogou/u0a81}
+    created=-10d18h16m21s466ms started=false connections=2
+    Connections:
+      act=android.view.InputMethod -> 1201:system/1000
+      act=android.view.InputMethod -> 1201:system/1000
+  * ServiceRecord{18645a6 u0 euid: 0 com.huawei.systemmanager/.service.MainService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s478ms started=true connections=1
+    Connections:
+       -> 1592:com.huawei.systemmanager:service/1000
+  * ServiceRecord{cef9c68 u0 euid: 0 com.android.providers.contacts/.hap.KeepAliveService}
+    app=ProcessRecord{f379861 1934:android.process.acore/u0a3}
+    created=-10d18h16m20s345ms started=true connections=0
+  * ServiceRecord{16586aa u0 euid: 0 com.alibaba.android.rimet/com.taobao.accs.ChannelService}
+    app=ProcessRecord{8be529b 9053:com.alibaba.android.rimet:channel/u0a399}
+    created=-18s259ms started=true connections=0
+  * ServiceRecord{cfabfc7 u0 euid: 0 android/com.huawei.android.pushagentproxy.PushService}
+    app=ProcessRecord{81c79f4 3954:com.huawei.android.pushagent.PushService/1000}
+    created=-10d18h15m27s69ms started=true connections=0
+  * ServiceRecord{e39a9fd u0 euid: 0 com.huawei.android.location.activityrecognition/.ActivityRecognitionProviderService}
+    app=ProcessRecord{c54002a 2424:com.huawei.geofence/1000}
+    created=-10d18h16m20s702ms started=false connections=1
+    Connections:
+      act=com.android.location.service.ActivityRecognitionProvider -> 1201:system/1000
+  * ServiceRecord{74b458f u0 euid: 0 com.yuanxin.clan/com.hyphenate.chat.EMJobService}
+    app=ProcessRecord{64243af 7516:com.yuanxin.clan/u0a419}
+    created=-41s13ms started=true connections=0
+  * ServiceRecord{a0bea26 u0 euid: 0 android/com.android.server.emcom.grabservice.AutoGrabService}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m28s150ms started=true connections=0
+  * ServiceRecord{d7e7b0b u0 euid: 0 com.yuanxin.clan/cn.jpush.android.service.PushService}
+    app=ProcessRecord{dd9ede8 8028:com.yuanxin.clan:pushcore/u0a419}
+    created=-38s749ms started=true connections=2
+    Connections:
+       -> 8028:com.yuanxin.clan:pushcore/u0a419
+       -> 7516:com.yuanxin.clan/u0a419
+  * ServiceRecord{a2ccb2c u0 euid: 0 com.tencent.mm/.ipcinvoker.wx_extension.service.MainProcessIPCService}
+    app=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    created=-10h19m6s728ms started=false connections=2
+    Connections:
+       -> 624:com.tencent.mm:support/u0a96
+       -> 5078:com.tencent.mm:tools/u0a96
+  * ServiceRecord{3b1a6b7 u0 euid: 0 com.UCMobile/com.uc.browser.startup.WarmStartupService}
+    app=null
+    created=-16m10s870ms started=true connections=0
+  * ServiceRecord{5d7bd59 u0 euid: 0 com.eg.android.AlipayGphone/mtopsdk.xstate.XStateService}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-1h2m9s701ms started=false connections=1
+    Connections:
+      act=mtopsdk.xstate.aidl.IXState cat=[android.intent.category.DEFAULT] pkg=com.eg.android.AlipayGphone -> 22767:com.eg.android.AlipayGphone/u0a357
+  * ServiceRecord{e4155f5 u0 euid: 0 com.huawei.android.chr/com.huawei.mdlog.MdlogService}
+    app=ProcessRecord{8d6fa13 1860:com.huawei.android.chr/1000}
+    created=-10d18h16m24s728ms started=true connections=1
+    Connections:
+       -> 1860:com.huawei.android.chr/1000
+  * ServiceRecord{4d5195e u0 euid: 0 com.android.systemui/.keyguard.KeyguardService}
+    app=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    created=-10d18h16m24s865ms started=false connections=1
+    Connections:
+      flg=0x100 -> 1201:system/1000
+  * ServiceRecord{a1d231e u0 euid: 0 com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.bizframework.ipc.DDServiceManageImpl}
+    app=ProcessRecord{7040694 8852:com.alibaba.android.rimet:tools/u0a399}
+    created=-45m35s321ms started=true connections=2
+    Connections:
+       -> 8852:com.alibaba.android.rimet:tools/u0a399
+       -> 8871:com.alibaba.android.rimet/u0a399
+  * ServiceRecord{2b39dd6 u0 euid: 0 com.tencent.mm/.plugin.sport.service.SportService}
+    app=ProcessRecord{5a9ed44 13005:com.tencent.mm:exdevice/u0a96}
+    created=-8d7h5m24s418ms started=true connections=1
+    Connections:
+      flg=0x10000000 -> 18433:com.tencent.mm/u0a96
+  * ServiceRecord{8274e3d u0 euid: 0 com.huawei.systemmanager/.power.service.BgPowerManagerService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s452ms started=true connections=0
+  * ServiceRecord{364c191 u0 euid: 0 com.huawei.android.chr/.statistics.TelStatusService}
+    app=ProcessRecord{8d6fa13 1860:com.huawei.android.chr/1000}
+    created=-10d18h16m24s749ms started=false connections=1
+    Connections:
+       -> 1860:com.huawei.android.chr/1000
+  * ServiceRecord{ebcbf50 u0 euid: 0 com.tencent.mm/.plugin.exdevice.service.ExDeviceService}
+    app=ProcessRecord{5a9ed44 13005:com.tencent.mm:exdevice/u0a96}
+    created=-7d11h49m41s424ms started=true connections=1
+    Connections:
+       -> 18433:com.tencent.mm/u0a96
+       -> 18433:com.tencent.mm/u0a96
+  * ServiceRecord{d50224a u0 euid: 0 com.huawei.geofence/.GeofenceService}
+    app=ProcessRecord{c54002a 2424:com.huawei.geofence/1000}
+    created=-10d18h16m20s667ms started=true connections=0
+  * ServiceRecord{739e2f0 u0 euid: 0 com.huawei.imonitor/com.huawei.ptm.PTMService}
+    app=ProcessRecord{cf98e61 2287:com.huawei.imonitor/1000}
+    created=-10d18h16m15s582ms started=true connections=0
+  * ServiceRecord{3f4d648 u0 euid: 0 com.eg.android.AlipayGphone/com.alipay.mobile.healthcommon.stepcounter.APExtStepService}
+    app=ProcessRecord{676c7a7 30838:com.eg.android.AlipayGphone:push/u0a357}
+    created=-1h1m5s267ms started=true connections=0
+  * ServiceRecord{8565a3f u0 euid: 0 com.tencent.mm/.booter.NotifyReceiver$NotifyService}
+    app=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    created=-2d15h31m37s123ms started=true connections=0
+  * ServiceRecord{136f36d u0 euid: 0 com.sohu.inputmethod.sogou/com.sogou.androidtool.support.SupportService}
+    app=ProcessRecord{68a4929 2346:com.sohu.inputmethod.sogou/u0a81}
+    created=-10d13h40m13s667ms started=true connections=0
+  * ServiceRecord{55794f0 u0 euid: 0 com.eg.android.AlipayGphone/com.alipay.android.app.MspService}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-1h1m51s627ms started=true connections=0
+  * ServiceRecord{6298d60 u0 euid: 0 com.huawei.systemmanager/com.huawei.harassmentinterception.update.UpdateService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-4d21h53m1s754ms started=true connections=0
+  * ServiceRecord{dbd5748 u0 euid: 0 com.UCMobile/com.uc.base.push.dispatcher.PushHandlerService}
+    app=ProcessRecord{365dc40 32700:com.UCMobile:push/u0a89}
+    created=-16m11s13ms started=true connections=0
+  * ServiceRecord{c52057c u0 euid: 0 com.alibaba.android.rimet/com.laiwang.protocol.android.LWPService}
+    app=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    created=-13s742ms started=true connections=0
+  * ServiceRecord{3c38d u0 euid: 0 com.amap.android.ams/com.amap.location.geocode.service.GeocodeService}
+    app=ProcessRecord{784c7da 2446:com.amap.android.ams/u0a2}
+    created=-10d18h16m20s727ms started=false connections=1
+    Connections:
+      act=com.android.location.service.GeocodeProvider -> 1201:system/1000
+  * ServiceRecord{eca55f6 u0 euid: 0 com.android.phone.recorder/.autorecord.file.FileChangedMonitorService}
+    app=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    created=-10d18h16m12s916ms started=true connections=0
+  * ServiceRecord{6cabf7b u0 euid: 0 com.google.android.ext.services/android.ext.services.notification.Ranker}
+    app=ProcessRecord{ecd3198 2296:com.google.android.ext.services/u0a102}
+    created=-10d18h16m28s557ms started=false connections=1
+    Connections:
+      act=android.service.notification.NotificationRankerService -> 1201:system/1000
+  * ServiceRecord{dc139e8 u0 euid: 0 com.android.bluetooth/.pbap.BluetoothPbapService}
+    app=null
+    created=-22h4m14s306ms started=false connections=0
+  * ServiceRecord{da5df83 u0 euid: 0 com.huawei.systemmanager/.spacecleanner.engine.hwscanner.AppCleanUpService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s421ms started=true connections=0
+  * ServiceRecord{c3f9139 u0 euid: 0 com.huawei.systemmanager/.startupmgr.service.AccountMonitorService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s414ms started=true connections=0
+  * ServiceRecord{a371876 u0 euid: 0 com.android.systemui/.HwImageWallpaper}
+    app=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    created=-10d18h16m25s255ms started=false connections=1
+    Connections:
+      act=android.service.wallpaper.WallpaperService -> 1201:system/1000
+  * ServiceRecord{6096c69 u0 euid: 0 com.UCMobile/com.uc.base.rism.RismService}
+    app=ProcessRecord{365dc40 32700:com.UCMobile:push/u0a89}
+    created=-16m9s223ms started=true connections=0
+  * ServiceRecord{e8cae56 u0 euid: 0 com.tencent.mm/.plugin.appbrand.ipc.AppBrandMainProcessService}
+    app=ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+    created=-10h19m6s605ms started=false connections=1
+    Connections:
+       -> 5078:com.tencent.mm:tools/u0a96
+  * ServiceRecord{7cd1c69 u0 euid: 0 com.tencent.mm/.booter.CoreService}
+    app=ProcessRecord{3751d34 14718:com.tencent.mm:push/u0a96}
+    created=-8d7h6m7s283ms started=true connections=1
+    Connections:
+       -> 18433:com.tencent.mm/u0a96
+       -> 18433:com.tencent.mm/u0a96
+  * ServiceRecord{c5a8801 u0 euid: 0 com.android.bluetooth/.a2dp.A2dpService}
+    app=null
+    created=-2h3m13s128ms started=false connections=0
+  * ServiceRecord{42378dd u0 euid: 0 com.huawei.indexsearch.observer/.IndexSearchObserverService}
+    app=ProcessRecord{d362ecc 2398:com.huawei.indexsearch.observer/1000}
+    created=-10d18h16m15s497ms started=true connections=0
+  * ServiceRecord{bca2fc3 u0 euid: 0 com.huawei.android.totemweather/.service.EmptyService}
+    app=ProcessRecord{c6acaeb 30269:com.huawei.android.totemweather/u0a25}
+    created=-10d18h16m17s742ms started=true connections=0
+  * ServiceRecord{8bb3f57 u0 euid: 0 com.android.incallui/.InCallServiceImpl}
+    app=ProcessRecord{950aa44 2333:com.android.incallui/1001}
+    created=-10d18h16m21s491ms started=false connections=1
+    Connections:
+      act=android.telecom.InCallService -> 1201:system/1000
+  * ServiceRecord{e6938f7 u0 euid: 0 com.tencent.mm/.ipcinvoker.wx_extension.service.SupportProcessIPCService}
+    app=ProcessRecord{832b364 624:com.tencent.mm:support/u0a96}
+    created=-8h54m41s645ms started=false connections=1
+    Connections:
+       -> 18433:com.tencent.mm/u0a96
+  * ServiceRecord{3264d76 u0 euid: 0 com.android.systemui/.SystemUIService}
+    app=ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+    created=-10d18h16m26s814ms started=true connections=0
+  * ServiceRecord{67fb0af u0 euid: 0 android/.hardware.location.GeofenceHardwareService}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m25s140ms started=false connections=1
+    Connections:
+       -> 1201:system/1000
+  * ServiceRecord{a9686c4 u0 euid: 0 com.UCMobile/com.uc.application.search.service.SearchBackgroundService}
+    app=ProcessRecord{ebf49ad 2105:com.UCMobile:SearchBackgroundProcess/u0a89}
+    created=-13m10s712ms started=true connections=0
+  * ServiceRecord{6409d61 u0 euid: 0 com.huawei.ims/.ImsService}
+    app=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    created=-10d18h16m23s835ms started=true connections=0
+  * ServiceRecord{9eb7c4 u0 euid: 0 com.UCMobile/com.alibaba.analytics.AnalyticsService}
+    app=ProcessRecord{bf81509 31666:com.UCMobile:channel/u0a89}
+    created=-17m14s654ms started=false connections=3
+    Connections:
+       -> 32700:com.UCMobile:push/u0a89
+       -> 31666:com.UCMobile:channel/u0a89
+       -> 2105:com.UCMobile:SearchBackgroundProcess/u0a89
+  * ServiceRecord{71b1c07 u0 euid: 0 com.eg.android.AlipayGphone/com.alipay.android.launcher.service.LauncherService}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-10h16m36s576ms started=true connections=0
+  * ServiceRecord{b17e3cb u0 euid: 0 com.huawei.geofence/.GeofenceProviderService}
+    app=ProcessRecord{c54002a 2424:com.huawei.geofence/1000}
+    created=-10d18h16m20s708ms started=false connections=1
+    Connections:
+      act=com.android.location.service.GeofenceProvider -> 1201:system/1000
+  * ServiceRecord{3c86be7 u0 euid: 0 com.huawei.systemmanager/com.huawei.permission.HoldService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s462ms started=true connections=0
+  * ServiceRecord{4fbbf7f u0 euid: 0 com.eg.android.AlipayGphone/com.alipay.pushsdk.push.NotificationService}
+    app=ProcessRecord{676c7a7 30838:com.eg.android.AlipayGphone:push/u0a357}
+    created=-22h0m3s800ms started=true connections=1
+    Connections:
+      pkg=com.eg.android.AlipayGphone -> 22767:com.eg.android.AlipayGphone/u0a357
+      pkg=com.eg.android.AlipayGphone -> 22767:com.eg.android.AlipayGphone/u0a357
+      pkg=com.eg.android.AlipayGphone -> 22767:com.eg.android.AlipayGphone/u0a357
+      pkg=com.eg.android.AlipayGphone -> 22767:com.eg.android.AlipayGphone/u0a357
+  * ServiceRecord{5007d9c u0 euid: 0 com.android.server.telecom/.components.BluetoothPhoneService}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m24s485ms started=true connections=0
+  * ServiceRecord{42a3d1d u0 euid: 0 com.huawei.android.chr/.hisi.rilchrtunnel.RilMsgTunnelService}
+    app=ProcessRecord{8d6fa13 1860:com.huawei.android.chr/1000}
+    created=-10d18h16m24s684ms started=true connections=3
+    Connections:
+       -> 1860:com.huawei.android.chr/1000
+       -> 1860:com.huawei.android.chr/1000
+       -> 1860:com.huawei.android.chr/1000
+  * ServiceRecord{8578ae7 u0 euid: 0 com.eg.android.AlipayGphone/org.rome.android.ipp.binder.IppService}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-1h1m6s580ms started=true connections=0
+  * ServiceRecord{66637e u0 euid: 0 com.huawei.systemmanager/.antivirus.AntiVirusService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s411ms started=true connections=0
+  * ServiceRecord{52a8d1b u0 euid: 0 com.android.stk/.StkAppService}
+    app=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    created=-10d18h16m19s866ms started=true connections=0
+  * ServiceRecord{3536724 u0 euid: 0 com.android.server.telecom/.components.TelecomService}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m27s50ms started=false connections=1
+    Connections:
+      act=com.android.ITelecomService -> 1201:system/1000
+  * ServiceRecord{729895 u0 euid: 0 com.huawei.android.location.activityrecognition/.ActivityRecognitionService}
+    app=ProcessRecord{c54002a 2424:com.huawei.geofence/1000}
+    created=-10d18h16m20s468ms started=false connections=1
+    Connections:
+       -> 1873:com.huawei.powergenie/1000
+  * ServiceRecord{3b33611 u0 euid: 0 com.alibaba.android.rimet/com.taobao.accs.data.MsgDistributeService}
+    app=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    created=-18s155ms started=true connections=0
+  * ServiceRecord{915767a u0 euid: 0 com.android.providers.media/.MtpService}
+    app=ProcessRecord{58aaf 2823:android.process.media/u0a4}
+    created=-2m5s161ms started=true connections=1
+    Connections:
+       -> 2823:android.process.media/u0a4
+  * ServiceRecord{99a16b1 u0 euid: 0 com.huawei.android.chr/.hisi.HisiChrVcomService}
+    app=ProcessRecord{8d6fa13 1860:com.huawei.android.chr/1000}
+    created=-10d18h16m24s764ms started=false connections=1
+    Connections:
+       -> 1860:com.huawei.android.chr/1000
+  * ServiceRecord{3d5b628 u0 euid: 0 com.eg.android.AlipayGphone/com.alipay.mobile.liteprocess.ipc.IpcMsgServer}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-1h1m57s931ms started=true connections=0
+  * ServiceRecord{ff60b89 u0 euid: 0 com.amap.android.ams/com.amap.location.flp.hardware.FusedHardwareService}
+    app=ProcessRecord{784c7da 2446:com.amap.android.ams/u0a2}
+    created=-10d18h16m20s725ms started=false connections=1
+    Connections:
+      act=com.android.location.service.FusedProvider -> 1201:system/1000
+  * ServiceRecord{4e13033 u0 euid: 0 com.tencent.mm/.plugin.webview.wepkg.ipc.WepkgProcessPreloadService}
+    app=ProcessRecord{fe37e66 5078:com.tencent.mm:tools/u0a96}
+    created=-2d0h53m4s212ms started=false connections=1
+    Connections:
+       -> 18433:com.tencent.mm/u0a96
+  * ServiceRecord{fd99d85 u0 euid: 0 com.amap.android.ams/.network.NetworkLocationService}
+    app=ProcessRecord{784c7da 2446:com.amap.android.ams/u0a2}
+    created=-10d18h16m20s870ms started=false connections=1
+    Connections:
+      act=com.android.location.service.v3.NetworkLocationProvider -> 1201:system/1000
+  * ServiceRecord{7ce7667 u0 euid: 0 android/com.android.server.emcom.grabservice.NotificationListener}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m28s146ms started=true connections=0
+  * ServiceRecord{fd36a19 u0 euid: 0 com.android.phone.recorder/.RecorderServer}
+    app=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    created=-10d18h16m20s781ms started=false connections=1
+    Connections:
+      act=com.android.phone.action.voiceRecoderService -> 2333:com.android.incallui/1001
+  * ServiceRecord{8fdd595 u0 euid: 0 com.alibaba.android.rimet/anetwork.channel.aidl.NetworkService}
+    app=ProcessRecord{a8dc839 8871:com.alibaba.android.rimet/u0a399}
+    created=-18s384ms started=false connections=1
+    Connections:
+      act=lc cat=[android.intent.category.DEFAULT] -> 8871:com.alibaba.android.rimet/u0a399
+  * ServiceRecord{da2b2fb u0 euid: 0 com.huawei.cryptosms.service/.CryptoService}
+    app=ProcessRecord{39b3c54 17030:com.huawei.cryptosms.service/1000}
+    created=-10d18h16m12s743ms started=false connections=2
+    Connections:
+      pkg=com.huawei.cryptosms.service -> 3329:com.android.mms/u0a30
+      pkg=com.huawei.cryptosms.service -> 3329:com.android.mms/u0a30
+  * ServiceRecord{1f823c5 u0 euid: 0 android/com.android.internal.backup.LocalTransportService}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m21s268ms started=false connections=1
+    Connections:
+      act=android.backup.TRANSPORT_HOST -> 1201:system/1000
+  * ServiceRecord{76757c0 u0 euid: 0 com.huawei.powergenie/.core.CoreService}
+    app=ProcessRecord{16c7450 1873:com.huawei.powergenie/1000}
+    created=-10d18h16m24s633ms started=true connections=0
+  * ServiceRecord{26c9ebe u0 euid: 0 android/com.android.server.content.SyncJobService}
+    app=ProcessRecord{98717ec 0:system/1000}
+    created=-10d18h16m24s769ms started=true connections=0
+  * ServiceRecord{db607c5 u0 euid: 0 com.alibaba.android.rimet/com.alibaba.analytics.AnalyticsService}
+    app=ProcessRecord{8be529b 9053:com.alibaba.android.rimet:channel/u0a399}
+    created=-10s591ms started=false connections=3
+    Connections:
+       -> 8852:com.alibaba.android.rimet:tools/u0a399
+       -> 8871:com.alibaba.android.rimet/u0a399
+       -> 9053:com.alibaba.android.rimet:channel/u0a399
+  * ServiceRecord{630d61e u0 euid: 0 com.huawei.ihealth/com.huawei.health.fw.connectivity.HwStepCounterService}
+    app=ProcessRecord{c7e1649 1888:com.huawei.ihealth/u0a106}
+    created=-10d18h16m17s210ms started=true connections=0
+  * ServiceRecord{6b5227 u0 euid: 0 com.eg.android.AlipayGphone/com.alipay.mobile.liteprocess.ipc.IpcCallServer}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-1h1m57s923ms started=true connections=0
+  * ServiceRecord{fe33 u0 euid: 0 com.UCMobile/com.taobao.accs.ChannelService}
+    app=ProcessRecord{bf81509 31666:com.UCMobile:channel/u0a89}
+    created=-17m24s585ms started=true connections=0
+  * ServiceRecord{b0e949a u0 euid: 0 com.huawei.ca/.service.CAService}
+    app=ProcessRecord{c54002a 2424:com.huawei.geofence/1000}
+    created=-10d18h16m15s633ms started=true connections=0
+  * ServiceRecord{a4e7e82 u0 euid: 0 com.huawei.android.chr/.logcollectservice.ChrLogService}
+    app=ProcessRecord{8d6fa13 1860:com.huawei.android.chr/1000}
+    created=-10d18h16m24s739ms started=true connections=1
+    Connections:
+       -> 1860:com.huawei.android.chr/1000
+  * ServiceRecord{9c266a6 u0 euid: 0 com.android.bluetooth/.map.BluetoothMapService}
+    app=null
+    created=-22h4m14s317ms started=false connections=0
+  * ServiceRecord{96e1149 u0 euid: 0 com.huawei.systemmanager/.netassistant.traffic.trafficcorrection.NATAutoAdjustService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d16h30m2s811ms started=true connections=0
+  * ServiceRecord{8e08394 u0 euid: 0 com.huawei.systemmanager/com.huawei.harassmentinterception.service.HarassmentInterceptionService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s459ms started=true connections=0
+  * ServiceRecord{29b5111 u0 euid: 0 com.android.mms.service/.MmsService}
+    app=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    created=-10d16h30m2s909ms started=false connections=1
+    Connections:
+       -> 1201:system/1000
+  * ServiceRecord{d08ae9d u0 euid: 0 com.android.phone/.TelephonyDebugService}
+    app=ProcessRecord{1efeb4e 1901:com.android.phone/1001}
+    created=-10d18h16m23s828ms started=true connections=0
+  * ServiceRecord{bba4954 u0 euid: 0 com.huawei.motionservice/.MotionService}
+    app=ProcessRecord{c7e1649 1888:com.huawei.ihealth/u0a106}
+    created=-10d1h49m7s647ms started=true connections=0
+  * ServiceRecord{5f892b8 u0 euid: 0 com.eg.android.AlipayGphone/anetwork.channel.aidl.NetworkService}
+    app=ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    created=-50m0s311ms started=false connections=1
+    Connections:
+      act=anetwork.channel.aidl.IRemoteNetworkGetter cat=[android.intent.category.DEFAULT] -> 22767:com.eg.android.AlipayGphone/u0a357
+  * ServiceRecord{678b24c u0 euid: 0 com.tencent.mobileqq/.msf.service.MsfService}
+    app=ProcessRecord{c3f6aa6 30186:com.tencent.mobileqq:MSF/u0a97}
+    created=-2d15h8m19s119ms started=true connections=1
+    Connections:
+       -> 30230:com.tencent.mobileqq/u0a97
+       -> 30230:com.tencent.mobileqq/u0a97
+       -> 30230:com.tencent.mobileqq/u0a97
+  * ServiceRecord{d7078e7 u0 euid: 0 com.android.bluetooth/.pan.PanService}
+    app=null
+    created=-22h4m14s341ms started=false connections=0
+  * ServiceRecord{c0c4500 u0 euid: 0 com.huawei.systemmanager/.startupmgr.service.StartupResidentService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s417ms started=true connections=0
+  * ServiceRecord{1064189 u0 euid: 0 com.huawei.systemmanager/.CoreService}
+    app=ProcessRecord{3b33f7c 1592:com.huawei.systemmanager:service/1000}
+    created=-10d18h16m25s402ms started=true connections=0
+  * ServiceRecord{f5f4351 u0 euid: 0 com.amap.android.ams/.fused.framework.FusedLocationService}
+    app=ProcessRecord{784c7da 2446:com.amap.android.ams/u0a2}
+    created=-10d18h16m20s730ms started=false connections=1
+    Connections:
+      act=com.android.location.service.FusedLocationProvider -> 1201:system/1000
+
+  Restarting services:
+  * Restarting ServiceRecord{3b1a6b7 u0 euid: 0 com.UCMobile/com.uc.browser.startup.WarmStartupService}
+    intent={act=action.interval.alarm.timer cmp=com.UCMobile/com.uc.browser.startup.WarmStartupService}
+    packageName=com.UCMobile
+    processName=com.UCMobile
+    baseDir=/data/app/com.UCMobile-1/base.apk
+    dataDir=/data/user/0/com.UCMobile
+    app=null
+    createTime=-16m10s894ms startingBgTimeout=-15m55s881ms
+    lastActivity=-36s845ms restartTime=-36s845ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=4
+    restartCount=1 restartDelay=-6d15h2m32s925ms nextRestartTime=+15s591ms crashCount=0
+
+ACTIVITY MANAGER RECENT TASKS (dumpsys activity recents)
+  Recent tasks:
+  * Recent #0: TaskRecord{63eacbf #18061 A=com.yuanxin.clan U=0 StackId=1 sz=2}
+  * Recent #1: TaskRecord{87b4adf #17163 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+  * Recent #2: TaskRecord{2b110a9 #18019 A=com.huawei.camera U=0 StackId=1 sz=1}
+  * Recent #3: TaskRecord{7096245 #18056 I=com.android.settings/.deviceinfo.UsbConnModeChooserActivity U=0 StackId=-1 sz=0}
+  * Recent #4: TaskRecord{52749c5 #18048 A=com.tencent.mm U=0 StackId=1 sz=1}
+  * Recent #5: TaskRecord{872c797 #18051 A=com.android.settings U=0 StackId=-1 sz=0}
+  * Recent #6: TaskRecord{7b6e631 #18050 A=com.snda.wifilocating U=0 StackId=-1 sz=0}
+  * Recent #7: TaskRecord{8b3cf43 #18026 A=com.eg.android.AlipayGphone U=0 StackId=1 sz=1}
+  * Recent #8: TaskRecord{6916990 #18049 A=android.zhibo8 U=0 StackId=-1 sz=0}
+  * Recent #9: TaskRecord{5e2eba3 #18047 A=com.mobike.mobikeapp U=0 StackId=-1 sz=0}
+  * Recent #10: TaskRecord{f4e4862 #17166 A=com.android.systemui U=0 StackId=0 sz=1}
+  * Recent #11: TaskRecord{fa01d88 #18046 A=android.task.qqmusiclock U=0 StackId=-1 sz=0}
+  * Recent #12: TaskRecord{c7826d1 #17184 A=com.android.incallui U=0 StackId=1 sz=1}
+  * Recent #13: TaskRecord{5d5fbc4 #18041 I=com.android.deskclock/.alarmclock.LockAlarmFullActivity U=0 StackId=-1 sz=0}
+  * Recent #14: TaskRecord{bd0497 #18035 A=com.UCMobile U=0 StackId=-1 sz=0}
+  * Recent #15: TaskRecord{2a60b4d #18032 A=com.android.browser U=0 StackId=1 sz=1}
+  * Recent #16: TaskRecord{a92a93f #18027 A=com.huawei.android.internal.app U=0 StackId=-1 sz=0}
+  * Recent #17: TaskRecord{c5a4c07 #18025 A=.sdkentry U=0 StackId=1 sz=0}
+  * Recent #18: TaskRecord{c70ef89 #18018 A=com.alibaba.android.rimet U=0 StackId=-1 sz=0}
+  * Recent #19: TaskRecord{1a60ebe #17677 I=com.huawei.android.internal.app/.HwResolverActivity U=0 StackId=-1 sz=0}
+  * Recent #20: TaskRecord{6046c37 #17621 A=com.android.packageinstaller U=0 StackId=-1 sz=0}
+  * Recent #21: TaskRecord{46c01c #17485 A=com.android.packageinstaller U=0 StackId=-1 sz=0}
+  * Recent #22: TaskRecord{8e503f0 #17312 A=android.task.choosesub U=0 StackId=-1 sz=0}
+  * Recent #23: TaskRecord{5a79448 #17311 A=android.task.choosesub U=0 StackId=-1 sz=0}
+  * Recent #24: TaskRecord{50707fc #17245 A=com.uc.gd U=0 StackId=-1 sz=0}
+  * Recent #25: TaskRecord{1a1c1f3 #17223 A=com.android.systemui U=0 StackId=-1 sz=0}
+  * Recent #26: TaskRecord{e966aa6 #17204 A=android.task.mms.classzeroactivity U=0 StackId=-1 sz=0}
+  * Recent #27: TaskRecord{77faba2 #17164 A=com.android.stk U=0 StackId=-1 sz=0}
+  * Recent #28: TaskRecord{4e36e5a #0 I=com.android.settings/.FallbackHome U=0 StackId=-1 sz=0}
+
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  Stack #1:
+  mFullscreen=true
+  mBounds=null
+    Task id #18061
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{63eacbf #18061 A=com.yuanxin.clan U=0 StackId=1 sz=2}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.yuanxin.clan/.core.GuideActivity }
+        Hist #1: ActivityRecord{9acaabd u0 com.yuanxin.clan/.core.activity.HomeSosActivity t18061}
+          Intent { cmp=com.yuanxin.clan/.core.activity.HomeSosActivity }
+          ProcessRecord{64243af 7516:com.yuanxin.clan/u0a419}
+        Hist #0: ActivityRecord{7443664 u0 com.yuanxin.clan/.core.MainActivity t18061}
+          Intent { flg=0x10000000 cmp=com.yuanxin.clan/.core.MainActivity }
+          ProcessRecord{64243af 7516:com.yuanxin.clan/u0a419}
+    Task id #18019
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{2b110a9 #18019 A=com.huawei.camera U=0 StackId=1 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30200000 cmp=com.huawei.camera/.controller.CameraActivity }
+        Hist #0: ActivityRecord{42dc62e u0 com.huawei.camera/com.huawei.camera t18019}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x30200000 cmp=com.huawei.camera/com.huawei.camera bnds=[276,1545][540,1836] }
+    Task id #18032
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{2a60b4d #18032 A=com.android.browser U=0 StackId=1 sz=1}
+      Intent { act=com.UCMobile.intent.action.INVOKE flg=0x10000000 cmp=com.android.browser/com.UCMobile.main.UCMobile (has extras) }
+        Hist #0: ActivityRecord{348c98b u0 com.android.browser/com.uc.browser.InnerUCMobile t18032}
+          Intent { flg=0x10000000 cmp=com.android.browser/com.uc.browser.InnerUCMobile bnds=[804,1545][1068,1836] }
+    Task id #17184
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{c7826d1 #17184 A=com.android.incallui U=0 StackId=1 sz=1}
+      Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+        Hist #0: ActivityRecord{1a26536 u0 com.android.incallui/.InCallActivity t17184}
+          Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }
+          ProcessRecord{950aa44 2333:com.android.incallui/1001}
+    Task id #18026
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{8b3cf43 #18026 A=com.eg.android.AlipayGphone U=0 StackId=1 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.eg.android.AlipayGphone/.AlipayLogin }
+        Hist #0: ActivityRecord{e87d9c0 u0 com.eg.android.AlipayGphone/.AlipayLogin t18026}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.eg.android.AlipayGphone/.AlipayLogin bnds=[540,648][804,930] }
+          ProcessRecord{2845d77 22767:com.eg.android.AlipayGphone/u0a357}
+    Task id #18048
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{52749c5 #18048 A=com.tencent.mm U=0 StackId=1 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI }
+        Hist #0: ActivityRecord{d929f1a u0 com.tencent.mm/.ui.LauncherUI t18048}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mm/.ui.LauncherUI bnds=[540,1545][804,1836] }
+          ProcessRecord{21d9ba3 18433:com.tencent.mm/u0a96}
+
+    Running activities (most recent first):
+      TaskRecord{63eacbf #18061 A=com.yuanxin.clan U=0 StackId=1 sz=2}
+        Run #4: ActivityRecord{9acaabd u0 com.yuanxin.clan/.core.activity.HomeSosActivity t18061}
+        Run #3: ActivityRecord{7443664 u0 com.yuanxin.clan/.core.MainActivity t18061}
+      TaskRecord{52749c5 #18048 A=com.tencent.mm U=0 StackId=1 sz=1}
+        Run #2: ActivityRecord{d929f1a u0 com.tencent.mm/.ui.LauncherUI t18048}
+      TaskRecord{8b3cf43 #18026 A=com.eg.android.AlipayGphone U=0 StackId=1 sz=1}
+        Run #1: ActivityRecord{e87d9c0 u0 com.eg.android.AlipayGphone/.AlipayLogin t18026}
+      TaskRecord{c7826d1 #17184 A=com.android.incallui U=0 StackId=1 sz=1}
+        Run #0: ActivityRecord{1a26536 u0 com.android.incallui/.InCallActivity t17184}
+
+    mResumedActivity: ActivityRecord{9acaabd u0 com.yuanxin.clan/.core.activity.HomeSosActivity t18061}
+
+  Stack #0:
+  mFullscreen=true
+  mBounds=null
+    Task id #17163
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{87b4adf #17163 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+      Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 pkg=com.huawei.android.launcher cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher }
+        Hist #0: ActivityRecord{4c9032c u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t17163}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10200000 pkg=com.huawei.android.launcher cmp=com.huawei.android.launcher/.unihome.UniHomeLauncher }
+          ProcessRecord{7872656 2463:com.huawei.android.launcher/u0a49}
+
+    Task id #17166
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+      TaskRecord{f4e4862 #17166 A=com.android.systemui U=0 StackId=0 sz=1}
+      Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1351][1032,2593] }
+        Hist #0: ActivityRecord{c2eddf3 u0 com.android.systemui/.recents.RecentsActivity t17166}
+          Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[48,1351][1032,2593] }
+          ProcessRecord{22d1f77 1509:com.android.systemui/u0a27}
+
+    Running activities (most recent first):
+      TaskRecord{87b4adf #17163 A=com.huawei.android.launcher U=0 StackId=0 sz=1}
+        Run #1: ActivityRecord{4c9032c u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t17163}
+      TaskRecord{f4e4862 #17166 A=com.android.systemui U=0 StackId=0 sz=1}
+        Run #0: ActivityRecord{c2eddf3 u0 com.android.systemui/.recents.RecentsActivity t17166}
+
+  mFocusedActivity: ActivityRecord{9acaabd u0 com.yuanxin.clan/.core.activity.HomeSosActivity t18061}
+  mFocusedStack=ActivityStack{7640c94 stackId=1, 12 tasks} mLastFocusedStack=ActivityStack{7640c94 stackId=1, 12 tasks}
+  mSleepTimeout=false
+  mCurTaskIdForUser={0=18061}
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+  mLockTaskModeState=NONE mLockTaskPackages (userId:packages)=
+    0:[]
+ mLockTaskModeTasks[]
+
+ACTIVITY MANAGER RUNNING PROCESSES (dumpsys activity processes)
+  Isolated process list (sorted by uid):
+    Isolated # 0: ProcessRecord{afd49b 1475:WebViewLoader-arm64-v8a/1037}
+
+  UID states:
+    UID 1000: UidRecord{fe6a33d 1000 P  procs:11}
+    UID 1001: UidRecord{91e4732 1001 P  procs:2}
+    UID 1037: UidRecord{e41bc83 1037 CE bg:+10d18h16m26s902ms idle procs:2}
+    UID u0a2: UidRecord{9bf5e00 u0a2 IB procs:1}
+    UID u0a3: UidRecord{91f3639 u0a3 S  bg:+15m25s424ms idle procs:2}
+    UID u0a4: UidRecord{de5a47e u0a4 SB procs:1}
+    UID u0a9: UidRecord{a599ddf u0a9 CE bg:+22m7s465ms idle procs:1}
+    UID u0a23: UidRecord{fbc5a2c u0a23 CE bg:+35s535ms procs:1}
+    UID u0a25: UidRecord{b3fcf5 u0a25 S  bg:+42s670ms procs:1}
+    UID u0a27: UidRecord{e338a8a u0a27 P  procs:1}
+    UID u0a30: UidRecord{e438fb u0a30 IF procs:1}
+    UID u0a49: UidRecord{7aaed18 u0a49 HO bg:+36s529ms procs:1}
+    UID u0a51: UidRecord{947371 u0a51 CE bg:+35m58s647ms idle procs:2}
+    UID u0a81: UidRecord{4c7c556 u0a81 IB procs:1}
+    UID u0a89: UidRecord{db369d7 u0a89 S  bg:+17m26s752ms idle procs:3}
+    UID u0a96: UidRecord{2edc2c4 u0a96 S  bg:+50m29s778ms idle procs:5}
+    UID u0a97: UidRecord{82bd5ad u0a97 S  bg:+43m8s150ms idle procs:2}
+    UID u0a102: UidRecord{692e0e2 u0a102 SB procs:1}
+    UID u0a106: UidRecord{ddacc73 u0a106 P  procs:1}
+    UID u0a357: UidRecord{4664730 u0a357 S  bg:+56m15s574ms idle procs:2}
+    UID u0a399: UidRecord{85d1fa9 u0a399 SF procs:3}
+    UID u0a419: UidRecord{502292e u0a419 T  procs:3}
+
+  UID validation:
+    UID 1001: UidRecord{20bbccf 1001 P  procs:0}
+    UID 1037: UidRecord{9a0a65c 1037 CE idle procs:0}
+    UID u0a2: UidRecord{33f0d65 u0a2 IB procs:0}
+    UID u0a3: UidRecord{90baa3a u0a3 S  idle procs:0}
+    UID u0a4: UidRecord{ab156eb u0a4 SB procs:0}
+    UID u0a9: UidRecord{abfcc48 u0a9 CE idle procs:0}
+    UID u0a23: UidRecord{b981ae1 u0a23 CE procs:0}
+    UID u0a25: UidRecord{2fa3006 u0a25 S  procs:0}
+    UID u0a27: UidRecord{9cc76c7 u0a27 P  procs:0}
+    UID u0a30: UidRecord{d2964f4 u0a30 IF procs:0}
+    UID u0a49: UidRecord{1a841d u0a49 HO procs:0}
+    UID u0a51: UidRecord{af94692 u0a51 CE idle procs:0}
+    UID u0a81: UidRecord{68fb863 u0a81 IB procs:0}
+    UID u0a89: UidRecord{4f1dc60 u0a89 S  idle procs:0}
+    UID u0a96: UidRecord{e604519 u0a96 S  idle procs:0}
+    UID u0a97: UidRecord{e6139de u0a97 S  idle procs:0}
+    UID u0a102: UidRecord{ebb77bf u0a102 SB procs:0}
+    UID u0a106: UidRecord{1085e8c u0a106 P  procs:0}
+    UID u0a357: UidRecord{9a719d5 u0a357 S  idle procs:0}
+    UID u0a399: UidRecord{5c315ea u0a399 SF procs:0}
+    UID u0a419: UidRecord{1b9d0db u0a419 T  procs:0}
+
+  Process LRU list (sorted by oom_adj, 46 total, non-act at 12, non-svc at 12):
+    PERS #45: sys   ?/ /P  trm: 5 1201:system/1000 (fixed)
+    PERS #44: pers  F/ /P  trm: 5 1490:com.huawei.securitymgr/1000 (fixed)
+    PERS #43: pers  ?/ /P  trm: 5 1509:com.android.systemui/u0a27 (fixed)
+    PERS #42: pers  F/ /P  trm: 5 1860:com.huawei.android.chr/1000 (fixed)
+    PERS #41: pers  ?/ /P  trm: 5 1873:com.huawei.powergenie/1000 (fixed)
+    PERS #40: pers  F/ /P  trm: 5 1888:com.huawei.ihealth/u0a106 (fixed)
+    PERS #39: pers  ?/ /P  trm: 5 1901:com.android.phone/1001 (fixed)
+    PERS #37: pers  F/ /P  trm: 5 2398:com.huawei.indexsearch.observer/1000 (fixed)
+    PERS #36: pers  F/ /P  trm: 5 2411:com.android.supl/1000 (fixed)
+    PERS #35: pers  ?/ /P  trm: 5 2424:com.huawei.geofence/1000 (fixed)
+    Proc # 0: fore  T/A/T  trm: 5 7516:com.yuanxin.clan/u0a419 (top-activity)
+    Proc #23: fore  F/ /SB trm: 5 2823:android.process.media/u0a4 (provider)
+        com.android.providers.media/.MediaProvider<=Proc{2398:com.huawei.indexsearch.observer/1000}
+    Proc #17: fore  F/ /SB trm: 5 1592:com.huawei.systemmanager:service/1000 (provider)
+        com.huawei.systemmanager/.power.provider.SmartProvider<=Proc{1873:com.huawei.powergenie/1000}
+    Proc #38: vis   F/ /SB trm: 5 2296:com.google.android.ext.services/u0a102 (service)
+        com.google.android.ext.services/android.ext.services.notification.Ranker<=Proc{1201:system/1000}
+    Proc # 8: vis   F/ /SB trm: 5 2333:com.android.incallui/1001 (service)
+        com.android.incallui/.InCallServiceImpl<=Proc{1201:system/1000}
+    Proc # 2: vis   F/ /SB trm: 5 8028:com.yuanxin.clan:pushcore/u0a419 (service)
+        com.yuanxin.clan/cn.jpush.android.service.PushService<=Proc{7516:com.yuanxin.clan/u0a419}
+    Proc # 1: vis   F/ /SB trm: 5 2346:com.sohu.inputmethod.sogou/u0a81 (service)
+        com.sohu.inputmethod.sogou/.SogouIME<=Proc{1201:system/1000}
+    Proc #33: vis   F/ /IF trm: 5 17030:com.huawei.cryptosms.service/1000 (service)
+        com.huawei.cryptosms.service/.CryptoService<=Proc{3329:com.android.mms/u0a30}
+    Proc #27: vis   B/ /IF trm: 5 2287:com.huawei.imonitor/1000 (service)
+        com.huawei.imonitor/com.huawei.chrfile.service.NcLogCollectService<=Proc{1201:system/1000}
+    Proc #11: vis   F/ /IF trm: 5 3329:com.android.mms/u0a30 (service)
+        com.android.mms/com.huawei.mms.service.HwFloatMmsService<=Proc{1509:com.android.systemui/u0a27}
+    Proc #32: vis   B/ /IB trm: 5 2446:com.amap.android.ams/u0a2 (service)
+        com.amap.android.ams/com.amap.location.geocode.service.GeocodeService<=Proc{1201:system/1000}
+    Proc #14: prcp  B/ /SF trm: 5 8852:com.alibaba.android.rimet:tools/u0a399 (service)
+        com.alibaba.android.rimet/com.alibaba.android.dingtalkbase.bizframework.ipc.DDServiceManageImpl<=Proc{8871:com.alibaba.android.rimet/u0a399}
+    Proc #13: prcp  B/S/SF trm: 5 8871:com.alibaba.android.rimet/u0a399 (fg-service)
+    Proc #12: prcp  B/ /SF trm: 5 9053:com.alibaba.android.rimet:channel/u0a399 (service)
+        com.alibaba.android.rimet/com.alibaba.analytics.AnalyticsService<=Proc{8871:com.alibaba.android.rimet/u0a399}
+    Proc #34: prcp  F/ /S  trm: 5 3954:com.huawei.android.pushagent.PushService/1000 (cch-started-services)
+    Proc #18: prcp +60 B/ /S  trm: 5 1934:android.process.acore/u0a3 (cch-started-services)
+    Proc # 3: prcp +60 B/ /HO trm:80 2463:com.huawei.android.launcher/u0a49 (home)
+    Proc #19: prcp +60 B/ /CE trm:60 31177:com.android.contacts/u0a3 (cch-empty)
+    Proc # 6: svc   B/ /S  trm: 5 30838:com.eg.android.AlipayGphone:push/u0a357 (started-services)
+    Proc #29: svcb  B/ /S  trm: 5 14718:com.tencent.mm:push/u0a96 (started-services)
+    Proc #24: svcb  B/ /S  trm: 5 2105:com.UCMobile:SearchBackgroundProcess/u0a89 (started-services)
+    Proc #21: svcb  B/ /S  trm: 5 32700:com.UCMobile:push/u0a89 (started-services)
+    Proc #20: svcb  B/ /S  trm: 5 31666:com.UCMobile:channel/u0a89 (started-services)
+        com.UCMobile/com.alibaba.analytics.AnalyticsService<=Proc{2105:com.UCMobile:SearchBackgroundProcess/u0a89}
+    Proc #10: cch   B/ /S  trm: 5 13005:com.tencent.mm:exdevice/u0a96 (cch-started-services)
+        com.tencent.mm/.plugin.exdevice.service.ExDeviceService<=Proc{18433:com.tencent.mm/u0a96}
+    Proc # 5: cch   B/ /S  trm: 5 18433:com.tencent.mm/u0a96 (cch-started-ui-services)
+    Proc # 4: cch   B/ /S  trm: 5 5078:com.tencent.mm:tools/u0a96 (cch-empty)
+    Proc # 9: cch   B/ /Ca trm:80 624:com.tencent.mm:support/u0a96 (cch-client-act)
+    Proc # 7: cch+2 B/ /S  trm: 5 22767:com.eg.android.AlipayGphone/u0a357 (cch-started-ui-services)
+    Proc #16: cch+4 B/ /CE trm:60 31161:com.android.packageinstaller/u0a23 (cch-empty)
+    Proc #15: cch+4 B/ /CE trm:60 7715:com.yuanxin.clan:remote/u0a419 (cch-empty)
+    Proc #30: cch+6 B/ /S  trm: 5 30186:com.tencent.mobileqq:MSF/u0a97 (cch-started-services)
+    Proc #22: cch+6 B/ /S  trm: 5 30269:com.huawei.android.totemweather/u0a25 (cch-started-services)
+    Proc #31: cch+6 B/ /CE trm:40 30230:com.tencent.mobileqq/u0a97 (cch-empty)
+    Proc #28: cch+6 B/ /CE trm:40 18019:com.huawei.android.hwouc/u0a51 (cch-empty)
+    Proc #26: cch+6 B/ /CE trm:40 18297:com.android.calendar/u0a9 (cch-empty)
+    Proc #25: cch+6 B/ /CE trm:40 32737:com.huawei.android.hwouc:hwbdservice/u0a51 (cch-empty)
+
+  mStartedUsers:
+    User #0: state=RUNNING_UNLOCKED
+  mStartedUserArray: [0]
+  mUserLru: [0]
+  mHomeProcess: ProcessRecord{7872656 2463:com.huawei.android.launcher/u0a49}
+  mConfiguration: {1.0 460mcc1mnc [zh_CN] ldltr sw360dp w360dp h574dp 480dpi nrml port finger -keyb/v/h -nav/h suim:1 s.81}
+  mWakefulness=Awake
+  mSleepTokens=[]
+  mSleeping=false mLockScreenShown=LOCK_SCREEN_HIDDEN
+  mShuttingDown=false mTestPssMode=false
+  mDebugApp=com.yuanxin.clan/orig=com.yuanxin.clan mDebugTransient=true mOrigWaitForDebugger=false

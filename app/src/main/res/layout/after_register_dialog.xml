@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:gravity="center_horizontal"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/login_black"
+        android:layout_marginTop="35dp"
+        android:text="注册成功！"
+        />
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/activity_company_info_grey"
+        android:textSize="14dp"
+        android:lineSpacingExtra="4dp"
+        android:text="恭喜您注册成功！您还可以去完善企业资料入驻圆心平台！"/>
+
+    <LinearLayout
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical|bottom"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+
+        <TextView
+            android:id="@+id/tomainte"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="去首页看看"
+            android:textColor="@color/activity_company_info_grey"
+            android:textSize="16dp"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:background="@color/login_grey_w"></TextView>
+
+        <TextView
+            android:id="@+id/toepte"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical|right"
+            android:text="完善企业资料"
+            android:textColor="@color/activity_company_info_bg"
+            android:textSize="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

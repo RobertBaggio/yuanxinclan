@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="修改群名称"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/buy_black"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"/>
+        <EditText
+            android:id="@+id/et_shuju"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:theme="@style/MyEditText"
+            android:hint="输入名称"
+            />
+        <TextView
+            android:id="@+id/pricenullte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pricenull"
+            android:layout_marginLeft="18dp"
+            android:visibility="gone"
+            android:textColor="@color/myaccount" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_marginBottom="20dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.7"/>
+
+            <TextView
+                android:id="@+id/qcBtn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="取消"
+                android:textSize="16dp"
+                android:textColor="@color/buy_black"/>
+
+            <TextView
+                android:id="@+id/qdBtn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="确定"
+                android:textSize="16dp"
+                android:textColor="@color/businesstop"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

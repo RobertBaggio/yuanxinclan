@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+        <LinearLayout
+            android:id="@+id/backacli"
+            android:layout_width="28dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="9dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/back_black"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="5.2"
+            android:background="@drawable/sosoli_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:id="@+id/activity_company_information_detail_choice_area_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/seass"
+                android:layout_weight="1"/>
+
+            <EditText
+                android:id="@+id/homesosoedit"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:hint="请输入你要找的内容"
+                android:textColor="@color/login_black"
+                android:textColorHint="@color/bababa"
+                android:textCursorDrawable="@drawable/editcolor"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:textSize="13dp"
+                android:layout_weight="8"/>
+
+
+            <ImageView
+                android:id="@+id/login_errowimage"
+                android:layout_width="0dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="1dp"
+                android:visibility="gone"
+                android:src="@drawable/quxiao"
+                android:layout_weight="1"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tososte"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="搜索"
+            android:textColor="@color/login_black"/>
+
+    </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/sosRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                >
+            </android.support.v7.widget.RecyclerView>
+</LinearLayout>

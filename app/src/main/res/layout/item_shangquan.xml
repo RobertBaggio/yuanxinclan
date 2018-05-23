@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@color/white"
+              android:layout_height="wrap_content">
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:foreground="?attr/selectableItemBackground"-->
+        <!--app:cardCornerRadius="3dp"-->
+        <!--app:cardPreventCornerOverlap="false"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_margin="2dp">-->
+    <LinearLayout
+            android:id="@+id/centerli"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:gravity="center"
+                android:background="@drawable/gray_kong_corner">
+                <ImageView
+                    android:id="@+id/item_business_district_library_image"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_imgge"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/item_gank_namete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="10"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="NAME"
+                        android:textColor="@color/login_black"
+                        android:textSize="15dp"/>
+
+                    <TextView
+                        android:id="@+id/shangxite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/login_blacksq"
+                        android:textSize="12dp"
+                        android:layout_marginLeft="13dp"
+                        android:background="@drawable/zongse_corner"
+                        android:text="busi"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/neirongte"
+                    android:layout_width="match_parent"
+                    android:layout_height="16dp"
+                    android:layout_marginTop="5dp"
+                    android:text="内容。。。。。"
+                    android:textSize="13dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/login_grey"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginTop="3dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:src="@drawable/business_list_position"/>
+                    <TextView
+                        android:id="@+id/addresste"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/activity_company_info_grey"
+                        android:layout_marginLeft="4dp"
+                        android:text="地址"/>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="19dp"
+                        android:src="@drawable/business_list_service"/>
+                    <TextView
+                        android:id="@+id/leixingte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/activity_company_info_grey"
+                        android:layout_marginLeft="4dp"
+                        android:text="类型"/>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="19dp"
+                        android:src="@drawable/business_list_menber"/>
+                    <TextView
+                        android:id="@+id/huiyuante"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12dp"
+                        android:textColor="@color/activity_company_info_grey"
+                        android:layout_marginLeft="4dp"
+                        android:text="666"/>
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="19dp"
+                        android:src="@drawable/business_list_colluct"/>
+
+                    <TextView
+                        android:id="@+id/shoucte"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:text="88"
+                        android:textColor="@color/activity_company_info_grey"
+                        android:textSize="12dp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/gray_b7"
+        android:layout_below="@id/centerli"></LinearLayout>
+    <!--</android.support.v7.widget.CardView>-->
+</RelativeLayout>

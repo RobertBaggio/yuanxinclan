@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="您还未入驻企业"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:textSize="18dp"
+        android:textColor="@color/login_black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="请联系管理员入驻企业"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/gray78"
+        android:gravity="center"
+        android:textSize="16dp"/>
+    <LinearLayout
+        android:id="@+id/litoepedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="或"
+            android:textSize="16dp"
+            android:textColor="@color/gray78"/>
+        <TextView
+            android:id="@+id/toepeditte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册企业"
+            android:textSize="16dp"
+            android:textColor="@color/delete_buttonxmred"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray_b7"
+        android:layout_marginTop="20dp"></LinearLayout>
+
+    <TextView
+        android:id="@+id/cancelte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textColor="@color/businesstop"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:textSize="17dp"/>
+
+</LinearLayout>

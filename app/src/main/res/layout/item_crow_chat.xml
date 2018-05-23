@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:melove="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/item_present_custom_made_layout"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"
+        >
+
+        <com.yuanxin.clan.core.util.MLImageView
+            android:id="@+id/item_present_custom_made_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ease_groups_icon"
+            melove:shape_type="rectangle"/>
+        <!--<ImageView-->
+        <!--android:id="@+id/item_present_custom_made_image"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/by"/>-->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingRight="12dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+
+                    android:id="@+id/item_present_custom_made_commodity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="群聊"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:id="@+id/item_present_custom_made_state"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:text=""/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/item_present_custom_made_layout"
+        android:background="@color/divider_color"/>
+
+
+</RelativeLayout>
